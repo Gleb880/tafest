@@ -1,0 +1,955 @@
+/* Adaptation */
+
+@media screen and (max-width: 1370px) {
+    .receiving-corner:before {
+        width: 600px;
+    }
+    .advice-block__img img {
+        width: 43%;
+    }
+}
+
+
+/*992-1200px*/
+
+@media screen and (max-width: 1200px) {
+    .advice-block__img img {
+        width: 53%;
+    }
+    .advice-block__img {
+        height: 255px;
+    }
+    .lodging-slider-wrap {
+        max-width: 551px;
+    }
+    .adventage-card {
+        max-width: 175px;
+        width: 100%;
+    }
+    .vacation-card {
+        max-width: 316px;
+        width: 100%;
+    }
+    .rent-slider__img img {
+        display: block;
+        width: 76%;
+        margin-left: auto;
+    }
+    .rent-slider__content {
+        max-width: 367px;
+        width: 100%;
+    }
+    .rent-slider__content i {
+        font-size: 33px;
+    }
+    .rent-slider__title {
+        font-size: 23px;
+        line-height: 31px;
+    }
+    .receiving-block {
+        max-width: 577px;
+        width: 100%;
+        padding-left: 0px;
+    }
+    .receiving-corner:before {
+        width: 402px;
+    }
+    .advice-block_home img {
+        width: 42%;
+    }
+    .news-card {
+        width: 317px;
+    }
+    .news__img img {
+        border-radius: 8px;
+        width: 100%;
+    }
+    .gallery-apartament {
+        grid-template-columns: 1fr 1fr;
+    }
+    .gallery-apartament__img {
+        margin: auto auto 25px;
+    }
+    .chat-window {
+        width: 580px;
+    }
+}
+
+
+/*768-992px*/
+
+@media screen and (max-width: 992px) {
+    .offer-search {
+        max-width: 100%;
+    }
+    .impression-card {
+        max-width: 324px;
+    }
+    .footer-block {
+        margin-bottom: 20px;
+    }
+    .advice-block__img img {
+        width: 36%;
+    }
+    .advice-block__img {
+        height: 174px;
+    }
+    .aspiration-card {
+        max-width: 334px;
+        width: 100%;
+    }
+    .lodging-form {
+        max-width: 325px;
+        padding: 24px 32px 42px;
+    }
+    .lodging-form__title {
+        font-size: 27px;
+    }
+    .lodging-form__input input,
+    .lodging-form__wrap select {
+        max-width: 128px;
+    }
+    .lodging-slider-wrap {
+        max-width: 364px;
+    }
+    input[type="range"]::-webkit-slider-thumb {
+        max-width: 70px;
+    }
+    .adventage-card {
+        max-width: 216px;
+        width: 100%;
+    }
+    .vacation-card {
+        max-width: 345px;
+        margin-bottom: 30px;
+    }
+    .info-map {
+        display: none;
+    }
+    .info-filter__item:not(:last-child) {
+        margin-bottom: 20px;
+    }
+    .other-card {
+        width: 226px;
+    }
+    .principles-card {
+        margin-bottom: 25px;
+    }
+    .rent-slider__img img {
+        width: 100%;
+        margin-left: auto;
+    }
+    .rent-slider__img {
+        position: static;
+    }
+    .rent-slider__content {
+        max-width: 100%;
+        width: 100%;
+        padding: 29px 0 40px;
+    }
+    .receiving-corner:before {
+        background: url("../img/rent/fon-form.jpg") no-repeat center top/cover;
+        width: 100%;
+        bottom: 0;
+        top: auto;
+        height: 507px;
+    }
+    .receiving-form {
+        order: 2;
+        margin: auto;
+    }
+    .receiving-corner {
+        padding: 41px 0 58px;
+    }
+    .receiving-block__title {
+        margin-bottom: 0;
+    }
+    .advice-block__word_home {
+        max-width: 382px;
+        width: 100%;
+    }
+    .advice-block__word_home h3 {
+        font-size: 32px;
+    }
+    .advice-block__img img {
+        width: 44%;
+    }
+    .news-wrap {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .news-card__title {
+        font-size: 17px;
+    }
+    .advice-block__word {
+        max-width: 375px;
+        width: 100%;
+    }
+    .nearby-card {
+        margin-bottom: 30px;
+    }
+    .memu {
+        right: 20px;
+    }
+    .chat-img img {
+        width: 100%;
+    }
+    .travel-menu,
+    .chat-window {
+        display: none;
+    }
+    .burger {
+        display: block;
+    }
+    .chat-people,
+    .chat-people__word,
+    .modal-card__img img {
+        width: 100%;
+    }
+    .confirmation-wrap {
+        flex-direction: column;
+    }
+    .confirmation__block-right {
+        margin-top: 70px;
+    }
+    .account-left {
+        width: 270px;
+        margin: auto auto 40px;
+    }
+    .account-right {
+        width: 100%;
+    }
+    .modal-block {
+        width: 700px;
+    }
+    .confirmation .container {
+        width: 700px;
+    }
+    .modal-card__word {
+        width: 100%;
+        margin-left: 30px;
+    }
+    .modal-card {
+        margin-bottom: 104px;
+    }
+    .modal-card__img {
+        width: 300px;
+    }
+    .dishes-wrap {
+        width: 100%;
+    }
+    .dishes-card {
+        margin-bottom: 40px;
+    }
+}
+
+
+/*576-768px*/
+
+@media screen and (max-width: 768px) {
+    .principles-card {
+        max-width: none;
+        width: 47%;
+    }
+    .container {
+        padding: 0 10px;
+    }
+    .offer__title {
+        font-size: 37px;
+    }
+    .offer-search input {
+        padding: 0 0 0 15px;
+    }
+    .cafe-card {
+        margin: auto auto 40px;
+    }
+    .proposal {
+        padding: 110px 0px 116px;
+    }
+    .impression-card {
+        max-width: 318px;
+        margin: auto;
+    }
+    .footer-navigation__links {
+        max-width: 100%;
+        width: 100%;
+    }
+    .footer-navigation__list {
+        flex-direction: column;
+        margin-bottom: 33px;
+        margin-top: 20px;
+    }
+    .footer-navigation__menu {
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .footer-navigation__list li:not(:last-child) {
+        margin-bottom: 20px;
+    }
+    .advice-block__img img {
+        width: 100%;
+        position: static;
+    }
+    .advice-block__img {
+        height: auto;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .advice-block__img_left {
+        order: 2;
+    }
+    .aspiration-card {
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+    }
+    .advice-block__word {
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+    }
+    .advice__title,
+    .aspiration__title {
+        font-size: 34px;
+    }
+    .lodging-form {
+        max-width: 100%;
+    }
+    .lodging-form__input input,
+    .lodging-form__wrap select {
+        max-width: 226px;
+        width: 100%;
+    }
+    .lodging-slider-wrap {
+        max-width: 100%;
+        margin-top: 40px;
+    }
+    .adventage__title {
+        font-size: 30px;
+    }
+    .adventage-card {
+        margin: 0 auto;
+        max-width: none;
+        width: 100%;
+    }
+    .vacation-card {
+        max-width: 385px;
+        margin: auto auto 40px;
+    }
+    .info-filter {
+        align-items: baseline;
+    }
+    .info-card__link {
+        flex-direction: column;
+        max-width: 100%;
+        display: contents;
+    }
+    .info-card__img img {
+        border-radius: 10px 10px 0 0;
+    }
+    .info-card__img {
+        max-width: 100%;
+        width: 100%;
+    }
+    .info-card__wrap {
+        margin-top: 20px;
+        position: static;
+        width: 100%;
+    }
+    .receiving-block__title {
+        font-size: 29px;
+    }
+    .receiving-card {
+        width: 248px;
+    }
+    .news-wrap {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .news-card {
+        width: 100%;
+    }
+    .news-card__title {
+        font-size: 21px;
+    }
+    .news-card__text {
+        font-size: 19px;
+    }
+    .nearby__title {
+        font-size: 30px;
+        text-align: center;
+        width: 100%;
+    }
+    .nearby-card {
+        width: 100%;
+        text-align: center;
+    }
+    .block-questions__wrap {
+        max-width: 100%;
+        width: 100%;
+        justify-content: center;
+    }
+    .block-questions__title {
+        margin-bottom: 20px;
+    }
+    .gallery-apartament {
+        display: block;
+        grid-template-columns: none;
+    }
+    .gallery-apartament__img,
+    .gallery-apartament__img img {
+        width: 100%;
+    }
+    .apartament-facilities__wrap {
+        flex-direction: column;
+    }
+    .facilities-block {
+        margin-left: 0;
+        margin-top: 40px;
+    }
+    .control-card:not(:nth-child(3n + 3)) {
+        margin-right: 0;
+    }
+    .control-card {
+        margin-bottom: 0;
+        max-width: 100%;
+    }
+    h2 {
+        font-weight: 500;
+        font-size: 24px;
+    }
+    .control-panel {
+        padding-top: 45px;
+    }
+    .control-panel__notifications {
+        padding: 16px 11px 19px;
+    }
+    .create-ad__wrap {
+        width: 363px;
+    }
+    .create-ad__title {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .create-ad__subtitle {
+        font-size: 17px;
+        line-height: 25px;
+        margin-bottom: 17px;
+    }
+    .create-adblock__item {
+        font-size: 15px;
+    }
+    .create-adblock__title {
+        font-size: 16px;
+    }
+    .create-adblock__item i {
+        margin-right: 8px;
+    }
+    .chat-people__word {
+        margin-left: 7px;
+    }
+    .chat-people-text {
+        font-size: 14px;
+    }
+    .vertical {
+        flex-direction: column;
+    }
+    .tabs__caption {
+        order: 2;
+        margin-top: 50px;
+    }
+    .question-accordion li {
+        max-width: 474px;
+    }
+    .advertisement__link {
+        margin-left: 0;
+        margin-top: 30px;
+        margin-right: auto;
+    }
+    .confirmation__block-left {
+        width: 511px;
+    }
+    .tabs__caption_two li {
+        font-size: 16px;
+    }
+    .tabs__caption_two li:not(:last-child) {
+        margin-right: 0;
+    }
+    .account {
+        padding: 20px 0 87px;
+    }
+    .modal-block {
+        width: 554px;
+    }
+    .confirmation .container {
+        width: 520px;
+    }
+    .create-calendar {
+        max-width: 468px;
+        width: 100%;
+        position: relative;
+    }
+    .dishes-card {
+        margin: auto auto 30px;
+    }
+    .offer-search .input__info:nth-child(1) input {
+        width: 70px;
+    }
+    .offer-search .input__info:nth-child(2) input {
+        width: 90px;
+    }
+    .offer-search .input__info:nth-child(3) input {
+        width: 120px;
+    }
+    .offer-search .input__info:nth-child(4) input {
+        width: 120px;
+    }
+}
+
+
+/*320-576px*/
+
+@media screen and (max-width: 576px) {
+    .principles-card {
+        width: 100%;
+    }
+    .create-ad__wrap {
+        width: 300px;
+    }
+    .box {
+        margin-top: 20px;
+    }
+    .container-1 input#search {
+        width: 82%;
+    }
+    .advertisement-card {
+        margin: auto auto 20px;
+    }
+    .container {
+        width: 90%;
+    }
+    .modal-form {
+        width: 100%;
+        padding: 24px 12px 48px;
+    }
+    .modal-form__input {
+        font-size: 13px;
+    }
+    .modal-form__link {
+        width: 208px;
+    }
+    .navigation-menu {
+        width: 154px;
+    }
+    .navigation-menu_index {
+        width: 195px;
+    }
+    .chat-people-name {
+        font-size: 18px;
+    }
+    .chat-people-time,
+    .chat-message__time {
+        font-size: 13px;
+    }
+    .chat-people__img {
+        height: 62px;
+    }
+    .lk {
+        width: 162px;
+    }
+    .navigation-menu__btn {
+        width: 135px;
+        font-size: 11px;
+    }
+    .offer__title {
+        font-size: 34px;
+        line-height: 43px;
+    }
+    .offer-search__btn {
+        padding: 14px;
+        font-size: 13px;
+        top: 5px;
+    }
+    .memu {
+        top: 60px;
+    }
+    .memu_index {
+        top: 89px;
+    }
+    .offer-search {
+        padding: 19px 11px 18px 0px;
+    }
+    .cafe-card__img img,
+    .service-card img {
+        width: 100%;
+    }
+    .cafe-card {
+        max-width: 100%;
+    }
+    .proposal__title {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .navigation-menu__btn {
+        display: none;
+    }
+    .navigation-menu__btn_main {
+        display: block;
+    }
+    .advice__title,
+    .aspiration__title {
+        font-size: 29px;
+    }
+    .advice-block:not(:last-child) {
+        margin-bottom: 45px;
+    }
+    .aspiration {
+        padding: 0 0 30px;
+    }
+    .advice__title,
+    .aspiration__title {
+        margin-bottom: 9px;
+    }
+    .lodging-form__title {
+        font-size: 23px;
+    }
+    .lodging-card {
+        width: 271px;
+    }
+    .adventage__title {
+        font-size: 22px;
+    }
+    .adventage-wrap {
+        justify-content: center;
+        grid-template-columns: 1fr;
+    }
+    .vacation-description {
+        flex-wrap: wrap;
+    }
+    .vacation-description__item:not(:last-child) {
+        margin-right: 7px;
+        margin-bottom: 9px;
+    }
+    .info-filter__item:not(:last-child) {
+        margin-bottom: 7px;
+        margin-right: 6px;
+    }
+    .info-card__wrap {
+        flex-direction: column;
+    }
+    .info-card__type {
+        margin-bottom: 15px;
+    }
+    .other-card {
+        margin: auto;
+    }
+    .rent-offer__title {
+        font-size: 36px;
+        line-height: 55px;
+    }
+    .principles__title {
+        font-size: 23px;
+        margin-bottom: 39px;
+    }
+    .rent-slider__title {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .support__title {
+        font-size: 25px;
+        margin-bottom: 11px;
+    }
+    .receiving-corner:before {
+        height: 546px;
+    }
+    .offer-search__date,
+    .offer-search__people {
+        display: none;
+    }
+    .home-offer__title {
+        font-size: 28px;
+        line-height: 46px;
+    }
+    .home-offer__wrap input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .home-offer__btn {
+        width: 100%;
+    }
+    .advice-block__word_home h3 {
+        font-size: 25px;
+    }
+    .advice-block__word_home h2 {
+        font-size: 21px;
+    }
+    .steps__title {
+        font-size: 26px;
+        line-height: 37px;
+    }
+    .advice-block__text_steps {
+        font-size: 20px;
+    }
+    .nearby {
+        padding: 0;
+    }
+    .nearby__title {
+        font-size: 22px;
+        line-height: 36px;
+    }
+    .block-questions__title {
+        font-size: 30px;
+    }
+    .block-questions {
+        padding: 41px 0;
+    }
+    .travel-card__time {
+        font-size: 9px;
+        top: 10px;
+        right: 7px;
+    }
+    .travel-card__text {
+        font-size: 9px;
+        line-height: 15px;
+    }
+    .travel-card__title {
+        font-size: 12px;
+        margin-bottom: 6px;
+    }
+    .travel-card__img {
+        width: 200px;
+    }
+    .travel-card__img img {
+        width: 100%;
+    }
+    .travel-card {
+        padding: 10px;
+    }
+    .travel-card__word {
+        margin-left: 7px;
+    }
+    .travel__title {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .cabinet-input input,
+    .cabinet-input textarea {
+        width: 269px;
+    }
+    .cabinet-input p,
+    .question-accordion__link {
+        font-size: 14px;
+    }
+    .cabinet-block__title {
+        font-size: 16px;
+    }
+    h3 {
+        margin-top: 40px;
+    }
+    .travel__title {
+        margin-bottom: 25px;
+    }
+    .cabinet-reminders__text {
+        width: 223px;
+    }
+    .cabinet-block__text,
+    .confirmation__block-left,
+    .create-calculator img,
+    .confirmation-info__img img {
+        width: 100%;
+    }
+    .custom-dropdown select {
+        width: 280px;
+    }
+    .cabinet-subscription__title {
+        font-size: 15px;
+    }
+    .cabinet-subscription__text {
+        line-height: 18px;
+    }
+    .cabinet-subscription__btn {
+        font-size: 12px;
+    }
+    .questions__title {
+        font-size: 19px;
+    }
+    .questions__text {
+        width: 100%;
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .confirmation-card__block {
+        margin: auto auto 30px;
+    }
+    .create-clue {
+        width: 283px;
+    }
+    .confirmation__block-right {
+        width: 100%;
+    }
+    .confirmation-info__img {
+        width: 100px;
+        margin-right: 10px;
+    }
+    .confirmation .container {
+        width: 90%;
+    }
+    .modal-block {
+        width: 282px;
+    }
+    .modal-block {
+        padding: 15px;
+    }
+    .tabs__caption_modal {
+        margin-top: 0;
+    }
+    .tabs__caption_modal li {
+        font-size: 15px;
+        margin-bottom: 11px;
+    }
+    .modal-card__word {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .mini-card {
+        margin: auto;
+    }
+    .modal-card__img {
+        width: 145px;
+    }
+    .create-calendar {
+        max-width: 279px;
+        width: 100%;
+    }
+    .ui-datepicker-calendar thead tr {
+        width: 100%;
+        display: flex;
+        position: absolute;
+        justify-content: space-around;
+        top: 32px;
+        right: 2px;
+    }
+    .ui-state-default {
+        padding: 8px;
+    }
+    .ui-datepicker-title {
+        margin-bottom: 44px;
+    }
+    .modal-wrap {
+        width: 100%;
+    }
+    .dish-card__content {
+        padding: 21px 12px 27px;
+    }
+    .dish-card__text {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .dish-ingredients__name,
+    .dish-ingredients__price,
+    .dish-price__text {
+        font-size: 12px;
+    }
+    .dish-ingredients__name .checkbox .custom-checkbox+label::before {
+        width: 14px;
+        height: 14px;
+    }
+    .number input {
+        width: 33px;
+        text-align: center;
+    }
+    .dishes-card {
+        width: 100%;
+    }
+    .dishes-wrap {
+        padding: 15px;
+    }
+    .dishes-btn {
+        margin: 0 auto auto;
+    }
+    .announcement .container {
+        max-width: 90%;
+    }
+    .announcement__wrap {
+        width: 100%;
+    }
+    .create-choice__word {
+        max-width: 79%;
+    }
+    .create-choicelist__item_mt {
+        margin-top: 165px;
+    }
+    .announcement-numb__block {
+        width: 253px;
+    }
+    .question-accordion__numb {
+        font-size: 17px;
+    }
+    .question-accordion__name {
+        font-size: 15px;
+    }
+    #btnAddProfile {
+        font-size: 14px;
+    }
+    .announcement-location__link {
+        padding: 11px 0;
+        font-size: 12px;
+        width: 100%;
+    }
+    .announcement-map__block iframe {
+        width: 100%;
+    }
+    .announcement-map__title {
+        font-size: 22px;
+    }
+    .announcement-map__text {
+        font-size: 14px;
+        margin: 11px 0 17px;
+    }
+    .announcement-map__word {
+        font-size: 12px;
+    }
+    .create-choice__word {
+        position: static;
+    }
+    .create-choicelist .create-choicelist__item_mb {
+        margin-bottom: 15px;
+    }
+    .announcement-phone__rebot {
+        font-size: 14px;
+    }
+    .search-people,
+    .table-block__guests .search-people {
+        width: 100%;
+    }
+    .search-people__text {
+        margin-bottom: 6px;
+    }
+    .payments-tab,
+    .payments-block__wrpa_df {
+        width: 100%;
+    }
+    .payments-block__sum {
+        font-size: 14px;
+        padding: 10px;
+    }
+    .payments-block__btn {
+        font-size: 12px;
+        padding: 12px 24px;
+    }
+    .info-content__search>.input__info:not(:first-child) {
+        display: none;
+        width: 100%;
+        flex: 0 1 100%;
+    }
+    .info-content__search>.input__info {
+        flex: 0 1 100%;
+    }
+    .offer-search .input__info:nth-child(1) input {
+        width: 100%;
+    }
+    h3.service-card__title {
+        margin-top: 0;
+    }
+}

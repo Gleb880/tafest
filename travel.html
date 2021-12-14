@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		.next {
+			margin-top: 1em;
+		}
+	</style>
+	<title>Tafest</title>
+	<!-- Roboto Google Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400&display=swap"
+		rel="stylesheet">
+	<!-- Fontawesome CSS -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+		integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	<!-- Jquery CSS -->
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<!-- Arcticmodal CSS -->
+	<link rel="stylesheet" href="css/jquery.arcticmodal-0.3.css">
+	<!-- Main CSS -->
+	<link href="css/lightbox.css" rel="stylesheet" />
+	<link rel="stylesheet" href="css/main.css">
+	<!-- Media CSS -->
+	<link rel="stylesheet" href="css/media.css">
+
+	<link href="./dist/css/datepicker.min.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="./src/styles/css/travel.css">
+	<link rel="stylesheet" href="./src/styles/css/media.css">
+</head>
+
+<body>
+
+
+	<div class="edit-popup popup">
+		<div class="container">
+			<div class="active">
+				<div class="container">
+					<div class="datepicker-here" data-timepicker="true"></div>
+				</div>
+				<button class="next">Далее</button>
+			</div>
+			<div>
+				<div class="container" style="display: flex;">
+					<div>
+						<p>Взрослые</p>
+						<p>От 13 лет</p>
+					</div>
+					<input type="range" name="" id="">
+					<input type="text" name="" id="">
+				</div>
+				<button class="next">Далее</button>
+			</div>
+			<div>
+				<div class="container">
+					<div style="display: flex;">
+						<div style="margin-right: 1em;">
+							<img src="" alt="Первое">
+							<p>Первое</p>
+						</div>
+						<div style="margin-right: 1em;">
+							<img src="" alt="Второе">
+							<p>Второе</p>
+						</div>
+						<div>
+							<img src="" alt="Третье">
+							<p>Третье</p>
+						</div>
+					</div>
+					<div style="display: flex; justify-content: space-between;">
+						<button>Редактировать</button>
+						<p style="cursor: pointer;">Далее</p>
+					</div>
+				</div>
+				<button class="next">Далее</button>
+			</div>			
+			<div>
+				<div class="container">
+					<p style="margin-bottom: 3em;">Пожалуйста подтвердите выбранные параметры</p>
+					<div style="margin-bottom: 3em;">
+						<p>Гости +2000 руб.</p>
+						<p>Меню +5000</p>
+						<p>Дата и время: бесплатно</p>
+					</div>
+				</div>
+				<button class="next">Отправить запрос</button>
+			</div>
+
+			<div class="data__wrapper">
+				<div class="container">
+					<p>Запрос успешно отпрвлен организатору. Пожалуйста<br>дождитесь ответа о принятом решении. Вы можете<br>посмотреть статус запросов в разделе бронирование.</p>
+				</div>
+				<button class="next">Понятно</button>
+			</div>
+		</div>
+	</div>
+
+
+	<header class="search-list">
+		<div class="container">
+			<div class="search-list__wrap jcsb">
+				<a href="http://tafest.ru/" class="search-list__logo">
+					<img src="img/logo.svg" alt="logo">
+				</a>
+				<ul class="travel-menu">
+					<li class="travel-menu__item">
+						<a href="control-panel.html">
+							Главная
+						</a>
+					</li>
+					<li class="travel-menu__item">
+						<a href="chat.html">
+							Сообщения
+						</a>
+					</li>
+					
+					<li class="travel-menu__item">
+						<a href="travel.html">
+							Бронирования
+						</a>
+					</li>
+					<li class="travel-menu__item">
+						<a href="calendar.html">
+							Календарь
+						</a>
+					</li>
+					<li class="travel-menu__item">
+						<a href="advertisement.html">
+							Объявления
+						</a>
+					</li>
+				</ul>
+				<div class="navigation-menu">
+					<div class="lk jcsb">
+						<div class="lk__img">
+							<img src="img/search-list/avka.png" alt="avka">
+						</div>
+						<div class="lk__content">
+							<div class="lk__name">
+								Иван Иванович
+							</div>
+							<div class="lk__position">
+								Менеджер
+							</div>
+						</div>
+					</div>
+				</div>
+				<button class="navigation-menu__bar burger btn">
+					<i class="fas fa-bars"></i>
+					<i class="fas fa-times"></i>
+				</button>
+			</div>
+		</div>
+	</header>
+	<section class="travel" id="travel">
+		<div class="container">
+			<h2 class="travel__title">
+				Бронирования
+			</h2>
+			<!-- Вкладки каталога товара -->
+			<div class="tabs">
+				<ul class="tabs__caption">
+					<li class="active">Предстоящие</li>
+					<li>Завершенные</li>
+				</ul>
+
+				<div style="display: none;" class="wwaiting">
+					<div class="waiting__form">
+						<div class="waiting__meta">
+							<img class="waiting__main-img" src="./img/travel-img.jpg" alt="travel">
+							<div>
+								<div>
+									<div class="edit__container">
+										<p>Ресторан La Famiglia</p>
+										<span class="edit">Редактировать</span>
+									</div>
+									<p>Зал №1</p>
+									<p>25 июля 2021 с 21:00 до 01:00s</p>
+								</div>
+								<div class="waiting__total">
+									<div class="waiting__count">
+										<img src="./img/team.svg" alt="how much">
+										<p>25 человек</p>
+									</div>
+									<div>
+										<img src="./img/ring.svg" alt="кольца">
+										<p>Свадьба</p>
+									</div>
+								</div>
+								<div class="waiting__messages">
+									<h3>Сообщения заказчика</h3>
+									<p>Необходимо 2 детских стульчика</p>
+								</div>
+								<div>
+									<textarea placeholder="Написать сообщение..." name="" id="" cols="30" rows="10"></textarea>
+								</div>
+								<div>
+									<p class="to-date">Отклонить</p>
+									<p class="waiting__accept">Принять</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+
+				<div class="waiting cls">
+					<div class="waiting__form">
+						<img src="./img/cross-1.svg" alt="cross" class="cl close-cross">
+						<div class="waiting__meta">
+							<img class="waiting__main-img" src="./img/travel-img.jpg" alt="travel">
+							<div>
+								<p>Ресторан La Famiglia</p>
+								<p>Зал №1</p>
+							</div>
+						</div>
+						<div class="datee">
+							<div>
+								<img src="./img/calendar.svg" alt="">
+								<p>23 апреля с 17:00 по 19:00</p>
+							</div>
+							<div class="mg">
+								<img src="./img/man.svg" alt="">
+								<p>2 гостя</p>
+							</div>
+							<div>
+								<img src="./img/ring.svg" alt="">
+								<p>Свадьба</p>
+							</div>
+						</div>
+						<div class="messages">
+							<div class="mes blue">
+								<div class="mes-text down">
+									Hi, son, how are you doing? Today, my father and I went to buy a car, bought a cool car.
+								</div>
+								<p class="time">8.30</p>
+							</div>
+							<div class="mes white">
+								<div class="mes-text up">Oh! Cool Send me photo)</div>
+								<p class="time">8.30</p>
+							</div>
+							<div class="mes blue">
+								<div class="mes-text down">Ok😉</div>
+								<p class="time">8.30</p>
+							</div>
+							<div class="mes blue">
+								<div class="mes-text up">Will we arrive tomorrow?</div>
+								<p class="time">8.30</p>
+							</div>
+						</div>
+						<div class="message-box">
+							<textarea placeholder="Написать сообщение..." name="" id="" cols="30" rows="10"></textarea>
+							<div class="icons">
+								<svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<rect x="10" width="3" height="23" rx="1.5" fill="#4A68F6"/>
+									<rect x="23" y="10" width="3" height="23" rx="1.5" transform="rotate(90 23 10)" fill="#4A68F6"/>
+									</svg>
+									<svg width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M11.9889 0.25C5.76155 0.25 0.71875 5.29 0.71875 11.5C0.71875 17.71 5.76155 22.75 11.9889 22.75C18.2275 22.75 23.2816 17.71 23.2816 11.5C23.2816 5.29 18.2275 0.25 11.9889 0.25ZM8.05168 7C8.98803 7 9.74389 7.75375 9.74389 8.6875C9.74389 9.62125 8.98803 10.375 8.05168 10.375C7.11532 10.375 6.35946 9.62125 6.35946 8.6875C6.35946 7.75375 7.11532 7 8.05168 7ZM12.0002 18.25C9.42801 18.25 7.23941 16.3825 6.35946 13.75H17.6409C16.7609 16.3825 14.5723 18.25 12.0002 18.25ZM15.9487 10.375C15.0123 10.375 14.2565 9.62125 14.2565 8.6875C14.2565 7.75375 15.0123 7 15.9487 7C16.885 7 17.6409 7.75375 17.6409 8.6875C17.6409 9.62125 16.885 10.375 15.9487 10.375Z" fill="#4A68F6"/>
+										</svg>
+										<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<rect x="1" y="1" width="17" height="17" rx="2" fill="#4A68F6" stroke="#4A68F6" stroke-width="2"/>
+											<circle cx="9.5" cy="9.5" r="4.5" fill="#FAFAFA" stroke="#4A68F6" stroke-width="2"/>
+											</svg>
+														
+							</div>
+						</div>
+						<div class="write-menu">
+							<p class="waiting__accept btn">Принять</p>
+							<p class="to-date sum" style="cursor: pointer;">Отклонить</p>
+						</div>
+					</div>
+					<div class="waiting__date" >
+						<img src="./img/cross-1.svg" alt="cross" class="close-cross">
+						<h4>Дата и время</h4>
+						<div class="calendar mine">
+							<div class="container">
+								<div class="calendar__month-picker">
+									<svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M7.4 1.4L6 0L0 6L6 12L7.4 10.6L2.8 6L7.4 1.4Z" fill="#979797"/>
+									</svg>
+										
+									<p>Сентябрь 2021</p>
+									
+									<svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M1.4 0L0 1.4L4.6 6L0 10.6L1.4 12L7.4 6L1.4 0Z" fill="#979797"/>
+									</svg>					
+								</div>
+								<div class="calendar__head">
+									<div class="calendar__week">
+										<p>пн</p>
+										<p>вт</p>
+										<p>ср</p>
+										<p>чт</p>
+										<p>пт</p>
+										<p>сб</p>
+										<p>вс</p>
+									</div>
+								</div>
+								<div class="calendar__days">
+									<div class="day">1</div>
+									<div class="day">2</div>
+									<div class="day">3</div>
+									<div class="day">4</div>
+									<div class="day">5</div>
+									<div class="day">6</div>
+									<div class="day">7</div>
+									<div class="day">8</div>
+									<div class="day">9</div>
+									<div class="day">10</div>
+									<div class="day">11</div>
+									<div class="day">12</div>
+									<div class="day">13</div>
+									<div class="day">14</div>
+									<div class="day">15</div>
+									<div class="day">16</div>
+									<div class="day">17</div>
+									<div class="day">18</div>
+									<div class="day">19</div>
+									<div class="day">20</div>
+									<div class="day">21</div>
+									<div class="day">22</div>
+									<div class="day">23</div>
+									<div class="day">24</div>
+									<div class="day">25</div>
+									<div class="day">26</div>
+									<div class="day">27</div>
+									<div class="day">28</div>
+									<div class="day">29</div>
+									<div class="day">30</div>
+									<div class="day">31</div>
+								</div>
+							</div>
+						</div>
+						<div class="checked-dates">
+							
+						</div>
+						<div>
+							<p class="date-accept">Предложить</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="waiting-cash cls">
+					<div class="waiting-cash__form">
+						<img src="./img/cross-1.svg" alt="cross" class="cl close-cross">
+						<div class="waiting-cash__meta">
+							<img class="waiting-cash__main-img" src="./img/travel-img.jpg" alt="travel">
+							<div>
+								<p>Ресторан La Famiglia</p>
+								<p>Зал №1</p>
+							</div>
+						</div>
+						<div class="datee">
+							<div>
+								<img src="./img/calendar.svg" alt="">
+								<p>23 апреля с 17:00 по 19:00</p>
+							</div>
+							<div class="mg">
+								<img src="./img/man.svg" alt="">
+								<p>2 гостя</p>
+							</div>
+							<div>
+								<img src="./img/ring.svg" alt="">
+								<p>Свадьба</p>
+							</div>
+						</div>
+						<div class="messages">
+							<div class="mes blue">
+								<div class="mes-text down">
+									Hi, son, how are you doing? Today, my father and I went to buy a car, bought a cool car.
+								</div>
+								<p class="time">8.30</p>
+							</div>
+							<div class="mes white">
+								<div class="mes-text up">Oh! Cool Send me photo)</div>
+								<p class="time">8.30</p>
+							</div>
+							<div class="mes blue">
+								<div class="mes-text down">Ok😉</div>
+								<p class="time">8.30</p>
+							</div>
+							<div class="mes blue">
+								<div class="mes-text up">Will we arrive tomorrow?</div>
+								<p class="time">8.30</p>
+							</div>
+						</div>
+						<div class="message-box">
+							<textarea placeholder="Написать сообщение..." name="" id="" cols="30" rows="10"></textarea>
+							<div class="icons">
+								<svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<rect x="10" width="3" height="23" rx="1.5" fill="#4A68F6"/>
+									<rect x="23" y="10" width="3" height="23" rx="1.5" transform="rotate(90 23 10)" fill="#4A68F6"/>
+									</svg>
+									<svg width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M11.9889 0.25C5.76155 0.25 0.71875 5.29 0.71875 11.5C0.71875 17.71 5.76155 22.75 11.9889 22.75C18.2275 22.75 23.2816 17.71 23.2816 11.5C23.2816 5.29 18.2275 0.25 11.9889 0.25ZM8.05168 7C8.98803 7 9.74389 7.75375 9.74389 8.6875C9.74389 9.62125 8.98803 10.375 8.05168 10.375C7.11532 10.375 6.35946 9.62125 6.35946 8.6875C6.35946 7.75375 7.11532 7 8.05168 7ZM12.0002 18.25C9.42801 18.25 7.23941 16.3825 6.35946 13.75H17.6409C16.7609 16.3825 14.5723 18.25 12.0002 18.25ZM15.9487 10.375C15.0123 10.375 14.2565 9.62125 14.2565 8.6875C14.2565 7.75375 15.0123 7 15.9487 7C16.885 7 17.6409 7.75375 17.6409 8.6875C17.6409 9.62125 16.885 10.375 15.9487 10.375Z" fill="#4A68F6"/>
+										</svg>
+										<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<rect x="1" y="1" width="17" height="17" rx="2" fill="#4A68F6" stroke="#4A68F6" stroke-width="2"/>
+											<circle cx="9.5" cy="9.5" r="4.5" fill="#FAFAFA" stroke="#4A68F6" stroke-width="2"/>
+											</svg>
+														
+							</div>
+						</div>
+						<div class="write-menu">
+							<p class="waiting-cash__write btn">Отклонить</p>
+							<p class="sum">Ожидает подтверждения и оплаты</p>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="done cls">
+					<div class="done__form">
+						<img src="./img/cross-1.svg" alt="cross" class="cl close-cross">
+						<div class="done__meta">
+							<img class="done__main-img" src="./img/travel-img.jpg" alt="travel">
+							<div>
+								<p>Ресторан La Famiglia</p>
+								<p>Зал №1</p>
+							</div>
+						</div>
+						<div class="datee">
+							<div>
+								<img src="./img/calendar.svg" alt="">
+								<p>23 апреля с 17:00 по 19:00</p>
+							</div>
+							<div class="mg">
+								<img src="./img/man.svg" alt="">
+								<p>2 гостя</p>
+							</div>
+							<div>
+								<img src="./img/ring.svg" alt="">
+								<p>Свадьба</p>
+							</div>
+						</div>
+						<div class="write-menu">
+							<p class="done__write btn">Написать заказчику</p>
+							<p class="to-menu btn">Menu</p>
+							<p class="sum">Стоимость: 12 000₽</p>
+						</div>
+					</div>
+
+					<div class="done__menu" >
+						<div class="burgers">
+							<div class="done__burger">
+								<img src="./img/soup.png" alt="burger">
+								<div class="done__burger-info">
+									<p>Чизбургер</p>
+									<p class="dop">Дополнения: + дополнительный соус, + дополнительный соус, + дополнительный соус</p>
+									<p>25 ед.</p>
+								</div>
+							</div>
+							<div class="done__burger">
+								<img src="./img/soup.png" alt="burger">
+								<div class="done__burger-info">
+									<p>Чизбургер</p>
+									<p class="dop">Дополнения: + дополнительный соус, + дополнительный соус, + дополнительный соус</p>
+									<p>25 ед.</p>
+								</div>
+							</div>
+							<div class="done__burger">
+								<img src="./img/soup.png" alt="burger">
+								<div class="done__burger-info">
+									<p>Чизбургер</p>
+									<p class="dop">Дополнения: + дополнительный соус, + дополнительный соус, + дополнительный соус</p>
+									<p>25 ед.</p>
+								</div>
+							</div>
+						</div>
+						
+						<div class="drinks">
+							<div>
+								<p>Ликёр</p>
+								<p>0.33</p>
+								<p>25 штук</p>
+							</div>
+							<div>
+								<p>Ликёр</p>
+								<p>0.33</p>
+								<p>25 штук</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="tabs__content active">
+					<div class="travel-card wait__accept">
+						<div class="travel-card__img">
+							<img src="img/travel-img.jpg" alt="img">
+						</div>
+						<div class="travel-card__word">
+							<div>
+								<h3 class="travel-card__title">
+									Ресторан La Famiglia
+								</h3>
+								<div class="travel-card__time">
+									Сейчас
+								</div>
+							</div>
+							
+							<div class="datee">
+								<div>
+									<img src="./img/calendar.svg" alt="">
+									<p>23 апреля с 17:00 по 19:00</p>
+								</div>
+								<div>
+									<img src="./img/man.svg" alt="">
+									<p>2 гостя</p>
+								</div>
+							</div>
+
+							<div class="wait">
+								<p>Ожидает подтверждения</p>
+								<p class="open-btn">Открыть</p>
+							</div>
+						</div>
+					</div>
+					<div class="travel-card">
+						<div class="travel-card__img">
+							<img src="img/travel-img.jpg" alt="img">
+						</div>
+						<div class="travel-card__word">
+							<div>
+								<h3 class="travel-card__title">
+									Ресторан La Famiglia
+								</h3>
+								<div class="travel-card__time">
+									Сейчас
+								</div>
+							</div>
+
+							<div class="datee">
+								<div>
+									<img src="./img/calendar.svg" alt="">
+									<p>23 апреля с 17:00 по 19:00</p>
+								</div>
+								<div>
+									<img src="./img/man.svg" alt="">
+									<p>2 гостя</p>
+								</div>
+							</div>
+							
+							<div class="reserved">
+								<p>Ожидает подтверждения</p>
+								<p class="reserved__open open-btn">Открыть</p>
+							</div>
+						</div>
+					</div>
+					<div class="travel-card wait__cash">
+						<div class="travel-card__img">
+							<img src="img/travel-img.jpg" alt="img">
+						</div>
+						<div class="travel-card__word">
+							<div>
+								<h3 class="travel-card__title">
+									Ресторан La Famiglia
+								</h3>
+								<div class="travel-card__time">
+									Сейчас
+								</div>
+							</div>
+
+							<div class="datee">
+								<div>
+									<img src="./img/calendar.svg" alt="">
+									<p>23 апреля с 17:00 по 19:00</p>
+								</div>
+								<div>
+									<img src="./img/man.svg" alt="">
+									<p>2 гостя</p>
+								</div>
+							</div>
+
+							<div class="reserved">
+								<p>Ожидает подтверждения и оплаты</p>
+								<p class="wait__cash-open open-btn">Открыть</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="tabs__content">
+					<div class="travel-card end">
+						<div class="travel-card__img">
+							<img src="img/travel-img.jpg" alt="img">
+						</div>
+						<div class="travel-card__word">
+							<div>
+								<h3 class="travel-card__title">
+									Ресторан La Famiglia
+								</h3>
+								<div class="travel-card__time">
+									Сейчас
+								</div>
+							</div>
+							<p class="travel-card__text">
+								Планируете деловую поездку или переезд в другой город? Найдите жилье и от путешествующих по
+								делам.
+							</p>
+							<div>
+								<p class="show-info">Информация</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				
+
+			</div>
+			<!-- .tabs -->
+		</div>
+	</section>
+
+
+
+
+
+
+	<footer class="footer" id="footer">
+		<div class="container">
+			<div class="footer-wrap jcsb">
+				<div class="footer-block">
+					<div class="footer-block__title">
+						О нас
+					</div>
+					<ul class="footer-block__list">
+						<li class="footer-block__item">
+							<a href="#">
+								Как устроена платформа Airbnb
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Пресс-центр
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Для инвесторов
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Airbnb Plus
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Airbnb Luxe
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								HotelTonight
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Airbnb для бизнеса
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								С хозяевами возможно всё
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Работа
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Письмо от основателей Airbnb
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer-block">
+					<div class="footer-block__title">
+						Сообщество
+					</div>
+					<ul class="footer-block__list">
+						<li class="footer-block__item">
+							<a href="#">
+								Личностное многообразие и принятие
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Доступность
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Жилье на время кризиса
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Гости-рефералы
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Airbnb.org
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer-block">
+					<div class="footer-block__title">
+						Принимайте гостей
+					</div>
+					<ul class="footer-block__list">
+						<li class="footer-block__item">
+							<a href="#">
+								Сдайте жилье
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Организуйте онлайн-Впечатление
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Организуйте Впечатление
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Ответственный прием гостей
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Центр ресурсов
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Центр общения
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer-block">
+					<div class="footer-block__title">
+						Поддержка
+					</div>
+					<ul class="footer-block__list">
+						<li class="footer-block__item">
+							<a href="#">
+								Действия Airbnb во время пандемии
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Центр помощи
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Варианты отмены
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Поддержка соседей
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Доверие и безопасность
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer-navigation">
+			<div class="container">
+				<div class="footer-navigation__wrap jcsb">
+					<div class="footer-navigation__menu jcsb">
+						<p class="footer-navigation__text">
+							© 2021 tafest, Inc.
+						</p>
+						<ul class="footer-navigation__list jcsb">
+							<li>
+								<a href="#">
+									Конфиденциальность
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Условия
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Карта сайта
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Реквизиты компании
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer-navigation__links jcsb">
+						<div class="footer-navigation__language">
+							<i class="fas fa-globe"></i> Русский (RU)
+						</div>
+						<ul class="footer-navigation__social jcsb">
+							<li>
+								<a href="#">
+									<i class="fab fa-facebook-f"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fab fa-vk"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fab fa-twitter"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fab fa-instagram"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</footer>
+
+
+	<div style="display: none;">
+		<div class="modal-form modal-form-second-type" id="modalbox">
+			<div class="modal-form__name">
+				Вход
+			</div>
+			<div class="modal-form__title">
+				Добро пожаловать
+			</div>
+			<form action="#" class="modal-form__wrap">
+				<input type="text" class="modal-form__input modal-form__input_border"
+					placeholder="Телефон или электронная почта">
+				<input type="password" class="modal-form__input" placeholder="Пароль">
+				<p class="modal-form__text">
+					Мы позвоним вам или отправим SMS, чтобы подтвердить номер телефона. Применяются стандартные условия
+					вашего тарифа на прием сообщений и передачу данных.
+				</p>
+				<button type="submit" class="modal-form__btn btn">
+					Продолжить
+				</button>
+			</form>
+			<div class="modal-form__word">
+				или
+			</div>
+			<ul class="modal-form__link jcsb">
+				<li class="modal-form__item">
+					<a href="#">
+						<img src="img/mail.svg" alt="icon">
+					</a>
+				</li>
+				<li class="modal-form__item">
+					<a href="#">
+						<img src="img/facebook.svg" alt="icon">
+					</a>
+				</li>
+				<li class="modal-form__item">
+					<a href="#">
+						<img src="img/google.svg" alt="icon">
+					</a>
+				</li>
+				<li class="modal-form__item">
+					<a href="#">
+						<img src="img/aple.svg" alt="icon">
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<ul class="memu">
+		<li class="memu__item">
+			<a href="control-panel.html">
+				Главная
+			</a>
+		</li>
+		<li class="memu__item">
+			<a href="chat.html">
+				Сообщения
+			</a>
+		</li>
+		<li class="memu__item">
+			<a href="travel.html">
+				Бронирования
+			</a>
+		</li>
+		<li class="memu__item">
+			<a href="calendar.html">
+				Календарь
+			</a>
+		</li>
+		<li class="memu__item">
+			<a href="advertisement.html">
+				Объявления
+			</a>
+		</li>
+	</ul>
+
+
+
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/lightbox.js"></script>
+	<script src="js/jquery.arcticmodal-0.3.min.js"></script>
+	<script src="./dist/js/datepicker.min.js"></script>
+	<script src="js/main.js"></script>
+
+	<script>
+		lightbox.option({
+			'resizeDuration': 200,
+			'wrapAround': true
+		})
+	</script>
+</body>
+
+</html>

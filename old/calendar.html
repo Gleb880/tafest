@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tafest</title>
+	<!-- Roboto Google Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400&display=swap"
+		rel="stylesheet">
+	<!-- Fontawesome CSS -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+		integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	<!-- Jquery CSS -->
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<!-- Arcticmodal CSS -->
+	<link rel="stylesheet" href="css/jquery.arcticmodal-0.3.css">
+	<!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"> -->
+	<!-- Main CSS -->
+	<link rel="stylesheet" href="css/main.css">
+	<!-- Media CSS -->
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" href="./src/styles/css/media.css">
+	
+</head>
+
+<body>
+
+	<div class="popup calendar">
+		<div class="container">
+			<div class="head">
+				<img src="./img/travel-img.jpg" alt="travel">
+				<div>
+					<p>Ресторан La Famiglia</p>
+					<p>Ресторан La Famiglia</p>
+				</div>
+				<img src="./img/cross-1.svg" alt="cross">
+			</div>
+			<p class="desc">Планируете деловую поездку или переезд в другой город?<br />Найдите жилье и от путешествующих по делам.</p>
+			<a href="#">Перейти к мероприятию</a>
+		</div>
+	</div>
+
+	<div class="popup-set block">
+		<div class="container">
+			<div class="meta">
+				<p>23 апреля 2021 год</p>
+				<img src="./img/cross-1.svg" alt="">
+			</div>
+			<div class="how">
+				<div>Заблокировать</div>
+				<div class="active">Разблокировать</div>
+			</div>
+		</div>
+	</div>
+
+	<header class="search-list">
+		<div class="container">
+			<div class="search-list__wrap jcsb">
+				<a href="http://tafest.ru/" class="search-list__logo">
+					<img src="img/logo.svg" alt="logo">
+				</a>
+				<ul class="travel-menu">
+					<li class="travel-menu__item">
+						<a href="control-panel.html">
+							Главная
+						</a>
+					</li>
+					<li class="travel-menu__item">
+						<a href="chat.html">
+							Сообщения
+						</a>
+					</li>
+					
+					<li class="travel-menu__item">
+						<a href="travel.html">
+							Бронирования
+						</a>
+					</li>
+					<li class="travel-menu__item">
+						<a href="calendar.html">
+							Календарь
+						</a>
+					</li>
+					<li class="travel-menu__item">
+						<a href="search-list.html">
+							Объявления
+						</a>
+					</li>
+				</ul>
+				<div class="navigation-menu  jcsb">
+					<div class="lk jcsb">
+						<div class="lk__img">
+							<img src="img/search-list/avka.png" alt="avka">
+						</div>
+						<div class="lk__content">
+							<div class="lk__name">
+								Иван Иванович
+							</div>
+							<div class="lk__position">
+								Менеджер
+							</div>
+						</div>
+					</div>
+				</div>
+				<button class="navigation-menu__bar burger btn">
+					<i class="fas fa-bars"></i>
+					<i class="fas fa-times"></i>
+				</button>
+			</div>
+		</div>
+	</header>
+
+	<section class="calendar" id="calendar">
+		<div class="container">
+			<h1 class="calendar__title">Календарь</h1>
+			<div class="create-calculator">
+				<div class="calendar mine">
+					<div class="container">
+						<div class="calendar__month-picker">
+							<svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M7.4 1.4L6 0L0 6L6 12L7.4 10.6L2.8 6L7.4 1.4Z" fill="#979797"/>
+							</svg>
+								
+							<p>май, июнь, июль 2021</p>
+							
+							<svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M1.4 0L0 1.4L4.6 6L0 10.6L1.4 12L7.4 6L1.4 0Z" fill="#979797"/>
+							</svg>					
+						</div>
+						<div class="calendar__head">
+							<h2 class="calendar__month">май 2021</h2>
+							<div class="calendar__week">
+								<p>пн</p>
+								<p>вт</p>
+								<p>ср</p>
+								<p>чт</p>
+								<p>пт</p>
+								<p>сб</p>
+								<p>вс</p>
+							</div>
+						</div>
+						<div class="calendar__days">
+							<div class="day passed">1</div>
+							<div class="day passed">2</div>
+							<div class="day passed">3</div>
+							<div class="day passed">4</div>
+							<div class="day passed">5</div>
+							<div class="day passed">6</div>
+							<div class="day passed">7</div>
+							<div class="day passed">8</div>
+							<div class="day passed">9</div>
+							<div class="day passed">10</div>
+							<div class="day passed">11</div>
+							<div class="day passed">12</div>
+							<div class="day passed">13</div>
+							<div class="day active show-popup">14</div>
+							<div class="day">15</div>
+							<div class="day">16</div>
+							<div class="day">17</div>
+							<div class="day">18</div>
+							<div class="day active show-popup">19</div>
+							<div class="day">20</div>
+							<div class="day">21</div>
+							<div class="day active show-popup">22</div>
+							<div class="day">23</div>
+							<div class="day">24</div>
+							<div class="day">25</div>
+							<div class="day">26</div>
+							<div class="day">27</div>
+							<div class="day">28</div>
+							<div class="day">29</div>
+							<div class="day">30</div>
+							<div class="day">31</div>
+						</div>
+					</div>
+				</div>
+				<div class="calendar mine">
+					<div class="container">
+						<div class="calendar__head">
+							<h2 class="calendar__month">июнь 2021</h2>
+							<div class="calendar__week">
+								<p>пн</p>
+								<p>вт</p>
+								<p>ср</p>
+								<p>чт</p>
+								<p>пт</p>
+								<p>сб</p>
+								<p>вс</p>
+							</div>
+						</div>
+						<div class="calendar__days">
+							<div class="day" style="grid-column-start: 2;">1</div>
+							<div class="day">2</div>
+							<div class="day">3</div>
+							<div class="day">4</div>
+							<div class="day active show-popup">5</div>
+							<div class="day">6</div>
+							<div class="day">7</div>
+							<div class="day active show-popup">8</div>
+							<div class="day">9</div>
+							<div class="day">10</div>
+							<div class="day">11</div>
+							<div class="day">12</div>
+							<div class="day">13</div>
+							<div class="day">14</div>
+							<div class="day">15</div>
+							<div class="day">16</div>
+							<div class="day active show-popup">17</div>
+							<div class="day">18</div>
+							<div class="day">19</div>
+							<div class="day">20</div>
+							<div class="day">21</div>
+							<div class="day">22</div>
+							<div class="day">23</div>
+							<div class="day">24</div>
+							<div class="day">25</div>
+							<div class="day">26</div>
+							<div class="day">27</div>
+							<div class="day">28</div>
+							<div class="day">29</div>
+							<div class="day active show-popup">30</div>
+						</div>
+					</div>
+				</div>
+				<div class="calendar mine">
+					<div class="container">
+						<div class="calendar__head">
+							<h2 class="calendar__month">июль 2021</h2>
+							<div class="calendar__week">
+								<p>пн</p>
+								<p>вт</p>
+								<p>ср</p>
+								<p>чт</p>
+								<p>пт</p>
+								<p>сб</p>
+								<p>вс</p>
+							</div>
+						</div>
+						<div class="calendar__days">
+							<div class="day active show-popup" style="grid-column-start: 4;">1</div>
+							<div class="day">2</div>
+							<div class="day">3</div>
+							<div class="day">4</div>
+							<div class="day">5</div>
+							<div class="day">6</div>
+							<div class="day">7</div>
+							<div class="day">8</div>
+							<div class="day">9</div>
+							<div class="day">10</div>
+							<div class="day">11</div>
+							<div class="day">12</div>
+							<div class="day active show-popup">13</div>
+							<div class="day">14</div>
+							<div class="day">15</div>
+							<div class="day active show-popup">16</div>
+							<div class="day">17</div>
+							<div class="day">18</div>
+							<div class="day">19</div>
+							<div class="day">20</div>
+							<div class="day">21</div>
+							<div class="day">22</div>
+							<div class="day">23</div>
+							<div class="day">24</div>
+							<div class="day">25</div>
+							<div class="day">26</div>
+							<div class="day">27</div>
+							<div class="day">28</div>
+							<div class="day active show-popup">29</div>
+							<div class="day">30</div>
+							<div class="day">31</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+
+
+
+	<footer class="footer" id="footer">
+		<div class="container">
+			<div class="footer-wrap jcsb">
+				<div class="footer-block">
+					<div class="footer-block__title">
+						О нас
+					</div>
+					<ul class="footer-block__list">
+						<li class="footer-block__item">
+							<a href="#">
+								Как устроена платформа Airbnb
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Пресс-центр
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Для инвесторов
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Airbnb Plus
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Airbnb Luxe
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								HotelTonight
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Airbnb для бизнеса
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								С хозяевами возможно всё
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Работа
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Письмо от основателей Airbnb
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer-block">
+					<div class="footer-block__title">
+						Сообщество
+					</div>
+					<ul class="footer-block__list">
+						<li class="footer-block__item">
+							<a href="#">
+								Личностное многообразие и принятие
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Доступность
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Жилье на время кризиса
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Гости-рефералы
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Airbnb.org
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer-block">
+					<div class="footer-block__title">
+						Принимайте гостей
+					</div>
+					<ul class="footer-block__list">
+						<li class="footer-block__item">
+							<a href="#">
+								Сдайте жилье
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Организуйте онлайн-Впечатление
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Организуйте Впечатление
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Ответственный прием гостей
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Центр ресурсов
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Центр общения
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer-block">
+					<div class="footer-block__title">
+						Поддержка
+					</div>
+					<ul class="footer-block__list">
+						<li class="footer-block__item">
+							<a href="#">
+								Действия Airbnb во время пандемии
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Центр помощи
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Варианты отмены
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Поддержка соседей
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Доверие и безопасность
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer-navigation">
+			<div class="container">
+				<div class="footer-navigation__wrap jcsb">
+					<div class="footer-navigation__menu jcsb">
+						<p class="footer-navigation__text">
+							© 2021 tafest, Inc.
+						</p>
+						<ul class="footer-navigation__list jcsb">
+							<li>
+								<a href="#">
+									Конфиденциальность
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Условия
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Карта сайта
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Реквизиты компании
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer-navigation__links jcsb">
+						<div class="footer-navigation__language">
+							<i class="fas fa-globe"></i> Русский (RU)
+						</div>
+						<ul class="footer-navigation__social jcsb">
+							<li>
+								<a href="#">
+									<i class="fab fa-facebook-f"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fab fa-vk"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fab fa-twitter"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fab fa-instagram"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</footer>
+
+	<div style="display: none;">
+		<div class="modal-form modal-form-second-type" id="modalbox">
+			<div class="modal-form__name">
+				Вход
+			</div>
+			<div class="modal-form__title">
+				Добро пожаловать
+			</div>
+			<form action="#" class="modal-form__wrap">
+				<input type="text" class="modal-form__input modal-form__input_border"
+					placeholder="Телефон или электронная почта">
+				<input type="password" class="modal-form__input" placeholder="Пароль">
+				<p class="modal-form__text">
+					Мы позвоним вам или отправим SMS, чтобы подтвердить номер телефона. Применяются стандартные условия
+					вашего тарифа на прием сообщений и передачу данных.
+				</p>
+				<button type="submit" class="modal-form__btn btn">
+					Продолжить
+				</button>
+			</form>
+			<div class="modal-form__word">
+				или
+			</div>
+			<ul class="modal-form__link jcsb">
+				<li class="modal-form__item">
+					<a href="#">
+						<img src="img/mail.svg" alt="icon">
+					</a>
+				</li>
+				<li class="modal-form__item">
+					<a href="#">
+						<img src="img/facebook.svg" alt="icon">
+					</a>
+				</li>
+				<li class="modal-form__item">
+					<a href="#">
+						<img src="img/google.svg" alt="icon">
+					</a>
+				</li>
+				<li class="modal-form__item">
+					<a href="#">
+						<img src="img/aple.svg" alt="icon">
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<ul class="memu">
+		<li class="memu__item">
+			<a href="control-panel.html">
+				Главная
+			</a>
+		</li>
+		<li class="memu__item">
+			<a href="chat.html">
+				Сообщения
+			</a>
+		</li>
+		<li class="memu__item">
+			<a href="travel.html">
+				Бронирования
+			</a>
+		</li>
+		<li class="memu__item">
+			<a href="calendar.html">
+				Календарь
+			</a>
+		</li>
+		<li class="memu__item">
+			<a href="advertisement.html">
+				Объявления
+			</a>
+		</li>
+	</ul>
+
+	<script src="js/slick.min.js"></script>
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script src="js/jquery.arcticmodal-0.3.min.js"></script>
+	
+
+	<script>
+		/* Локализация datepicker */
+		$.datepicker.regional['ru'] = {
+			closeText: 'Закрыть',
+			prevText: 'Предыдущий',
+			nextText: 'Следующий',
+			currentText: 'Сегодня',
+			monthNames: ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь'],
+			monthNamesShort: ['Янв', 'Фев', 'Мар', 'Апр', 'Май', 'Июн', 'Июл', 'Авг', 'Сен', 'Окт', 'Ноя', 'Дек'],
+			dayNames: ['воскресенье', 'понедельник', 'вторник', 'среда', 'четверг', 'пятница', 'суббота'],
+			dayNamesShort: ['вск', 'пнд', 'втр', 'срд', 'чтв', 'птн', 'сбт'],
+			dayNamesMin: ['Вс', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб'],
+			weekHeader: 'Не',
+			dateFormat: 'dd.mm.yy',
+			firstDay: 1,
+			isRTL: false,
+			showMonthAfterYear: false,
+			yearSuffix: ''
+		};
+		$.datepicker.setDefaults($.datepicker.regional['ru']);
+	</script>
+<script src="js/main.js"></script>
+
+</body>
+
+</html>

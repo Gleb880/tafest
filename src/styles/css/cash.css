@@ -1,0 +1,119 @@
+.adfd .container {
+  padding: 0;
+  width: auto;
+}
+
+.adfd .container > img:first-child {
+  width: 100%;
+}
+
+.adfd .container > div {
+  padding: 1em;
+  width: 263px;
+}
+
+.adfd .container > div > div:nth-child(1) {
+  display: -ms-grid;
+  display: grid;
+  gap: 1em;
+}
+
+.adfd .container > div > div:nth-child(1) p:first-child {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  /* or 167% */
+  color: #000000;
+}
+
+.adfd .container > div > div:nth-child(1) p:nth-child(2) {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 17px;
+  /* or 175% */
+  color: #484848;
+}
+
+.adfd .container > div > div:nth-child(1) p:last-child {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 8px;
+  line-height: 17px;
+  /* identical to box height, or 219% */
+  color: #000000;
+}
+
+.adfd .container > div > div:nth-child(2) {
+  margin-top: 1em;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (1fr);
+      grid-template-rows: repeat(4, 1fr);
+  gap: 0.5em;
+}
+
+.adfd .container > div > div:nth-child(2) .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.adfd .container > div > .cash {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0;
+  width: 100%;
+}
+
+.adfd .container > div > .cash div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.adfd .container > div > .cash div p {
+  margin: 0 1em;
+}
+
+.adfd .container > div > .cash div svg {
+  width: 28px;
+}
+
+.adfd .container > div > .cash > p:nth-child(2) {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 26px;
+  color: #333333;
+}
+
+.adfd .container > div > .cash > p:nth-child(3) {
+  padding: 8px;
+  background: #4a68f6;
+  border-radius: 6px;
+  color: white;
+}
+/*# sourceMappingURL=cash.css.map */

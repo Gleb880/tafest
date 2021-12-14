@@ -1,0 +1,318 @@
+@media (max-width: 992px) {
+    .itm {
+        display: -ms-grid !important;
+        display: grid !important;
+        gap: 1em;
+    }
+    .headd {
+        display: -ms-grid !important;
+        display: grid !important;
+    }
+    .edit-container {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
+        height: fit-content;
+        height: auto !important;
+    }
+    .edit-container .list {
+        height: 200px !important;
+    }
+    .edit-container .edit-hill {
+        display: -ms-grid !important;
+        display: grid !important;
+        gap: 2em;
+        width: auto !important;
+        -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+        justify-content: center !important;
+    }
+    .edit-container .edit-hill .img {
+        width: -webkit-min-content;
+        width: -moz-min-content;
+        width: min-content;
+    }
+    .edit-container .edit-hill .full {
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: fit-content;
+    }
+    .edit-container .edit-hill .description {
+        width: 100%;
+    }
+    .edit-container .add .input {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .reg__form.active {
+        width: 280px;
+    }
+    .reg__form.active textarea {
+        width: auto;
+    }
+    body>div.img.popup>div>img {
+        width: 280px;
+        height: auto;
+    }
+    .calendar__days {
+        -ms-grid-columns: (40px)[7];
+        grid-template-columns: repeat(7, 40px);
+    }
+    .calendar__days .day {
+        height: 40px;
+    }
+    .travel-card {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .travel-card__word {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .waiting__date .calendar__days {
+        -ms-grid-columns: (34px)[7];
+        grid-template-columns: repeat(7, 34px);
+    }
+    .waiting__date .some-class {
+        width: 200px;
+        text-align: justify;
+    }
+    .cst-range {
+        width: auto;
+    }
+    .waiting__form {
+        width: 280px;
+        height: 380px;
+        overflow: auto;
+    }
+    .waiting__form .dishes {
+        display: -ms-grid;
+        display: grid;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        gap: 2em;
+    }
+    .waiting__form .waiting__meta img {
+        margin: 0;
+    }
+    .waiting__form .waiting__meta div {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .waiting__form .datee {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .waiting__form .datee>div {
+        margin: 0;
+    }
+    .waiting__form .datee>div.mg {
+        margin: 1em 0 1em 0;
+        margin-right: 0 !important;
+    }
+    .waiting__form .message-box .icons {
+        display: none;
+    }
+    .waiting-cash__form {
+        width: 280px;
+        height: 380px;
+        overflow: auto;
+    }
+    .waiting-cash__form .waiting-cash__meta img {
+        margin: 0;
+    }
+    .waiting-cash__form .waiting-cash__meta div {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .waiting-cash__form .datee {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .waiting-cash__form .datee>div {
+        margin: 0;
+    }
+    .waiting-cash__form .datee>div.mg {
+        margin: 1em 0 1em 0;
+        margin-right: 0 !important;
+    }
+    .waiting-cash__form .message-box .icons {
+        display: none;
+    }
+    .done__form {
+        width: 280px;
+        height: 380px;
+        overflow: auto;
+    }
+    .done__form .done__meta img {
+        margin: 0;
+    }
+    .done__form .done__meta div {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .done__form .datee {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .done__form .datee>div {
+        margin: 0;
+    }
+    .done__form .datee>div.mg {
+        margin: 1em 0 1em 0;
+        margin-right: 0 !important;
+    }
+    .done__form .write-menu {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+    }
+    .done__menu {
+        height: 480px;
+        overflow: auto;
+        width: 300px;
+    }
+    .done__menu .burgers {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        width: 300px;
+    }
+    body>div.edit-popup.popup>div>div.active>div>div.dishes {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    body>div.edit-popup.popup>div>div.active>div>div.dishes .mg {
+        margin-right: 0 !important;
+    }
+    body>div.edit-popup.popup>div>div.active>div .dishes {
+        height: 140px;
+        overflow: auto;
+    }
+    .offer-search input {
+        padding: 0 !important;
+    }
+    .info-content__search>.input__info::before {
+        content: none;
+    }
+    .info-content__search>.input__info {
+        text-align: center;
+        border: none !important;
+        position: relative;
+    }
+    .control-panel__wraps {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .control-panel>.container {
+        -webkit-box-orient: vertical !important;
+        -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+        flex-direction: column !important;
+    }
+    .control-panel>.container>div:first-child {
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: fit-content;
+        -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    }
+    .cash__meta {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .cash__meta>div {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .cash__meta>div p {
+        margin: 0 !important;
+    }
+    .menu-items .items {
+        -ms-grid-columns: (0.5fr)[3];
+        grid-template-columns: repeat(3, 0.5fr);
+    }
+    .cash__nav {
+        width: 100%;
+    }
+    .cash__out {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .cash__items .item {
+        display: -ms-grid;
+        display: grid;
+        gap: 1em;
+        height: auto;
+    }
+    .cash__items .item__container {
+        display: -ms-grid;
+        display: grid;
+        gap: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    .waiting .calendar__days {
+        -ms-grid-columns: (34px)[7];
+        grid-template-columns: repeat(7, 34px);
+    }
+}
+
+
+/*# sourceMappingURL=media.css.map */

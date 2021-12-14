@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tafest</title>
+	<!-- Roboto Google Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400&display=swap"
+		rel="stylesheet">
+	<!-- Fontawesome CSS -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+		integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	<!-- Jquery CSS -->
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<!-- Arcticmodal CSS -->
+	<link rel="stylesheet" href="css/jquery.arcticmodal-0.3.css">
+	<!-- Main CSS -->
+	<link rel="stylesheet" href="css/main.css">
+	<!-- Media CSS -->
+	<link rel="stylesheet" href="css/media.css">
+	<!-- Begin Verbox {literal} -->
+	<!-- Здесь был Глеб Крылов -->
+	<script type='text/javascript'>
+		(function(d, w, m) {
+			window.supportAPIMethod = m;
+			var s = d.createElement('script');
+			s.type ='text/javascript'; s.id = 'supportScript'; s.charset = 'utf-8';
+			s.async = true;
+			var id = '2d8fadad4a33317712d04e55297730a5';
+			s.src = 'https://admin.verbox.ru/support/support.js?h='+id;
+			var sc = d.getElementsByTagName('script')[0];
+			w[m] = w[m] || function() { (w[m].q = w[m].q || []).push(arguments); };
+			if (sc) sc.parentNode.insertBefore(s, sc); 
+			else d.documentElement.firstChild.appendChild(s);
+		})(document, window, 'Verbox');
+	</script>
+<!-- {/literal} End Verbox -->
+<!-- // Здесь был Глеб Крылов -->
+	
+	<link href="dist/css/datepicker.min.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="./src/styles/css/indexauth.css">
+	<link rel="stylesheet" href="./src/styles/css/media.css">
+</head>
+
+<body>
+
+	<div class="popup reg">
+		<div class="container">
+			<h2>Авторизация</h2>
+			<hr>
+			<div class="body active">
+				<h3>Добро пожаловать</h3>
+				<input class="mail" type="text" placeholder="Введите телефон или электронная почта">
+				<p class="mail-meta">Мы позвоним вам или отправим SMS, чтобы подтвердить номер телефона. Применяются стандартные условия вашего тарифа на прием сообщений и передачу данных.</p>
+				<div class="all">
+					<input class="next" type="button" value="Продолжить">
+					<p>или</p>
+					<div class="social">
+						<div>
+							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<g clip-path="url(#clip0)">
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M18.75 3.33331H1.25C0.558333 3.33331 0 3.89165 0 4.59165V15.4166C0 16.1083 0.558333 16.6666 1.25 16.6666H18.7417C18.9072 16.6678 19.0713 16.636 19.2245 16.5731C19.3777 16.5103 19.5168 16.4176 19.6339 16.3006C19.751 16.1835 19.8436 16.0443 19.9065 15.8912C19.9693 15.738 20.0011 15.5739 20 15.4083V4.59165C20 3.89165 19.4417 3.33331 18.75 3.33331ZM19.1667 15.1666L14.05 8.57498L19.1667 4.69165V15.175V15.1666ZM18.475 4.16665L10.4 10.3C10.1833 10.4666 9.8 10.4666 9.58333 10.3L1.525 4.16665H18.4833H18.475ZM0.833333 4.69165L5.95 8.58331L0.833333 15.15V4.69165ZM1.35833 15.8333L6.60833 9.08331L9.08333 10.9666C9.6 11.3583 10.3917 11.3583 10.9083 10.9666L13.3833 9.08331L18.625 15.8333H1.35833Z" fill="#4A68F6"/>
+							</g>
+							<defs>
+							<clipPath id="clip0">
+							<rect width="20" height="20" fill="white"/>
+							</clipPath>
+							</defs>
+							</svg>
+						</div>
+						<div>
+							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<g clip-path="url(#clip0)">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M20 10C20 4.4775 15.5225 0 10 0C4.4775 0 0 4.4775 0 10C0 14.9917 3.65667 19.1283 8.4375 19.8783V12.8917H5.89833V10H8.4375V7.79667C8.4375 5.29083 9.93083 3.90667 12.215 3.90667C13.3083 3.90667 14.4533 4.10167 14.4533 4.10167V6.5625H13.1917C11.9492 6.5625 11.5617 7.33333 11.5617 8.12417V10H14.335L13.8917 12.8908H11.5617V19.8783C16.3433 19.1283 20 14.9917 20 10Z" fill="#1877F2"/>
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M13.8926 12.8908L14.3359 10H11.5626V8.12418C11.5626 7.33334 11.9501 6.56251 13.1926 6.56251H14.4534V4.10168C14.4534 4.10168 13.3084 3.90668 12.2151 3.90668C9.93094 3.90668 8.4376 5.29001 8.4376 7.79668V10H5.89844V12.8908H8.4376V19.8783C9.47293 20.0409 10.5273 20.0409 11.5626 19.8783V12.8917H13.8926" fill="white"/>
+								</g>
+								<defs>
+								<clipPath id="clip0">
+								<rect width="20" height="20" fill="white"/>
+								</clipPath>
+								</defs>
+								</svg>
+								
+						</div>
+						<div>
+							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M10.0002 3.86667C11.878 3.86667 13.1447 4.67778 13.8669 5.35556L16.6891 2.6C14.9558 0.988889 12.7002 0 10.0002 0C6.08912 0 2.71134 2.24444 1.06689 5.51111L4.30023 8.02222C5.11134 5.61111 7.35578 3.86667 10.0002 3.86667Z" fill="#EA4335"/>
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M19.6 10.2222C19.6 9.40002 19.5333 8.80002 19.3889 8.1778H10V11.8889H15.5111C15.4 12.8111 14.8 14.2 13.4667 15.1334L16.6222 17.5778C18.5111 15.8334 19.6 13.2667 19.6 10.2222Z" fill="#4285F4"/>
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M4.31111 11.9778C4.09262 11.3412 3.98002 10.673 3.97778 10C3.97778 9.31111 4.1 8.64444 4.3 8.02222L1.06667 5.51111C0.366377 6.90392 0.0011171 8.44105 0 10C0 11.6111 0.388889 13.1333 1.06667 14.4889L4.31111 11.9778Z" fill="#FBBC05"/>
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M9.99986 20C12.6999 20 14.9665 19.1111 16.6221 17.5778L13.4665 15.1333C12.6221 15.7222 11.4887 16.1333 9.99986 16.1333C7.35541 16.1333 5.11097 14.3889 4.31097 11.9778L1.07764 14.4889C2.72208 17.7556 6.08875 20 9.99986 20Z" fill="#34A853"/>
+								</svg>
+								
+						</div>
+						<div>
+							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<g clip-path="url(#clip0)">
+								<path d="M11.0835 1.75C11.4501 1.24328 11.9239 0.823699 12.4713 0.521199C13.0187 0.218699 13.6261 0.0407339 14.2502 0C14.3046 0.56793 14.2441 1.141 14.0723 1.68505C13.9004 2.22909 13.6209 2.73298 13.2502 3.16667C12.9116 3.6382 12.4585 4.01571 11.9337 4.26357C11.4088 4.51143 10.8294 4.62148 10.2502 4.58333C10.1901 4.07925 10.2329 3.5682 10.3762 3.08118C10.5194 2.59415 10.76 2.14127 11.0835 1.75ZM6.91683 4.83333C4.5835 4.83333 2.0835 6.91667 2.0835 10.9167C2.0835 15 5.00016 20 7.3335 20C8.16683 20 9.41683 19.1667 10.6668 19.1667C11.9168 19.1667 12.8335 19.9167 14.0002 19.9167C16.5835 19.9167 18.4168 14.5833 18.4168 14.5833C17.6205 14.2397 16.943 13.6693 16.4688 12.9431C15.9946 12.217 15.7446 11.3673 15.7502 10.5C15.7507 9.73981 15.9511 8.99313 16.3314 8.33491C16.7117 7.67669 17.2585 7.13009 17.9168 6.75C17.4896 6.1094 16.9052 5.58913 16.2195 5.23896C15.5337 4.88879 14.7696 4.72043 14.0002 4.75C12.3335 4.75 11.0835 5.66667 10.4168 5.66667C9.66683 5.66667 8.41683 4.83333 6.91683 4.83333Z" fill="black"/>
+								</g>
+								<defs>
+								<clipPath id="clip0">
+								<rect width="20" height="20" fill="white"/>
+								</clipPath>
+								</defs>
+								</svg>							
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="body">
+				<h3>Добро пожаловать</h3>
+				<div class="trening-code">
+					<input type="text">
+					<input type="text">
+					<input type="text">
+					<input type="text">
+				</div>
+				<div class="nope">
+					<p>Не получили код?</p>
+					<span>Попробовать ещё раз</span>
+				</div>
+				<div class="call-me">
+					<span>Позвоните мне</span>
+				</div>
+				<p class="mail-meta">Чтобы продолжить авторизациию введите четырёхзначный код отправленный вам на телефон или электронную почту.</p>	
+				<div class="all">
+					<input class="next" type="button" value="Продолжить">
+					<p>или</p>
+					<div class="social">
+						<div>
+							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<g clip-path="url(#clip0)">
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M18.75 3.33331H1.25C0.558333 3.33331 0 3.89165 0 4.59165V15.4166C0 16.1083 0.558333 16.6666 1.25 16.6666H18.7417C18.9072 16.6678 19.0713 16.636 19.2245 16.5731C19.3777 16.5103 19.5168 16.4176 19.6339 16.3006C19.751 16.1835 19.8436 16.0443 19.9065 15.8912C19.9693 15.738 20.0011 15.5739 20 15.4083V4.59165C20 3.89165 19.4417 3.33331 18.75 3.33331ZM19.1667 15.1666L14.05 8.57498L19.1667 4.69165V15.175V15.1666ZM18.475 4.16665L10.4 10.3C10.1833 10.4666 9.8 10.4666 9.58333 10.3L1.525 4.16665H18.4833H18.475ZM0.833333 4.69165L5.95 8.58331L0.833333 15.15V4.69165ZM1.35833 15.8333L6.60833 9.08331L9.08333 10.9666C9.6 11.3583 10.3917 11.3583 10.9083 10.9666L13.3833 9.08331L18.625 15.8333H1.35833Z" fill="#4A68F6"/>
+							</g>
+							<defs>
+							<clipPath id="clip0">
+							<rect width="20" height="20" fill="white"/>
+							</clipPath>
+							</defs>
+							</svg>
+						</div>
+						<div>
+							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<g clip-path="url(#clip0)">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M20 10C20 4.4775 15.5225 0 10 0C4.4775 0 0 4.4775 0 10C0 14.9917 3.65667 19.1283 8.4375 19.8783V12.8917H5.89833V10H8.4375V7.79667C8.4375 5.29083 9.93083 3.90667 12.215 3.90667C13.3083 3.90667 14.4533 4.10167 14.4533 4.10167V6.5625H13.1917C11.9492 6.5625 11.5617 7.33333 11.5617 8.12417V10H14.335L13.8917 12.8908H11.5617V19.8783C16.3433 19.1283 20 14.9917 20 10Z" fill="#1877F2"/>
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M13.8926 12.8908L14.3359 10H11.5626V8.12418C11.5626 7.33334 11.9501 6.56251 13.1926 6.56251H14.4534V4.10168C14.4534 4.10168 13.3084 3.90668 12.2151 3.90668C9.93094 3.90668 8.4376 5.29001 8.4376 7.79668V10H5.89844V12.8908H8.4376V19.8783C9.47293 20.0409 10.5273 20.0409 11.5626 19.8783V12.8917H13.8926" fill="white"/>
+								</g>
+								<defs>
+								<clipPath id="clip0">
+								<rect width="20" height="20" fill="white"/>
+								</clipPath>
+								</defs>
+								</svg>
+								
+						</div>
+						<div>
+							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M10.0002 3.86667C11.878 3.86667 13.1447 4.67778 13.8669 5.35556L16.6891 2.6C14.9558 0.988889 12.7002 0 10.0002 0C6.08912 0 2.71134 2.24444 1.06689 5.51111L4.30023 8.02222C5.11134 5.61111 7.35578 3.86667 10.0002 3.86667Z" fill="#EA4335"/>
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M19.6 10.2222C19.6 9.40002 19.5333 8.80002 19.3889 8.1778H10V11.8889H15.5111C15.4 12.8111 14.8 14.2 13.4667 15.1334L16.6222 17.5778C18.5111 15.8334 19.6 13.2667 19.6 10.2222Z" fill="#4285F4"/>
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M4.31111 11.9778C4.09262 11.3412 3.98002 10.673 3.97778 10C3.97778 9.31111 4.1 8.64444 4.3 8.02222L1.06667 5.51111C0.366377 6.90392 0.0011171 8.44105 0 10C0 11.6111 0.388889 13.1333 1.06667 14.4889L4.31111 11.9778Z" fill="#FBBC05"/>
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M9.99986 20C12.6999 20 14.9665 19.1111 16.6221 17.5778L13.4665 15.1333C12.6221 15.7222 11.4887 16.1333 9.99986 16.1333C7.35541 16.1333 5.11097 14.3889 4.31097 11.9778L1.07764 14.4889C2.72208 17.7556 6.08875 20 9.99986 20Z" fill="#34A853"/>
+								</svg>
+								
+						</div>
+						<div>
+							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<g clip-path="url(#clip0)">
+								<path d="M11.0835 1.75C11.4501 1.24328 11.9239 0.823699 12.4713 0.521199C13.0187 0.218699 13.6261 0.0407339 14.2502 0C14.3046 0.56793 14.2441 1.141 14.0723 1.68505C13.9004 2.22909 13.6209 2.73298 13.2502 3.16667C12.9116 3.6382 12.4585 4.01571 11.9337 4.26357C11.4088 4.51143 10.8294 4.62148 10.2502 4.58333C10.1901 4.07925 10.2329 3.5682 10.3762 3.08118C10.5194 2.59415 10.76 2.14127 11.0835 1.75ZM6.91683 4.83333C4.5835 4.83333 2.0835 6.91667 2.0835 10.9167C2.0835 15 5.00016 20 7.3335 20C8.16683 20 9.41683 19.1667 10.6668 19.1667C11.9168 19.1667 12.8335 19.9167 14.0002 19.9167C16.5835 19.9167 18.4168 14.5833 18.4168 14.5833C17.6205 14.2397 16.943 13.6693 16.4688 12.9431C15.9946 12.217 15.7446 11.3673 15.7502 10.5C15.7507 9.73981 15.9511 8.99313 16.3314 8.33491C16.7117 7.67669 17.2585 7.13009 17.9168 6.75C17.4896 6.1094 16.9052 5.58913 16.2195 5.23896C15.5337 4.88879 14.7696 4.72043 14.0002 4.75C12.3335 4.75 11.0835 5.66667 10.4168 5.66667C9.66683 5.66667 8.41683 4.83333 6.91683 4.83333Z" fill="black"/>
+								</g>
+								<defs>
+								<clipPath id="clip0">
+								<rect width="20" height="20" fill="white"/>
+								</clipPath>
+								</defs>
+								</svg>							
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="body">
+				<h3>Пожалуйста введите данные</h3>
+				<p class="intro">Как к вам обращаться</p>
+				<div class="how">
+					<div>Господин</div>
+					<div class="active">Гопожа</div>
+				</div>
+
+				<div class="inp">
+					<input type="text" placeholder="Введите ваше имя">
+					<input type="text" placeholder="Введите вашу фамилию">
+					<input type="text" placeholder="Введите ваше отчество">
+				</div>
+
+				<div class="chex">
+					<input type="checkbox" name="" id="">
+					<p>Не заполнять при отсутствии</p>
+				</div>
+				<div class="all">
+					<a href="./editor.html">Продолжить</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<header class="header" id="header">
+		<div class="navigation">
+			<div class="container">
+				<div class="navigation-wrap jcsb">
+					<a href="http://tafest.ru/" class="search-list__logo">
+					<img src="img/logo.svg" alt="logo">
+				</a>
+					<div class="navigation-menu navigation-menu_index jcsb">
+						<a href="rent.html" class="navigation-menu__btn navigation-menu__btn_main btn">
+							ОРГАНИЗАТОРАМ
+						</a>
+						<button class="navigation-menu__bar btn">
+							<i class="fas fa-bars"></i>
+							<i class="fas fa-times"></i>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="offer">
+			<div class="container">
+				<h1 class="offer__title">
+					Празднуйте свои лучшие моменты вместе с TAFEST
+				</h1>
+				<div class="offer-search info-content__search">
+					<div class="input__info">
+						<input type="text" class="offer-search__city" placeholder="Москва">
+					</div>
+					<div class="input__info">
+						<input type='text' class='datepicker-here' placeholder="Укажите дату"/>
+					</div>
+					<div class="input__info">
+						<input type="text" class="offer-search__people" placeholder="Количество гостей">
+					</div>
+					<!-- Доработка от Глеба Крылова -->
+					<div class="input__info">
+						<input type="text" class="offer-search__event" placeholder="Тип мероприятия">
+						
+					</div>
+					<!-- // Доработка от Глеба Крылова -->
+					<div class="search-people">
+						<div class="search-people__block">
+							<div class="search-people__text">
+								Взрослые<span>От 13 лет </span>
+							</div>
+							<div class="search-people__numb">
+								<div class="number number_announcement">
+									<button class="number-minus" type="button"
+										onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">-</button>
+									<input type="number" min="0" value="1" readonly>
+									<button class="number-plus" type="button"
+										onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">+</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<button type="submit" class="offer-search__btn btn"><i class="fa fa-search"></i></button>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	 <section class="cafe" id="cafe">
+		<div class="container">
+			<h2 class="cafe__title">
+				Заведения поблизости
+			</h2>
+			<div class="cafe-wrap jcsb">
+				<div class="cafe-card">
+					<div class="cafe-card__img">
+						<img src="img/cafe-img1.jpg" alt="img">
+						<a href="search-list.html" class="cafe-card__numb">
+							1628 кафе <i class="fas fa-chevron-right"></i>
+						</a>
+					</div>
+					<h3 class="cafe-card__title">
+						Москва
+					</h3>
+				</div>
+				<div class="cafe-card">
+					<div class="cafe-card__img">
+						<img src="img/cafe-img2.jpg" alt="img">
+						<a href="search-list.html" class="cafe-card__numb">
+							1628 кафе <i class="fas fa-chevron-right"></i>
+						</a>
+					</div>
+					<h3 class="cafe-card__title">
+						Омск
+					</h3>
+				</div>
+				<div class="cafe-card">
+					<div class="cafe-card__img">
+						<img src="img/cafe-img3.jpg" alt="img">
+						<a href="search-list.html" class="cafe-card__numb">
+							1628 кафе <i class="fas fa-chevron-right"></i>
+						</a>
+					</div>
+					<h3 class="cafe-card__title">
+						Челябинск
+					</h3>
+				</div>
+				<div class="cafe-card">
+					<div class="cafe-card__img">
+						<img src="img/cafe-img4.jpg" alt="img">
+						<a href="search-list.html" class="cafe-card__numb">
+							1628 кафе <i class="fas fa-chevron-right"></i>
+						</a>
+					</div>
+					<h3 class="cafe-card__title">
+						Екатеринбург
+					</h3>
+				</div>
+				<div class="cafe-card">
+					<div class="cafe-card__img">
+						<img src="img/cafe-img5.jpg" alt="img">
+						<a href="search-list.html" class="cafe-card__numb">
+							1628 кафе <i class="fas fa-chevron-right"></i>
+						</a>
+					</div>
+					<h3 class="cafe-card__title">
+						Санкт-Петербург
+					</h3>
+				</div>
+				<div class="cafe-card">
+					<div class="cafe-card__img">
+						<img src="img/cafe-img6.jpg" alt="img">
+						<a href="search-list.html" class="cafe-card__numb">
+							1628 кафе <i class="fas fa-chevron-right"></i>
+						</a>
+					</div>
+					<h3 class="cafe-card__title">
+						Самара
+					</h3>
+				</div>
+				<div class="cafe-card">
+					<div class="cafe-card__img">
+						<img src="img/cafe-img7.jpg" alt="img">
+						<a href="search-list.html" class="cafe-card__numb">
+							1628 кафе <i class="fas fa-chevron-right"></i>
+						</a>
+					</div>
+					<h3 class="cafe-card__title">
+						Казань
+					</h3>
+				</div>
+				<div class="cafe-card">
+					<div class="cafe-card__img">
+						<img src="img/cafe-img8.jpg" alt="img">
+						<a href="search-list.html" class="cafe-card__numb">
+							1628 кафе <i class="fas fa-chevron-right"></i>
+						</a>
+					</div>
+					<h3 class="cafe-card__title">
+						Новосибирск
+					</h3>
+				</div>
+			</div>
+		</div>
+	</section> 
+	<section class="service" id="service">
+		<div class="container">
+			<h2 class="service__title">
+				Услуги
+			</h2>
+			<div class="service-slider">
+				<div class="service-slider__slid">
+					<a href="search-list.html" class="service-card">
+						<img src="img/service1.jpg" alt="img" class="service-card__img">
+						<h3 class="service-card__title">
+							Свадьба
+						</h3>
+					</a>
+				</div>
+				<div class="service-slider__slid">
+					<a href="search-list.html" class="service-card">
+						<img src="img/service2.jpg" alt="img" class="service-card__img">
+						<h3 class="service-card__title">
+							Встреча выпускников
+						</h3>
+					</a>
+				</div>
+				<div class="service-slider__slid">
+					<a href="search-list.html" class="service-card">
+						<img src="img/service3.jpg" alt="img" class="service-card__img">
+						<h3 class="service-card__title">
+							Корпоратив
+						</h3>
+					</a>
+				</div>
+
+				<div class="service-slider__slid">
+					<a href="search-list.html" class="service-card">
+						<img src="img/service4.jpg" alt="img" class="service-card__img">
+						<h3 class="service-card__title">
+							Выпускной
+						</h3>
+					</a>
+				</div>
+				<div class="service-slider__slid">
+					<a href="search-list.html" class="service-card">
+						<img src="img/service1.jpg" alt="img" class="service-card__img">
+						<h3 class="service-card__title">
+							Свадьба
+						</h3>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="proposal" id="proposal">
+		<div class="container">
+			<h2 class="proposal__title">
+				У вас собственный бизнес?
+			</h2>
+			<p class="proposal__subtitle">
+				Tafest поможет привлеч новых клиентов
+			</p>
+			<a href="rent.html" class="proposal__btn btn">
+				Подробнее
+			</a>
+		</div>
+	</section> 
+	 <section class="impression" id="impression">
+		<div class="container">
+			<h2 class="impression__title">
+				Впечатления
+			</h2>
+			<div class="impression-slider">
+				<div class="impression-slider__slid">
+					<div class="impression-card">
+						<img src="img/impression1.jpg" alt="img" class="impression-card__img">
+						<h3 class="impression-card__title">
+							Популярная коллекция
+						</h3>
+						<p class="impression-card__text">
+							Также все другие известные генераторы Lorem Ipsum используют один и тот же текст, который они
+							просто повторяют, пока не достигнут нужный объём.
+						</p>
+						<a href="#" class="impression-card__link">
+							Смотреть больше
+						</a>
+					</div>
+				</div>
+				<div class="impression-slider__slid">
+					<div class="impression-card">
+						<img src="img/impression2.jpg" alt="img" class="impression-card__img">
+						<h3 class="impression-card__title">
+							Популярная коллекция
+						</h3>
+						<p class="impression-card__text">
+							Также все другие известные генераторы Lorem Ipsum используют один и тот же текст, который они
+							просто повторяют, пока не достигнут нужный объём.
+						</p>
+						<a href="#" class="impression-card__link">
+							Смотреть больше
+						</a>
+					</div>
+				</div>
+				<div class="impression-slider__slid">
+					<div class="impression-card">
+						<img src="img/impression3.jpg" alt="img" class="impression-card__img">
+						<h3 class="impression-card__title">
+							Популярная коллекция
+						</h3>
+						<p class="impression-card__text">
+							Также все другие известные генераторы Lorem Ipsum используют один и тот же текст, который они
+							просто повторяют, пока не достигнут нужный объём.
+						</p>
+						<a href="#" class="impression-card__link">
+							Смотреть больше
+						</a>
+					</div>
+				</div>
+				<div class="impression-slider__slid">
+					<div class="impression-card">
+						<img src="img/impression2.jpg" alt="img" class="impression-card__img">
+						<h3 class="impression-card__title">
+							Популярная коллекция
+						</h3>
+						<p class="impression-card__text">
+							Также все другие известные генераторы Lorem Ipsum используют один и тот же текст, который они
+							просто повторяют, пока не достигнут нужный объём.
+						</p>
+						<a href="#" class="impression-card__link">
+							Смотреть больше
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section> 
+ <footer class="footer" id="footer">
+		<div class="container">
+			<div class="footer-wrap jcsb">
+				<div class="footer-block">
+					<div class="footer-block__title">
+						О нас
+					</div>
+					<ul class="footer-block__list">
+						<li class="footer-block__item">
+							<a href="#">
+								Как устроена платформа Airbnb
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Пресс-центр
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Для инвесторов
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Airbnb Plus
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Airbnb Luxe
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								HotelTonight
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Airbnb для бизнеса
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								С хозяевами возможно всё
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Работа
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Письмо от основателей Airbnb
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer-block">
+					<div class="footer-block__title">
+						Сообщество
+					</div>
+					<ul class="footer-block__list">
+						<li class="footer-block__item">
+							<a href="#">
+								Личностное многообразие и принятие
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Доступность
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Жилье на время кризиса
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Гости-рефералы
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Airbnb.org
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer-block">
+					<div class="footer-block__title">
+						Принимайте гостей
+					</div>
+					<ul class="footer-block__list">
+						<li class="footer-block__item">
+							<a href="#">
+								Сдайте жилье
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Организуйте онлайн-Впечатление
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Организуйте Впечатление
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Ответственный прием гостей
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Центр ресурсов
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Центр общения
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer-block">
+					<div class="footer-block__title">
+						Поддержка
+					</div>
+					<ul class="footer-block__list">
+						<li class="footer-block__item">
+							<a href="#">
+								Действия Airbnb во время пандемии
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Центр помощи
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Варианты отмены
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Поддержка соседей
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Доверие и безопасность
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer-navigation">
+			<div class="container">
+				<div class="footer-navigation__wrap jcsb">
+					<div class="footer-navigation__menu jcsb">
+						<p class="footer-navigation__text">
+							© 2021 tafest, Inc.
+						</p>
+						<ul class="footer-navigation__list jcsb">
+							<li>
+								<a href="#">
+									Конфиденциальность
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Условия
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Карта сайта
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Реквизиты компании
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer-navigation__links jcsb">
+						<div class="footer-navigation__language">
+							<i class="fas fa-globe"></i> Русский (RU)
+						</div>
+						<ul class="footer-navigation__social jcsb">
+							<li>
+								<a href="#">
+									<i class="fab fa-facebook-f"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fab fa-vk"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fab fa-twitter"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fab fa-instagram"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</footer>
+
+
+	<div style="display: none;">
+		<div class="modal-form modal-form-second-type" id="modalbox">
+			<div class="modal-form__name">
+				Вход
+			</div>
+			<div class="modal-form__title">
+				Добро пожаловать
+			</div>
+			<form action="#" class="modal-form__wrap">
+				<input type="text" class="modal-form__input modal-form__input_border"
+					placeholder="Телефон или электронная почта">
+				<input type="password" class="modal-form__input" placeholder="Пароль">
+				<p class="modal-form__text">
+					Мы позвоним вам или отправим SMS, чтобы подтвердить номер телефона. Применяются стандартные условия
+					вашего тарифа на прием сообщений и передачу данных.
+				</p>
+				<button type="submit" class="modal-form__btn btn">
+					Продолжить
+				</button>
+			</form>
+			<div class="modal-form__word">
+				или
+			</div>
+			<ul class="modal-form__link jcsb">
+				<li class="modal-form__item">
+					<a href="#">
+						<img src="img/mail.svg" alt="icon">
+					</a>
+				</li>
+				<li class="modal-form__item">
+					<a href="#">
+						<img src="img/facebook.svg" alt="icon">
+					</a>
+				</li>
+				<li class="modal-form__item">
+					<a href="#">
+						<img src="img/google.svg" alt="icon">
+					</a>
+				</li>
+				<li class="modal-form__item">
+					<a href="#">
+						<img src="img/aple.svg" alt="icon">
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<ul class="memu memu_index">
+		<li class="memu__item">
+			<p class="show-popup">Зарегистрироваться</p>
+		</li>
+		<li class="memu__item">
+			<a href="#" class="modalvhod">
+				Войти
+			</a>
+		</li>
+		<li class="memu__item">
+			<a href="#">
+				Стать организатором
+			</a>
+		</li>
+		<li class="memu__item">
+			<a href="#">
+				Помощь
+			</a>
+		</li>
+	</ul>
+
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/jquery.arcticmodal-0.3.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="dist/js/datepicker.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tafest</title>
+	<!-- Roboto Google Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400&display=swap"
+		rel="stylesheet">
+	<!-- Fontawesome CSS -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+		integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	<!-- Jquery CSS -->
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<!-- Arcticmodal CSS -->
+	<link rel="stylesheet" href="css/jquery.arcticmodal-0.3.css">
+	<!-- Main CSS -->
+	<link href="css/lightbox.css" rel="stylesheet" />
+	<link rel="stylesheet" href="css/main.css">
+	<!-- Media CSS -->
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" href="./src/styles/css/media.css">
+	
+</head>
+
+<body>
+
+	<!--всплывашки-->
+
+	<div class="done">
+		<div class="done__form">
+			<div class="done__meta">
+				<img class="done__main-img" src="./img/travel-img.jpg" alt="travel">
+				<div>
+					<div>
+						<p>Ресторан La Famiglia</p>
+						<p>Зал №1</p>
+						<p>25 июля 2021 с 21:00 до 01:00s</p>
+					</div>
+					<div class="done__total">
+						<div class="done__count">
+							<img src="" alt="how much">
+							<p>25 человек</p>
+						</div>
+						<div>
+							<img src="" alt="кольца">
+							<p>Свадьба</p>
+						</div>
+					</div>
+					<div>
+						<p class="to-menu">Menu</p>
+					</div>
+					<div>
+						<p>Сумма 35 000 руб.</p>
+						<p class="done__write">Написать заказчику</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="done__menu" >
+			<div class="done__burger">
+				<img src="https://burgerking.lv/images/optimized/products/dbl-whopper-cheese-desktop-28fd057298db550b899ea9c66c7ecf1a.png" alt="burger">
+				<div>
+					<p>Чизбургер</p>
+					<p>25 ед.</p>
+					<p>Дополнительно: <span>+ соус</span></p>
+				</div>
+			</div>
+			<div class="done__burger">
+				<img src="https://burgerking.lv/images/optimized/products/dbl-whopper-cheese-desktop-28fd057298db550b899ea9c66c7ecf1a.png" alt="burger">
+				<div>
+					<p>Чизбургер</p>
+					<p>25 ед.</p>
+					<p>Дополнительно: <span>+ соус</span></p>
+				</div>
+			</div>
+			<div class="done__burger">
+				<img src="https://burgerking.lv/images/optimized/products/dbl-whopper-cheese-desktop-28fd057298db550b899ea9c66c7ecf1a.png" alt="burger">
+				<div>
+					<p>Чизбургер</p>
+					<p>25 ед.</p>
+					<p>Дополнительно: <span>+ соус</span></p>
+				</div>
+			</div>
+			<p>Джек Дениелс 0,5 - 10ед.</p>
+			<p>Джек Дениелс 0,5 - 10ед.</p>
+		</div>
+	</div>
+
+	<div class="popup calendar">
+		<div class="container">
+			<div class="head">
+				<img src="./img/travel-img.jpg" alt="travel">
+				<div>
+					<p>Ресторан La Famiglia</p>
+					<p>Ресторан La Famiglia</p>
+				</div>
+				<img src="./img/cross-1.svg" alt="cross">
+			</div>
+			<p class="desc">Планируете деловую поездку или переезд в другой город?<br />Найдите жилье и от путешествующих по делам.</p>
+		</div>
+	</div>
+
+	<!--тело сайта-->
+
+	<header class="search-list">
+		<div class="container">
+			<div class="search-list__wrap jcsb">
+				<a href="http://tafest.ru/" class="search-list__logo">
+					<img src="img/logo.svg" alt="logo">
+				</a>
+				<ul class="travel-menu">
+					<li class="travel-menu__item">
+						<a href="control-panel.html">
+							Главная
+						</a>
+					</li>
+					<li class="travel-menu__item">
+						<a href="chat.html">
+							Сообщения
+						</a>
+					</li>
+					
+					<li class="travel-menu__item">
+						<a href="travel.html">
+							Бронирования
+						</a>
+					</li>
+					<li class="travel-menu__item">
+						<a href="calendar.html">
+							Календарь
+						</a>
+					</li>
+					<li class="travel-menu__item">
+						<a href="advertisement.html">
+							Объявления
+						</a>
+					</li>
+                    <li class="travel-menu__item">
+						<a href="#">
+							Настройки
+						</a>
+					</li>
+                    <li class="travel-menu__item">
+						<a href="#">
+							Меню
+						</a>
+					</li>
+				</ul>
+				<div class="navigation-menu  jcsb">
+					<div class="lk jcsb">
+						<div class="lk__img">
+							<img src="img/search-list/avka.png" alt="avka">
+						</div>
+						<div class="lk__content">
+							<div class="lk__name">
+								Иван Иванович
+							</div>
+							<div class="lk__position">
+								Менеджер
+							</div>
+						</div>
+					</div>
+				</div>
+				<button class="navigation-menu__bar burger btn">
+					<i class="fas fa-bars"></i>
+					<i class="fas fa-times"></i>
+				</button>
+			</div>
+		</div>
+	</header>
+
+	<section class="control-panel">
+		<div class="container">
+            <div style="
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			border: 1px solid #DDDDDD;
+			height: fit-content;
+			border-radius: 12px;
+		">
+                <div class="account-card__img" style="position: relative;">
+					<input type="file" style="
+						position: absolute;
+						width: 100%;
+						opacity: 0;
+						cursor: pointer;
+						height: 100%;
+					">
+                    <img class="user__avatar" src="img/account/avatarka.jpg" alt="avatar">
+                </div>
+                <p class="user-name__card">Иван Иванович</p>
+            </div>
+            <div>
+                <h2 class="control-panel__title">
+                    Панель управления
+                </h2>
+                <div class="control-panel__notifications">
+                    <h3 class="control-title">
+                        Уведомления
+                    </h3>
+                    <div class="notf control-panel__wraps control-panel__slider1">
+                        <div class="show-popup control-card">
+                            <div class="control-card__wrap">
+                                <div class="control-card__img">
+                                    <img src="img/control-panel-mg.jpg" alt="img">
+                                </div>
+                                <div class="control-card__title">
+                                    Ресторан La Famiglia
+                                </div>
+                            </div>
+                            <p class="control-card__text">
+                                Планируете деловую поездку или переезд в другой город? Найдите жилье и от путешествующих по делам.
+                            </p>
+                            <div class="control-card__date">
+                                14.01.2022
+                            </div>
+                        </div>
+                        <div class="show-popup control-card">
+                            <div class="control-card__wrap">
+                                <div class="control-card__img">
+                                    <img src="img/control-panel-mg.jpg" alt="img">
+                                </div>
+                                <div class="control-card__title">
+                                    Ресторан La Famiglia
+                                </div>
+                            </div>
+                            <p class="control-card__text">
+                                Планируете деловую поездку или переезд в другой город? Найдите жилье и от путешествующих по делам.
+                            </p>
+                            <div class="control-card__date">
+                                14.01.2022
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="control-panel__notifications">
+                    <h3 class="control-title">
+                        Бронирования
+                    </h3>
+                    <div class="control-panel__wraps control-panel__sider2">
+						<div class="control-card">
+                            <div class="control-card__wrap">
+                                <div class="control-card__img">
+                                    <img src="img/control-panel-mg.jpg" alt="img">
+                                </div>
+                                <div class="control-card__title">
+                                    Ресторан La Famiglia
+                                </div>
+                            </div>
+                            <p class="control-card__text">
+                                Планируете деловую поездку или переезд в другой город? Найдите жилье и от путешествующих по делам.
+                            </p>
+                            <div class="control-card__date">
+                                14.01.2022
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="control-link">
+                        Все
+                    </a>
+                </div>
+                <div class="control-panel__notifications">
+                    <h3 class="control-title">
+                        Запросы
+                    </h3>
+                
+					<div class="waiting w cls">
+						<div class="popup-set dop">
+							<div style="position: relative;" class="container">
+								<img style="cursor: pointer;" src="./img/cross-1.svg" class="close" alt="">
+								<p class="tt">Изменение в меню</p>
+								<div class="dshes">
+									<div class="item">
+										<div class="im">
+											<img src="./img/change/x.png" alt="">
+										</div>
+										<p class="thin">Первое</p>
+									</div>
+									<div class="item">
+										<div class="im">
+											<img src="./img/change/two.png" alt="">
+										</div>
+										<p class="thin">Второе</p>
+									</div>
+									<div class="item">
+										<div class="im">
+											<img src="./img/change/plus.png" alt="">
+										</div>
+										<p class="thin">Третье</p>
+									</div>
+									<div class="item">
+										<div class="im">
+											<img src="./img/change/four.png" alt="">
+										</div>
+										<p class="thin">Четвёртое</p>
+									</div>
+								</div>
+								<div class="datee" style="
+								    align-items: center;
+									margin: 0;
+							">
+								<div style="margin-right: 0;">
+									<img src="./img/change/burger.png" alt="">
+									<p>Всего блюд: 2</p>
+								</div>
+								<div style="margin: 0 4em 0 2em;">
+									<svg width="46" height="16" viewBox="0 0 46 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M45.7071 8.70711C46.0976 8.31658 46.0976 7.68342 45.7071 7.29289L39.3431 0.928932C38.9526 0.538408 38.3195 0.538408 37.9289 0.928932C37.5384 1.31946 37.5384 1.95262 37.9289 2.34315L43.5858 8L37.9289 13.6569C37.5384 14.0474 37.5384 14.6805 37.9289 15.0711C38.3195 15.4616 38.9526 15.4616 39.3431 15.0711L45.7071 8.70711ZM0 9H45V7H0V9Z" fill="#4A68F6"/>
+										</svg>										
+								</div>
+								<div>
+									<img src="./img/change/burger.png" alt="">
+									<p>Всего блюд: 30</p>
+								</div>
+								</div>
+								<div class="datee" style="
+										align-items: center;
+										margin: 0;
+								">
+									<div style="margin-right: 0;">
+										<img src="./img/change/vine.png" alt="">
+										<p>Всего алкоголя: 2</p>
+									</div>
+									<div style="margin: 0 4em 0 2em;">
+										<svg width="46" height="16" viewBox="0 0 46 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M45.7071 8.70711C46.0976 8.31658 46.0976 7.68342 45.7071 7.29289L39.3431 0.928932C38.9526 0.538408 38.3195 0.538408 37.9289 0.928932C37.5384 1.31946 37.5384 1.95262 37.9289 2.34315L43.5858 8L37.9289 13.6569C37.5384 14.0474 37.5384 14.6805 37.9289 15.0711C38.3195 15.4616 38.9526 15.4616 39.3431 15.0711L45.7071 8.70711ZM0 9H45V7H0V9Z" fill="#4A68F6"/>
+											</svg>										
+									</div>
+									<div>
+										<img src="./img/change/vine.png" alt="">
+										<p>Всего алкоголя: 30</p>
+									</div>
+								</div>
+								<div class="sm">
+									<p>Итого: 5 000 ₽</p>
+									<svg width="53" height="16" viewBox="0 0 53 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M52.7071 8.70711C53.0976 8.31659 53.0976 7.68342 52.7071 7.2929L46.3431 0.928936C45.9526 0.538412 45.3195 0.538412 44.9289 0.928936C44.5384 1.31946 44.5384 1.95263 44.9289 2.34315L50.5858 8L44.9289 13.6569C44.5384 14.0474 44.5384 14.6805 44.9289 15.0711C45.3195 15.4616 45.9526 15.4616 46.3431 15.0711L52.7071 8.70711ZM-8.74228e-08 9L52 9L52 7L8.74228e-08 7L-8.74228e-08 9Z" fill="#4A68F6"/>
+										</svg>
+									<p>12 000 ₽</p>									
+								</div>
+							</div>
+						</div>
+						<div class="waiting__form">
+							<img src="./img/cross-1.svg" alt="cross" class="cl close-cross">
+							<div class="waiting__meta">
+								<img class="waiting__main-img" src="./img/travel-img.jpg" alt="travel">
+								<div>
+									<p>Ресторан La Famiglia</p>
+									<p>Зал №1</p>
+								</div>
+							</div>
+							<div class="datee" style="
+								    align-items: center;
+									margin: 0;
+							">
+								<div style="margin-right: 0;">
+									<img src="./img/calendar.svg" alt="">
+									<p>23 апреля с 17:00 по 19:00</p>
+								</div>
+								<div style="margin: 0 4em 0 2em;">
+									<svg width="46" height="16" viewBox="0 0 46 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M45.7071 8.70711C46.0976 8.31658 46.0976 7.68342 45.7071 7.29289L39.3431 0.928932C38.9526 0.538408 38.3195 0.538408 37.9289 0.928932C37.5384 1.31946 37.5384 1.95262 37.9289 2.34315L43.5858 8L37.9289 13.6569C37.5384 14.0474 37.5384 14.6805 37.9289 15.0711C38.3195 15.4616 38.9526 15.4616 39.3431 15.0711L45.7071 8.70711ZM0 9H45V7H0V9Z" fill="#4A68F6"/>
+										</svg>										
+								</div>
+								<div>
+									<img src="./img/calendar.svg" alt="">
+									<p>Без изменений</p>
+								</div>
+							</div>
+							<div class="datee" style="
+								    align-items: center;
+									margin: 0;
+							">
+								<div style="margin-right: 0;">
+									<img src="./img/man.svg" alt="">
+									<p>2 гостя</p>
+								</div>
+								<div style="margin: 0 5em 0 4em;">
+									<svg width="46" height="16" viewBox="0 0 46 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M45.7071 8.70711C46.0976 8.31658 46.0976 7.68342 45.7071 7.29289L39.3431 0.928932C38.9526 0.538408 38.3195 0.538408 37.9289 0.928932C37.5384 1.31946 37.5384 1.95262 37.9289 2.34315L43.5858 8L37.9289 13.6569C37.5384 14.0474 37.5384 14.6805 37.9289 15.0711C38.3195 15.4616 38.9526 15.4616 39.3431 15.0711L45.7071 8.70711ZM0 9H45V7H0V9Z" fill="#4A68F6"/>
+										</svg>										
+								</div>
+								<div>
+									<img src="./img/man.svg" alt="">
+									<p>30 гостей</p>
+								</div>
+							</div>
+							<p class="opdop mbtn" style="margin-bottom: 1em;">посмотреть изменение в меню</p>
+							<div class="message-box">
+								<textarea placeholder="Написать сообщение..." name="" id="" cols="30" rows="10"></textarea>
+								
+							</div>
+							<div class="sm">
+								<p>Итого: 5 000 ₽</p>
+								<svg width="53" height="16" viewBox="0 0 53 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M52.7071 8.70711C53.0976 8.31659 53.0976 7.68342 52.7071 7.2929L46.3431 0.928936C45.9526 0.538412 45.3195 0.538412 44.9289 0.928936C44.5384 1.31946 44.5384 1.95263 44.9289 2.34315L50.5858 8L44.9289 13.6569C44.5384 14.0474 44.5384 14.6805 44.9289 15.0711C45.3195 15.4616 45.9526 15.4616 46.3431 15.0711L52.7071 8.70711ZM-8.74228e-08 9L52 9L52 7L8.74228e-08 7L-8.74228e-08 9Z" fill="#4A68F6"/>
+									</svg>
+								<p>12 000 ₽</p>									
+							</div>
+							<div class="write-menu">
+								<p class="waiting__accept btn">Принять</p>
+								<p class="to-date sum" style="cursor: pointer;">Отклонить</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="control-card wait">
+						<div class="control-card__wrap">
+							<div class="control-card__img">
+								<img src="img/control-panel-mg.jpg" alt="img">
+							</div>
+							<div class="control-card__title">
+								Ресторан La Famiglia
+							</div>
+						</div>
+						<p class="control-card__text">
+							Запрос на внесение изменений.
+						</p>
+						<div class="control-card__date">
+							14.01.2022
+						</div>
+						<div class="change-input">
+							<p class="thin">Изменения одобрены</p>
+							<p class="mbtn">Оплатить</p>
+						</div>
+					</div>
+                    <a href="#" class="control-link">
+                        Все
+                    </a>
+                </div>
+
+				<div class="account-right">
+					<div class="tabs">
+	
+						<ul class="tabs__caption tabs__caption_two">
+							<div class="reviews-card__star">
+								<i class="fas fa-star"></i>
+							</div>
+							<li style="margin-right: 0.5em; margin-bottom: auto; padding: 0;">Ваши отзывы </li>
+							<p>245 отзывов</p>
+						</ul>
+	
+						<div class="tabs__content  active">
+							<div class="account-reviews">
+								<ul class="account-reviews__list">
+									<li class="account-reviews__item">
+										<div class="reviews-card">
+											<p class="reviews-card__text">
+												Понравилось, рекомендую! Если при следующей поездке будет возможность - буду рад
+												остановиться
+												тут ещё раз
+											</p>
+											<div class="reviews-card__block">
+												<div class="reviews-card__date">
+													май 2021
+												</div>
+												<div class="reviews-card__star">
+													<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>4.7
+												</div>
+											</div>
+											<div class="reviews-card__wrap">
+												<div class="reviews-card__img">
+													<img src="img/account/img.jpg" alt="img">
+												</div>
+												<div class="reviews-card__word">
+													<div class="reviews-card__title">
+														Dmitrii, Nizhny Novgorod Oblast, Россия
+													</div>
+													<div class="reviews-card__info">
+														На Airbnb с 2017
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li class="account-reviews__item">
+										<div class="reviews-card">
+											<p class="reviews-card__text">
+												Понравилось, рекомендую! Если при следующей поездке будет возможность - буду рад
+												остановиться
+												тут ещё раз
+											</p>
+											<div class="reviews-card__block">
+												<div class="reviews-card__date">
+													май 2021
+												</div>
+												<div class="reviews-card__star">
+													<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>4.7
+												</div>
+											</div>
+											<div class="reviews-card__wrap">
+												<div class="reviews-card__img">
+													<img src="img/account/img.jpg" alt="img">
+												</div>
+												<div class="reviews-card__word">
+													<div class="reviews-card__title">
+														Dmitrii, Nizhny Novgorod Oblast, Россия
+													</div>
+													<div class="reviews-card__info">
+														На Airbnb с 2017
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li class="account-reviews__item">
+										<div class="reviews-card">
+											<p class="reviews-card__text">
+												Понравилось, рекомендую! Если при следующей поездке будет возможность - буду рад
+												остановиться
+												тут ещё раз
+											</p>
+											<div class="reviews-card__block">
+												<div class="reviews-card__date">
+													май 2021
+												</div>
+												<div class="reviews-card__star">
+													<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>4.7
+												</div>
+											</div>
+											<div class="reviews-card__wrap">
+												<div class="reviews-card__img">
+													<img src="img/account/img.jpg" alt="img">
+												</div>
+												<div class="reviews-card__word">
+													<div class="reviews-card__title">
+														Dmitrii, Nizhny Novgorod Oblast, Россия
+													</div>
+													<div class="reviews-card__info">
+														На Airbnb с 2017
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li class="account-reviews__item">
+										<div class="reviews-card">
+											<p class="reviews-card__text">
+												Понравилось, рекомендую! Если при следующей поездке будет возможность - буду рад
+												остановиться
+												тут ещё раз
+											</p>
+											<div class="reviews-card__block">
+												<div class="reviews-card__date">
+													май 2021
+												</div>
+												<div class="reviews-card__star">
+													<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>4.7
+												</div>
+											</div>
+											<div class="reviews-card__wrap">
+												<div class="reviews-card__img">
+													<img src="img/account/img.jpg" alt="img">
+												</div>
+												<div class="reviews-card__word">
+													<div class="reviews-card__title">
+														Dmitrii, Nizhny Novgorod Oblast, Россия
+													</div>
+													<div class="reviews-card__info">
+														На Airbnb с 2017
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li class="account-reviews__item">
+										<div class="reviews-card">
+											<p class="reviews-card__text">
+												Понравилось, рекомендую! Если при следующей поездке будет возможность - буду рад
+												остановиться
+												тут ещё раз
+											</p>
+											<div class="reviews-card__block">
+												<div class="reviews-card__date">
+													май 2021
+												</div>
+												<div class="reviews-card__star">
+													<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>4.7
+												</div>
+											</div>
+											<div class="reviews-card__wrap">
+												<div class="reviews-card__img">
+													<img src="img/account/img.jpg" alt="img">
+												</div>
+												<div class="reviews-card__word">
+													<div class="reviews-card__title">
+														Dmitrii, Nizhny Novgorod Oblast, Россия
+													</div>
+													<div class="reviews-card__info">
+														На Airbnb с 2017
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+	
+						<div class="tabs__content">
+						
+						</div>
+	
+	
+					</div>
+					<!-- .tabs -->
+				</div>
+            </div>
+		</div>
+	</section>
+
+
+	<footer class="footer" id="footer">
+		<div class="container">
+			<div class="footer-wrap jcsb">
+				<div class="footer-block">
+					<div class="footer-block__title">
+						О нас
+					</div>
+					<ul class="footer-block__list">
+						<li class="footer-block__item">
+							<a href="#">
+								Как устроена платформа Airbnb
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Пресс-центр
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Для инвесторов
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Airbnb Plus
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Airbnb Luxe
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								HotelTonight
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Airbnb для бизнеса
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								С хозяевами возможно всё
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Работа
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Письмо от основателей Airbnb
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer-block">
+					<div class="footer-block__title">
+						Сообщество
+					</div>
+					<ul class="footer-block__list">
+						<li class="footer-block__item">
+							<a href="#">
+								Личностное многообразие и принятие
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Доступность
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Жилье на время кризиса
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Гости-рефералы
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Airbnb.org
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer-block">
+					<div class="footer-block__title">
+						Принимайте гостей
+					</div>
+					<ul class="footer-block__list">
+						<li class="footer-block__item">
+							<a href="#">
+								Сдайте жилье
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Организуйте онлайн-Впечатление
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Организуйте Впечатление
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Ответственный прием гостей
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Центр ресурсов
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Центр общения
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer-block">
+					<div class="footer-block__title">
+						Поддержка
+					</div>
+					<ul class="footer-block__list">
+						<li class="footer-block__item">
+							<a href="#">
+								Действия Airbnb во время пандемии
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Центр помощи
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Варианты отмены
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Поддержка соседей
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Доверие и безопасность
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer-navigation">
+			<div class="container">
+				<div class="footer-navigation__wrap jcsb">
+					<div class="footer-navigation__menu jcsb">
+						<p class="footer-navigation__text">
+							© 2021 tafest, Inc.
+						</p>
+						<ul class="footer-navigation__list jcsb">
+							<li>
+								<a href="#">
+									Конфиденциальность
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Условия
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Карта сайта
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Реквизиты компании
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer-navigation__links jcsb">
+						<div class="footer-navigation__language">
+							<i class="fas fa-globe"></i> Русский (RU)
+						</div>
+						<ul class="footer-navigation__social jcsb">
+							<li>
+								<a href="#">
+									<i class="fab fa-facebook-f"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fab fa-vk"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fab fa-twitter"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fab fa-instagram"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</footer>
+
+
+	<div style="display: none;">
+		<div class="modal-form modal-form-second-type" id="modalbox">
+			<div class="modal-form__name">
+				Вход
+			</div>
+			<div class="modal-form__title">
+				Добро пожаловать
+			</div>
+			<form action="#" class="modal-form__wrap">
+				<input type="text" class="modal-form__input modal-form__input_border"
+					placeholder="Телефон или электронная почта">
+				<input type="password" class="modal-form__input" placeholder="Пароль">
+				<p class="modal-form__text">
+					Мы позвоним вам или отправим SMS, чтобы подтвердить номер телефона. Применяются стандартные условия
+					вашего тарифа на прием сообщений и передачу данных.
+				</p>
+				<button type="submit" class="modal-form__btn btn">
+					Продолжить
+				</button>
+			</form>
+			<div class="modal-form__word">
+				или
+			</div>
+			<ul class="modal-form__link jcsb">
+				<li class="modal-form__item">
+					<a href="#">
+						<img src="img/mail.svg" alt="icon">
+					</a>
+				</li>
+				<li class="modal-form__item">
+					<a href="#">
+						<img src="img/facebook.svg" alt="icon">
+					</a>
+				</li>
+				<li class="modal-form__item">
+					<a href="#">
+						<img src="img/google.svg" alt="icon">
+					</a>
+				</li>
+				<li class="modal-form__item">
+					<a href="#">
+						<img src="img/aple.svg" alt="icon">
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<ul class="memu">
+		<li class="memu__item">
+			<a href="control-panel.html">
+				Главная
+			</a>
+		</li>
+		<li class="memu__item">
+			<a href="chat.html">
+				Сообщения
+			</a>
+		</li>
+		<li class="memu__item">
+			<a href="travel.html">
+				Бронирования
+			</a>
+		</li>
+		<li class="memu__item">
+			<a href="calendar.html">
+				Календарь
+			</a>
+		</li>
+		<li class="memu__item">
+			<a href="advertisement.html">
+				Объявления
+			</a>
+		</li>
+	</ul>
+
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/lightbox.js"></script>
+	<script src="js/jquery.arcticmodal-0.3.min.js"></script>
+	<script src="js/main.js"></script>
+
+	<script>
+		lightbox.option({
+			'resizeDuration': 200,
+			'wrapAround': true
+		})
+	</script>
+</body>
+
+</html>

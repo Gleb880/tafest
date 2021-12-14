@@ -1,0 +1,1167 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tafest</title>
+	<!-- Roboto Google Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400&display=swap"
+		rel="stylesheet">
+	<!-- Fontawesome CSS -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+		integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	<!-- Jquery CSS -->
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<!-- Arcticmodal CSS -->
+	<link rel="stylesheet" href="css/jquery.arcticmodal-0.3.css">
+	<!-- Main CSS -->
+	<link rel="stylesheet" href="css/main.css">
+	<!-- Media CSS -->
+	<link rel="stylesheet" href="css/media.css">
+<!-- Begin Verbox {literal} -->
+	<!-- Здесь был Глеб Крылов -->
+	<script type='text/javascript'>
+		(function(d, w, m) {
+			window.supportAPIMethod = m;
+			var s = d.createElement('script');
+			s.type ='text/javascript'; s.id = 'supportScript'; s.charset = 'utf-8';
+			s.async = true;
+			var id = '2d8fadad4a33317712d04e55297730a5';
+			s.src = 'https://admin.verbox.ru/support/support.js?h='+id;
+			var sc = d.getElementsByTagName('script')[0];
+			w[m] = w[m] || function() { (w[m].q = w[m].q || []).push(arguments); };
+			if (sc) sc.parentNode.insertBefore(s, sc); 
+			else d.documentElement.firstChild.appendChild(s);
+		})(document, window, 'Verbox');
+	</script>
+<!-- {/literal} End Verbox -->
+<!-- // Здесь был Глеб Крылов -->
+
+	<link href="dist/css/datepicker.min.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="./src/styles/css/media.css">
+</head>
+
+<body>
+
+	<div class="popup-set i">
+		<div class="container">
+			<div class="active">
+				<h2 class="title">Регистрация</h2>
+				<div class="start__wrapper active">
+					<input type="email" placeholder="Телефон или электронная почта..." class="data mail">
+					<input type="text" placeholder="Код из сообщения..." class="data code">
+					<small style="margin-bottom: 1em" class="code">Не пришло sms? <span style="color: blue; cursor: pointer;">Отправить повторно.</span></small>
+				</div>
+				<input type="button" value="Продолжить" class="data next">
+				<div class="modal-form__word">
+					или
+				</div>
+				<ul class="modal-form__link jcsb">
+					<li class="modal-form__item">
+						<a href="#">
+							<img src="img/mail.svg" alt="icon">
+						</a>
+					</li>
+					<li class="modal-form__item">
+						<a href="#">
+							<img src="img/facebook.svg" alt="icon">
+						</a>
+					</li>
+					<li class="modal-form__item">
+						<a href="#">
+							<img src="img/google.svg" alt="icon">
+						</a>
+					</li>
+					<li class="modal-form__item">
+						<a href="#">
+							<img src="img/aple.svg" alt="icon">
+						</a>
+					</li>
+				</ul>	
+			</div>
+		</div>
+	</div>
+
+	<div class="reg__wrapper">
+		<div class="reg__form active">
+			<h2 class="title">Регистрация</h2>
+			<div class="start__wrapper active">
+				<input type="email" placeholder="Телефон или электронная почта..." class="data mail">
+				<input type="text" placeholder="Код из сообщения..." class="data code">
+				<small style="margin-bottom: 1em" class="code">Не пришло sms? <span style="color: blue; cursor: pointer;">Отправить повторно.</span></small>
+			</div>
+			<p class="next" style="margin-bottom: 1em;">Продолжить</p>
+			<div class="modal-form__word">
+				или
+			</div>
+			<ul class="modal-form__link jcsb">
+				<li class="modal-form__item">
+					<a href="#">
+						<img src="img/mail.svg" alt="icon">
+					</a>
+				</li>
+				<li class="modal-form__item">
+					<a href="#">
+						<img src="img/facebook.svg" alt="icon">
+					</a>
+				</li>
+				<li class="modal-form__item">
+					<a href="#">
+						<img src="img/google.svg" alt="icon">
+					</a>
+				</li>
+				<li class="modal-form__item">
+					<a href="#">
+						<img src="img/aple.svg" alt="icon">
+					</a>
+				</li>
+			</ul>	
+		</div>
+		<div class="reg__form" style="width: fit-content;">
+			<img src="./img/cross-1.svg" alt="" class="close">
+			<div>
+				<img style="margin-right: 2em;" src="./img/miniman.png" alt="">
+				<p class="tt">Иван Иванович</p>
+			</div>
+			<textarea placeholder="Написать сообщение..."></textarea>
+			<div style="justify-content: flex-end;">
+				<div class="fileopen">
+					<p style="margin-right: 2em;">Прикрепить файл</p>
+					<input type="file">
+				</div>
+				<p class="next mbtn">Отправить</p>
+			</div>
+		</div>
+		<div class="reg__form end">
+			<img src="./img/cross-1.svg" alt="" class="close">
+			<img src="./img/manball.png" alt="">
+			<p class="tt">Вы отправили сообщение<br>Ивану Ивановичу </p>
+			<p class="thin">Перейти в сообщения</p>
+		</div>
+	</div>
+
+	<div class="img popup">
+		<div class="container">
+			<img src="img/mini-apartament/gallery-img2.jpg" alt="photo">
+		</div>
+	</div>
+
+	<header class="search-list">
+		<div class="container">
+			<div class="search-list__wrap jcsb">
+				<a href="http://tafest.ru/" class="search-list__logo">
+					<img src="img/logo.svg" alt="logo">
+				</a>
+				<div class="navigation-menu navigation-menu_search jcsb">
+					<button type="button" class="navigation-menu__btn btn">
+						Владельцам заведений
+					</button>
+					<div class="lk jcsb">
+						<div class="lk__img">
+							<img src="img/search-list/avka.png" alt="avka">
+						</div>
+						<div class="lk__content">
+							<div class="lk__name">
+								Иван Иванович
+							</div>
+							<div class="lk__position">
+								Менеджер
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="mini-apartament" id="mini-apartament">
+		<div class="container">
+			<div class="mini-apartament__wrap jcsb">
+				<div class="mini-apartament__block">
+					<h2 class="mini-apartament__title">
+						Мини-апартаменты
+					</h2>
+					<div class="mini-apartament__info">
+						<div class="info-card__review">
+							<i class="fas fa-star"></i>4,84 <span> (55 отзывов)</span>
+						</div>
+						<p class="mini-apartament__adress">
+							Moskva, Москва, Россия
+						</p>
+
+					</div>
+				</div>
+
+
+				<div class="ya-buttons">
+					<button type="button" class="btn info-card__heart info-card__heart_apartament">
+						<i class="far fa-heart"></i><i class="fas fa-heart"></i>
+					</button>
+					<!-- Доработки от Глеба Крылова -->
+					<div class="ya-block">
+						<div class="ya-share2" data-curtain data-shape="round" data-services="vkontakte,facebook,odnoklassniki,telegram,viber,whatsapp"></div>	
+					</div>
+					<!-- // Доработки от Глеба Крылова -->
+				</div>
+			</div>
+
+			<div class="slider slider-for">
+				<div>
+					<img class="show-popup" src="img/mini-apartament/gallery-img2.jpg" alt="photo">
+				</div>
+				<div>
+					<img src="img/mini-apartament/gallery-img2.jpg" alt="photo">
+				</div>
+				<div>
+					<img src="img/mini-apartament/gallery-img2.jpg" alt="photo">
+				</div>
+				<div>
+					<img src="img/mini-apartament/gallery-img2.jpg" alt="photo">
+				</div>
+				<div>
+					<img src="img/mini-apartament/gallery-img2.jpg" alt="photo">
+				</div>
+				<div>
+					<img src="img/mini-apartament/gallery-img2.jpg" alt="photo">
+				</div>
+			</div>
+			<div class="slider slider-nav">
+				<div>
+					<img src="img/mini-apartament/gallery-img2.jpg" alt="photo">
+				</div>
+				<div>
+					<img src="img/mini-apartament/gallery-img2.jpg" alt="photo">
+				</div>
+				<div>
+					<img src="img/mini-apartament/gallery-img2.jpg" alt="photo">
+				</div>
+				<div>
+					<img src="img/mini-apartament/gallery-img2.jpg" alt="photo">
+				</div>
+				<div>
+					<img src="img/mini-apartament/gallery-img2.jpg" alt="photo">
+				</div>
+				<div>
+					<img src="img/mini-apartament/gallery-img2.jpg" alt="photo">
+				</div>
+			</div>
+
+
+
+	
+		</div>
+	</section>
+
+	<section class="adventage" id="adventage">
+		<div class="container">
+			<div class="adventage-wrap">
+				<div class="adventage-card">
+					<div class="adventage-card__icon">
+						<img src="img/mini-apartament/advantage-img.png" alt="icon">
+					</div>
+					<h3 class="adventage-card__title">
+						Заведение целиком
+					</h3>
+					<p class="adventage-card__text">
+						Заведение полностью в вашем распоряжении.
+					</p>
+				</div>
+				<div class="adventage-card">
+					<div class="adventage-card__icon part">
+						<img src="img/mini-apartament/half-home.png" alt="icon">
+					</div>
+					<h3 class="adventage-card__title">
+						Часть заведение
+					</h3>
+					<p class="adventage-card__text">
+						У вас будет часть заведения указанная в описании
+					</p>
+				</div>
+				<div class="adventage-card">
+					<div class="adventage-card__icon">
+						<svg width="37" height="24" viewBox="0 0 37 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M37 0V4H33.3737L36.0798 23.7879H32.1568L30.3423 11H6.70952L4.85746 23.7879H0.999785L3.70594 4H0V0H37ZM29.349 4L29.7747 7H7.28884L7.72333 4L29.349 4Z" fill="#4A68F6"/>
+						</svg>							
+					</div>
+					<h3 class="adventage-card__title">
+						Выделенный стол
+					</h3>
+					<p class="adventage-card__text">
+						У вас будет выделенный стол указанный в описании
+					</p>
+				</div>
+				<div class="adventage-card">
+					<div class="adventage-card__icon">
+						<img src="img/mini-apartament/pr.svg" alt="icon">
+					</div>
+					<h3 class="adventage-card__title">
+						Пробковый сбор
+					</h3>
+					<p class="adventage-card__text">
+						Вы заплатите фикированную сумму за каждую еденицу алкоголя
+					</p>
+				</div>
+				<div class="adventage-card">
+					<div class="adventage-card__icon">
+						<img src="img/mini-apartament/alin.svg" alt="icon">
+					</div>
+					<h3 class="adventage-card__title">
+						Алкоголь в заведении
+					</h3>
+					<p class="adventage-card__text">
+						Вы заказываете алкоголь в самом заведении
+					</p>
+				</div>
+				<div class="adventage-card">
+					<div class="adventage-card__icon">
+						<img src="img/mini-apartament/wine.svg" alt="icon">
+					</div>
+					<h3 class="adventage-card__title">
+						Алкоголь с собой
+					</h3>
+					<p class="adventage-card__text">
+						Вы можете принести алкоголь с собой
+					</p>
+				</div>
+				<div class="adventage-card">
+					<div class="adventage-card__icon">
+						<img src="img/mini-apartament/max.svg" alt="icon">
+					</div>
+					<h3 class="adventage-card__title">
+						Лимит гостей
+					</h3>
+					<p class="adventage-card__text">
+						Максимальное число посадочных мест
+					</p>
+				</div>
+				<div class="adventage-card">
+					<div class="adventage-card__icon">
+						<img src="img/mini-apartament/clock.svg" alt="icon">
+					</div>
+					<h3 class="adventage-card__title">
+						Открыто до 01:00
+					</h3>
+					<p class="adventage-card__text">
+						Заведение работает до определённого времени
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="apartament-facilities" id="apartament-facilities">
+		<div class="container">
+			<div class="apartament-facilities__wrap">
+				<div class="table-info" style="position: relative;">
+					<div class="table-info_wraps">
+						<div class="table-info__price">
+							61 000₽
+						</div>
+						<div class="info-card__review">
+							<i class="fas fa-star"></i>4,84 <span> (55 отзывов)</span>
+						</div>
+					</div>
+
+					<div style="display: flex;
+						border: 1px solid #DFDFDF;
+						border-radius: 8px;
+						margin-bottom: 3em;
+					">
+						<div style="width: 33.333%;
+						padding: 12px;
+
+						" class="data">
+							<p style="
+							font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;
+/* identical to box height, or 120% */
+
+text-transform: uppercase;
+
+color: #222222;
+							">ДАТА</p>
+							<input style="width: auto; border: none;
+							font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 18px;
+/* identical to box height, or 138% */
+
+
+color: #222222;
+							" type='text' class='datepicker-here' />
+						</div>
+						<div style="width: 33.333%;
+						padding: 12px;
+						border-left: 1px solid #DFDFDF;
+						border-right: 1px solid #DFDFDF;
+						" class="time">
+					<p style="
+					font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;
+/* identical to box height, or 120% */
+
+text-transform: uppercase;
+
+color: #222222;
+					">Время</p>	
+
+					<input type="time" name="" id="">
+						
+
+					</div>
+						<div style="
+						cursor: pointer; 
+						width: 33.333%;
+						padding: 12px;
+						" class="guest"
+						>
+							<p style="
+							font-family: Roboto;
+							font-style: normal;
+							font-weight: normal;
+							font-size: 10px;
+							line-height: 12px;
+							/* identical to box height, or 120% */
+							
+							text-transform: uppercase;
+							
+							color: #222222;
+							">Гостей</p>	
+							<p>0</p>
+						</div>
+					</div>
+
+					<div class="hide">
+						<p class="tt" style="position: absolute; top: 12px; left: 12px;">Гостей</p>
+						<img style="position: absolute; top: 12px; right: 12px; cursor: pointer;" src="./img/cross-1.svg" alt="">
+						<input style="height: 2px;" type="range" name="" id="">
+						<input type="text">
+					</div>
+					
+					<div>
+						<div style="
+							display: flex;
+							justify-content: space-between;
+							align-items: center;
+							margin-bottom: 2em;
+						">
+							<p class="tt">Итого</p>
+							<p class="tt">113 869₽</p>
+						</div>
+						<p style="margin-bottom: 1em;" class="thin">Цена может измениться после выбора дополнительных опций</p>
+					</div>
+					<div class="table-button jcsb">
+						<button class="receiving-form__btn table-button__write btn opi">
+							Написать организатору
+						</button>
+						<a href="confirmation.html" class="table-button__book btn">
+							Забронировать
+						</a>
+					</div>
+				</div>
+				<div class="facilities-block">
+					<h2 class="facilities-block__title">
+						Преимущества
+					</h2>
+					<ul class="facilities-list">
+						<li class="facilities-list__item">
+							<div class="facilities-list__icon">
+								<img src="img/mini-apartament/parkovka.png" alt="icon">
+							</div>
+							<p class="facilities-list__text">
+								Бесплатная парковка<br> на территории
+							</p>
+						</li>
+						<li class="facilities-list__item">
+							<div class="facilities-list__icon">
+								<img src="img/mini-apartament/datchik1.png" alt="icon">
+							</div>
+							<p class="facilities-list__text" style="    text-decoration: line-through;">
+								Недоступно: Датчик дыма
+							</p>
+						</li>
+						<li class="facilities-list__item">
+							<div class="facilities-list__icon">
+								<img src="img/mini-apartament/datchik2.png" alt="icon">
+							</div>
+							<p class="facilities-list__text" style="    text-decoration: line-through;">
+								Недоступно: Датчик угарного газа
+							</p>
+						</li>
+
+						<li class="show facilities-list__item">
+							<div class="facilities-list__icon">
+								<img src="img/mini-apartament/datchik1.png" alt="icon">
+							</div>
+							<p class="facilities-list__text" style="    text-decoration: line-through;">
+								Недоступно: Датчик дыма
+							</p>
+						</li>
+						<li class="show facilities-list__item">
+							<div class="facilities-list__icon">
+								<img src="img/mini-apartament/datchik2.png" alt="icon">
+							</div>
+							<p class="facilities-list__text" style="    text-decoration: line-through;">
+								Недоступно: Датчик угарного газа
+							</p>
+						</li>
+					</ul>
+					<button type="button" class="facilities-block__btn btn">
+						Показать все преимущества: 2
+					</button>
+				</div>
+			</div>
+			<div class="apartament-facilities__text">
+				<p>
+					Есть много вариантов Lorem Ipsum, но большинство из них имеет не всегда приемлемые модификации, например,
+					юмористические вставки или слова, которые даже отдалённо не напоминают латынь. Если вам нужен Lorem Ipsum
+					для серьёзного проекта, вы наверняка не хотите какой-нибудь шутки, скрытой в середине абзаца. Также все
+					другие известные генераторы Lorem Ipsum используют один и тот же текст, который они просто повторяют,
+					пока не достигнут нужный объём. Это делает предлагаемый здесь генератор единственным настоящим Lorem
+					Ipsum генератором. Он использует словарь из более чем 200 латинских слов, а также набор моделей
+					предложений. В результате сгенерированный Lorem Ipsum выглядит правдоподобно, не имеет повторяющихся
+					абзацей или "невозможных" слов.
+				</p>
+				<p>
+					Есть много вариантов Lorem Ipsum, но большинство из них имеет не всегда приемлемые модификации, например,
+					юмористические вставки или слова, которые даже отдалённо не напоминают латынь. Если вам нужен Lorem Ipsum
+					для серьёзного проекта, вы наверняка не хотите какой-нибудь шутки, скрытой в середине абзаца. Также все
+					другие известные генераторы Lorem Ipsum используют один и тот же текст, который они просто повторяют,
+					пока не достигнут нужный объём. Это делает предлагаемый здесь генератор единственным настоящим Lorem
+					Ipsum генератором. Он использует словарь из более чем 200 латинских слов, а также набор моделей
+					предложений. В результате сгенерированный Lorem Ipsum выглядит правдоподобно, не имеет повторяющихся
+					абзацей или "невозможных" слов.
+				</p>
+				<p>
+					Есть много вариантов Lorem Ipsum, но большинство из них имеет не всегда приемлемые модификации, например,
+					юмористические вставки или слова, которые даже отдалённо не напоминают латынь. Если вам нужен Lorem Ipsum
+					для серьёзного проекта, вы наверняка не хотите.
+				</p>
+				<p class="apartament-facilities__none">
+					Есть много вариантов Lorem Ipsum, но большинство из них имеет не всегда приемлемые модификации, например,
+					юмористические вставки или слова, которые даже отдалённо не напоминают латынь. Если вам нужен Lorem Ipsum
+					для серьёзного проекта, вы наверняка не хотите какой-нибудь шутки, скрытой в середине абзаца. Также все
+					другие известные генераторы Lorem Ipsum используют один и тот же текст, который они просто повторяют,
+					пока не достигнут нужный объём. Это делает предлагаемый здесь генератор единственным настоящим Lorem
+					Ipsum генератором. Он использует словарь из более чем 200 латинских слов, а также набор моделей
+					предложений. В результате сгенерированный Lorem Ipsum выглядит правдоподобно, не имеет повторяющихся
+					абзацей или "невозможных" слов.
+				</p>
+				<a href="#" class="link-dop link-dop_open">
+					Показать еще <i class="fas fa-chevron-right"></i>
+				</a>
+				<a href="#" class="link-dop link-dop_close">
+					Скрыть <i class="fas fa-chevron-right"></i>
+				</a>
+			</div>
+		</div>
+	</section>
+	<section class="location" id="location">
+		<div class="container">
+			<h2 class="location__title">
+				Местоположение
+			</h2>
+			<p class="location__adres">
+				Moskva, Москва, Россия
+			</p>
+			<div class="location__map">
+				<img src="img/mini-apartament/map.jpg" alt="map">
+			</div>
+		</div>
+	</section>
+
+	<section class="other" id="other">
+		<div class="container">
+			<h2 class="other__title">
+				Другие варианты кафе
+			</h2>
+
+			<div class="other-slider-wrap">
+				<div class="slider-number">
+					<span id="cp">
+						1
+					</span>
+					<span class="numb-2">/ 10</span>
+				</div>
+				<div class="other-slider">
+					<div class="other-slider__slid">
+						<a href="mini-apartament.html" class="other-card">
+							<div class="other-card__img">
+								<img src="img/search-list/dop-cvartir.jpg" alt="photo">
+							</div>
+							<div class="other-card__content">
+								<div class="info-card__review">
+									<i class="fas fa-star"></i>4,84 <span> (55 отзывов)</span>
+								</div>
+								<button type="button" class="btn info-card__heart">
+									<i class="far fa-heart"></i><i class="fas fa-heart"></i>
+								</button>
+								<h3 class="other-card__title">
+									Квартира целиком
+								</h3>
+								<p class="other-card__text">
+									Мини-апартаменты "Кантата"
+								</p>
+								<div class="info-card__price">
+									<span class="price-old">81 649₽</span>66 851₽ <span>/ месяц</span>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="other-slider__slid">
+						<a href="mini-apartament.html" class="other-card">
+							<div class="other-card__img">
+								<img src="img/search-list/dop-cvartir.jpg" alt="photo">
+							</div>
+							<div class="other-card__content">
+								<div class="info-card__review">
+									<i class="fas fa-star"></i>4,84 <span> (55 отзывов)</span>
+								</div>
+								<button type="button" class="btn info-card__heart">
+									<i class="far fa-heart"></i><i class="fas fa-heart"></i>
+								</button>
+								<h3 class="other-card__title">
+									Квартира целиком
+								</h3>
+								<p class="other-card__text">
+									Мини-апартаменты "Кантата"
+								</p>
+								<div class="info-card__price">
+									<span class="price-old">81 649₽</span>66 851₽ <span>/ месяц</span>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="other-slider__slid">
+							<a href="mini-apartament.html" class="other-card">
+							<div class="other-card__img">
+								<img src="img/search-list/dop-cvartir.jpg" alt="photo">
+							</div>
+							<div class="other-card__content">
+								<div class="info-card__review">
+									<i class="fas fa-star"></i>4,84 <span> (55 отзывов)</span>
+								</div>
+								<button type="button" class="btn info-card__heart">
+									<i class="far fa-heart"></i><i class="fas fa-heart"></i>
+								</button>
+								<h3 class="other-card__title">
+									Квартира целиком
+								</h3>
+								<p class="other-card__text">
+									Мини-апартаменты "Кантата"
+								</p>
+								<div class="info-card__price">
+									<span class="price-old">81 649₽</span>66 851₽ <span>/ месяц</span>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="other-slider__slid">
+							<a href="mini-apartament.html" class="other-card">
+							<div class="other-card__img">
+								<img src="img/search-list/dop-cvartir.jpg" alt="photo">
+							</div>
+							<div class="other-card__content">
+								<div class="info-card__review">
+									<i class="fas fa-star"></i>4,84 <span> (55 отзывов)</span>
+								</div>
+								<button type="button" class="btn info-card__heart">
+									<i class="far fa-heart"></i><i class="fas fa-heart"></i>
+								</button>
+								<h3 class="other-card__title">
+									Квартира целиком
+								</h3>
+								<p class="other-card__text">
+									Мини-апартаменты "Кантата"
+								</p>
+								<div class="info-card__price">
+									<span class="price-old">81 649₽</span>66 851₽ <span>/ месяц</span>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="other-slider__slid">
+						<a href="mini-apartament.html" class="other-card">
+							<div class="other-card__img">
+								<img src="img/search-list/dop-cvartir.jpg" alt="photo">
+							</div>
+							<div class="other-card__content">
+								<div class="info-card__review">
+									<i class="fas fa-star"></i>4,84 <span> (55 отзывов)</span>
+								</div>
+								<button type="button" class="btn info-card__heart">
+									<i class="far fa-heart"></i><i class="fas fa-heart"></i>
+								</button>
+								<h3 class="other-card__title">
+									Квартира целиком
+								</h3>
+								<p class="other-card__text">
+									Мини-апартаменты "Кантата"
+								</p>
+								<div class="info-card__price">
+									<span class="price-old">81 649₽</span>66 851₽ <span>/ месяц</span>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="other-slider__slid">
+						<a href="mini-apartament.html" class="other-card">
+							<div class="other-card__img">
+								<img src="img/search-list/dop-cvartir.jpg" alt="photo">
+							</div>
+							<div class="other-card__content">
+								<div class="info-card__review">
+									<i class="fas fa-star"></i>4,84 <span> (55 отзывов)</span>
+								</div>
+								<button type="button" class="btn info-card__heart">
+									<i class="far fa-heart"></i><i class="fas fa-heart"></i>
+								</button>
+								<h3 class="other-card__title">
+									Квартира целиком
+								</h3>
+								<p class="other-card__text">
+									Мини-апартаменты "Кантата"
+								</p>
+								<div class="info-card__price">
+									<span class="price-old">81 649₽</span>66 851₽ <span>/ месяц</span>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="other-slider__slid">
+							<a href="mini-apartament.html" class="other-card">
+							<div class="other-card__img">
+								<img src="img/search-list/dop-cvartir.jpg" alt="photo">
+							</div>
+							<div class="other-card__content">
+								<div class="info-card__review">
+									<i class="fas fa-star"></i>4,84 <span> (55 отзывов)</span>
+								</div>
+								<button type="button" class="btn info-card__heart">
+									<i class="far fa-heart"></i><i class="fas fa-heart"></i>
+								</button>
+								<h3 class="other-card__title">
+									Квартира целиком
+								</h3>
+								<p class="other-card__text">
+									Мини-апартаменты "Кантата"
+								</p>
+								<div class="info-card__price">
+									<span class="price-old">81 649₽</span>66 851₽ <span>/ месяц</span>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="other-slider__slid">
+							<a href="mini-apartament.html" class="other-card">
+							<div class="other-card__img">
+								<img src="img/search-list/dop-cvartir.jpg" alt="photo">
+							</div>
+							<div class="other-card__content">
+								<div class="info-card__review">
+									<i class="fas fa-star"></i>4,84 <span> (55 отзывов)</span>
+								</div>
+								<button type="button" class="btn info-card__heart">
+									<i class="far fa-heart"></i><i class="fas fa-heart"></i>
+								</button>
+								<h3 class="other-card__title">
+									Квартира целиком
+								</h3>
+								<p class="other-card__text">
+									Мини-апартаменты "Кантата"
+								</p>
+								<div class="info-card__price">
+									<span class="price-old">81 649₽</span>66 851₽ <span>/ месяц</span>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="other-slider__slid">
+							<a href="mini-apartament.html" class="other-card">
+							<div class="other-card__img">
+								<img src="img/search-list/dop-cvartir.jpg" alt="photo">
+							</div>
+							<div class="other-card__content">
+								<div class="info-card__review">
+									<i class="fas fa-star"></i>4,84 <span> (55 отзывов)</span>
+								</div>
+								<button type="button" class="btn info-card__heart">
+									<i class="far fa-heart"></i><i class="fas fa-heart"></i>
+								</button>
+								<h3 class="other-card__title">
+									Квартира целиком
+								</h3>
+								<p class="other-card__text">
+									Мини-апартаменты "Кантата"
+								</p>
+								<div class="info-card__price">
+									<span class="price-old">81 649₽</span>66 851₽ <span>/ месяц</span>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="other-slider__slid">
+							<a href="mini-apartament.html" class="other-card">
+							<div class="other-card__img">
+								<img src="img/search-list/dop-cvartir.jpg" alt="photo">
+							</div>
+							<div class="other-card__content">
+								<div class="info-card__review">
+									<i class="fas fa-star"></i>4,84 <span> (55 отзывов)</span>
+								</div>
+								<button type="button" class="btn info-card__heart">
+									<i class="far fa-heart"></i><i class="fas fa-heart"></i>
+								</button>
+								<h3 class="other-card__title">
+									Квартира целиком
+								</h3>
+								<p class="other-card__text">
+									Мини-апартаменты "Кантата"
+								</p>
+								<div class="info-card__price">
+									<span class="price-old">81 649₽</span>66 851₽ <span>/ месяц</span>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+
+
+
+
+	<footer class="footer" id="footer">
+		<div class="container">
+			<div class="footer-wrap jcsb">
+				<div class="footer-block">
+					<div class="footer-block__title">
+						О нас
+					</div>
+					<ul class="footer-block__list">
+						<li class="footer-block__item">
+							<a href="#">
+								Как устроена платформа Airbnb
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Пресс-центр
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Для инвесторов
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Airbnb Plus
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Airbnb Luxe
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								HotelTonight
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Airbnb для бизнеса
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								С хозяевами возможно всё
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Работа
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Письмо от основателей Airbnb
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer-block">
+					<div class="footer-block__title">
+						Сообщество
+					</div>
+					<ul class="footer-block__list">
+						<li class="footer-block__item">
+							<a href="#">
+								Личностное многообразие и принятие
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Доступность
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Жилье на время кризиса
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Гости-рефералы
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Airbnb.org
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer-block">
+					<div class="footer-block__title">
+						Принимайте гостей
+					</div>
+					<ul class="footer-block__list">
+						<li class="footer-block__item">
+							<a href="#">
+								Сдайте жилье
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Организуйте онлайн-Впечатление
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Организуйте Впечатление
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Ответственный прием гостей
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Центр ресурсов
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Центр общения
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer-block">
+					<div class="footer-block__title">
+						Поддержка
+					</div>
+					<ul class="footer-block__list">
+						<li class="footer-block__item">
+							<a href="#">
+								Действия Airbnb во время пандемии
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Центр помощи
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Варианты отмены
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Поддержка соседей
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Доверие и безопасность
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer-navigation">
+			<div class="container">
+				<div class="footer-navigation__wrap jcsb">
+					<div class="footer-navigation__menu jcsb">
+						<p class="footer-navigation__text">
+							© 2021 tafest, Inc.
+						</p>
+						<ul class="footer-navigation__list jcsb">
+							<li>
+								<a href="#">
+									Конфиденциальность
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Условия
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Карта сайта
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Реквизиты компании
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer-navigation__links jcsb">
+						<div class="footer-navigation__language">
+							<i class="fas fa-globe"></i> Русский (RU)
+						</div>
+						<ul class="footer-navigation__social jcsb">
+							<li>
+								<a href="#">
+									<i class="fab fa-facebook-f"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fab fa-vk"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fab fa-twitter"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fab fa-instagram"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</footer>
+
+
+	<div style="display: none;">
+		<div class="modal-form modal-form-second-type" id="modalbox">
+			<div class="modal-form__name">
+				Вход
+			</div>
+			<div class="modal-form__title">
+				Добро пожаловать
+			</div>
+			<form action="#" class="modal-form__wrap">
+				<input type="text" class="modal-form__input modal-form__input_border"
+					placeholder="Телефон или электронная почта">
+				<input type="password" class="modal-form__input" placeholder="Пароль">
+				<p class="modal-form__text">
+					Мы позвоним вам или отправим SMS, чтобы подтвердить номер телефона. Применяются стандартные условия
+					вашего тарифа на прием сообщений и передачу данных.
+				</p>
+				<button type="submit" class="modal-form__btn btn">
+					Продолжить
+				</button>
+			</form>
+			<div class="modal-form__word">
+				или
+			</div>
+			<ul class="modal-form__link jcsb">
+				<li class="modal-form__item">
+					<a href="#">
+						<img src="img/mail.svg" alt="icon">
+					</a>
+				</li>
+				<li class="modal-form__item">
+					<a href="#">
+						<img src="img/facebook.svg" alt="icon">
+					</a>
+				</li>
+				<li class="modal-form__item">
+					<a href="#">
+						<img src="img/google.svg" alt="icon">
+					</a>
+				</li>
+				<li class="modal-form__item">
+					<a href="#">
+						<img src="img/aple.svg" alt="icon">
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<ul class="memu">
+		<li class="memu__item">
+			<a href="#" class="modalvhod">
+				Зарегистрироваться
+			</a>
+		</li>
+		<li class="memu__item">
+			<a href="#" class="modalvhod">
+				Войти
+			</a>
+		</li>
+		<li class="memu__item">
+			<a href="#">
+				Сдайте жилье
+			</a>
+		</li>
+		<li class="memu__item">
+			<a href="#">
+				Организуйте Впечатление
+			</a>
+		</li>
+		<li class="memu__item">
+			<a href="#">
+				Помощь
+			</a>
+		</li>
+	</ul>
+
+
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/jquery.arcticmodal-0.3.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="dist/js/datepicker.min.js"></script>
+	<script src="https://yastatic.net/share2/share.js"></script>
+
+</body>
+
+</html>

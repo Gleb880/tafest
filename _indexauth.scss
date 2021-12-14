@@ -1,0 +1,287 @@
+.popup.reg .container {
+    padding: 24px 0 48px 0;
+}
+
+.popup.reg h2 {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #222222;
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+.popup.reg .body {
+    padding: 0 33px;
+}
+
+.popup.reg .intro {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #484848;
+}
+
+.popup.reg .how {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    padding: 17px 0 29px 0;
+}
+
+.popup.reg .how div:first-child {
+    border-radius: 8px 0 0 8px;
+}
+
+.popup.reg .how div:last-child {
+    border-radius: 0px 8px 8px 0px;
+}
+
+.popup.reg .how div.active {
+    background: #eb5757;
+    color: white;
+    border: none;
+}
+
+.popup.reg .how div {
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    cursor: pointer;
+    border: 1px solid #4a68f6;
+    padding: 8px 0 9px 0;
+    width: 50%;
+}
+
+.popup.reg .inp {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.popup.reg .inp input {
+    margin-bottom: 18px;
+    padding: 20px 0 17px 12px;
+    border: 1px solid #dfdfdf;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.popup.reg .inp input::-webkit-input-placeholder {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: #717171;
+}
+
+.popup.reg .inp input:-ms-input-placeholder {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: #717171;
+}
+
+.popup.reg .inp input::-ms-input-placeholder {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: #717171;
+}
+
+.popup.reg .inp input::placeholder {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: #717171;
+}
+
+.popup.reg .chex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.popup.reg .chex p {
+    margin-left: 17px;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 14px;
+    color: #717171;
+}
+
+.popup.reg h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+    margin: 23px 0;
+    text-align: center;
+}
+
+.popup.reg .mail {
+    border: 1px solid #dfdfdf;
+    width: 100%;
+    padding: 20px 0 17px 12px;
+    border-radius: 8px;
+}
+
+.popup.reg .mail-meta {
+    font-family: Roboto;
+    margin: 23px 0 14px 0;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #717171;
+}
+
+.popup.reg .all input,
+.popup.reg .all a {
+    background: #4a68f6;
+    border-radius: 8px;
+    width: 100%;
+    padding: 14px 0;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.popup.reg .all a {
+    display: block;
+    text-align: center;
+}
+
+.popup.reg .all p {
+    padding: 24px 0 30px 0;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #484848;
+}
+
+.popup.reg .social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+}
+
+.popup.reg .social div {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 1px solid #dfdfdf;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.popup.reg .social div svg {
+    height: 20px;
+}
+
+.popup.reg .body {
+    display: none;
+}
+
+.popup.reg .body.active {
+    display: block;
+}
+
+.popup.reg .body.active span {
+    color: #4a68f6;
+    cursor: pointer;
+}
+
+.popup.reg .body.active .code {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.popup.reg .body.active .nope {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.popup.reg .body.active .nope p {
+    margin-right: 4px;
+}
+
+.popup.reg .call-me {
+    text-align: center;
+}
+
+.popup.reg .trening-code {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 33px;
+}
+
+.popup.reg .trening-code input {
+    width: 18px;
+    border: none;
+    border-bottom: 3px solid #4a68f6;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.15px;
+    color: #000000;
+}
+
+.popup.reg .trening-code input:hover {
+    outline: none;
+}
+
+.popup.reg .trening-code input:not(:last-child) {
+    margin-right: 38px;
+}
+
+
+/*# sourceMappingURL=indexauth.css.map */

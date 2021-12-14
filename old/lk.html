@@ -1,0 +1,1090 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tafest</title>
+	<!-- Roboto Google Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400&display=swap"
+		rel="stylesheet">
+	<!-- Fontawesome CSS -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+		integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	<!-- Jquery CSS -->
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<!-- Arcticmodal CSS -->
+	<link rel="stylesheet" href="css/jquery.arcticmodal-0.3.css">
+	<!-- Main CSS -->
+	<link href="css/lightbox.css" rel="stylesheet" />
+	<link rel="stylesheet" href="css/main.css">
+	<!-- Media CSS -->
+	<link rel="stylesheet" href="css/media.css">
+	
+</head>
+
+<body>
+
+
+	<header class="search-list">
+		<div class="container">
+			<div class="search-list__wrap jcsb">
+				<a href="http://tafest.ru/" class="search-list__logo">
+					<img src="img/logo.svg" alt="logo">
+				</a>
+				<ul class="travel-menu">
+					<li class="travel-menu__item">
+						<a href="control-panel.html">
+							Главная
+						</a>
+					</li>
+					<li class="travel-menu__item">
+						<a href="chat.html">
+							Сообщения
+						</a>
+					</li>
+
+					<li class="travel-menu__item">
+						<a href="travel.html">
+							Бронирования
+						</a>
+					</li>
+					<li class="travel-menu__item">
+						<a href="calendar.html">
+							Календарь
+						</a>
+					</li>
+					<li class="travel-menu__item">
+						<a href="advertisement.html">
+							Объявления
+						</a>
+					</li>
+				</ul>
+				<div class="navigation-menu  jcsb">
+					<div class="lk jcsb">
+						<div class="lk__img">
+							<img src="img/search-list/avka.png" alt="avka">
+						</div>
+						<div class="lk__content">
+							<div class="lk__name">
+								Иван Иванович
+							</div>
+							<div class="lk__position">
+								Менеджер
+							</div>
+						</div>
+					</div>
+				</div>
+				<button class="navigation-menu__bar burger btn">
+					<i class="fas fa-bars"></i>
+					<i class="fas fa-times"></i>
+				</button>
+			</div>
+		</div>
+	</header>
+
+	<section class="lk-cabinet" id="lk-cabinet">
+		<div class="container">
+			<h2 class="travel__title">
+				Личный кабинет
+			</h2>
+
+			<div class="tabs  vertical">
+
+				<ul class="tabs__caption">
+					<li class="active"><i class="fas fa-mobile-alt"></i> Личная информация</li>
+					<li><i class="fas fa-mobile-alt"></i> Вход и безопасность</li>
+					<li><i class="fas fa-mobile-alt"></i> Платежи и выплаты</li>
+					<li><i class="fas fa-mobile-alt"></i> Уведомления</li>
+					<li><i class="fas fa-mobile-alt"></i> Конфиденциальность</li>
+					<li><i class="fas fa-mobile-alt"></i> Глобальные предпочтения</li>
+					<li><i class="fas fa-mobile-alt"></i> Путешествуйте по работе</li>
+					<li><i class="fas fa-mobile-alt"></i> Инструменты</li>
+					<li><i class="fas fa-mobile-alt"></i> Реферальный</li>
+				</ul>
+
+				<div class="tabs__content  active">
+					<div class="cabinet-wrap">
+						<div class="cabinet-input">
+							<p>Имя<br>
+								<input type="text" placeholder="Jon Dou">
+							</p>
+						</div>
+						<div class="cabinet-input">
+							<p> Номер телефона <br>
+								<input type="tel" placeholder="Нет данных">
+							</p>
+						</div>
+						<div class="cabinet-input">
+							<p> Электронный адрес <br>
+								<input type="email" placeholder="jondou@gmail.com">
+							</p>
+						</div>
+						<div class="cabinet-input">
+							<p> Дата рождения <br>
+								<input type="date" id="date" placeholder="12 июля 1948 г.">
+							</p>
+						</div>
+						<div class="cabinet-input">
+							<p> Пол <br>
+								<input type="text" placeholder="Не указано">
+							</p>
+						</div>
+						<div class="cabinet-input">
+							<p> Удостоверение личности <br>
+								<input type="text" placeholder="Не указано">
+							</p>
+						</div>
+						<div class="cabinet-input">
+							<p> Адрес <br>
+								<input type="text" placeholder="Не указано">
+							</p>
+						</div>
+						<div class="cabinet-input">
+							<p> Контактное лицо в чрезвычайной ситуации <br>
+								<input type="text" placeholder="Не указано">
+							</p>
+						</div>
+						<div class="cabinet-input">
+							<p> Паспортные данные для поездок в Китай <br>
+								<input type="text" placeholder="Не указано">
+							</p>
+						</div>
+						<div class="cabinet-input">
+							<p> Информация <br>
+								<textarea name="text"></textarea>
+							</p>
+						</div>
+						<div class="cabinet-input">
+							<p> Расположение жилья <br>
+								<input type="text">
+							</p>
+						</div>
+						<div class="cabinet-input">
+							<p> Работа <br>
+								<input type="text">
+							</p>
+						</div>
+					</div>
+
+
+				</div>
+
+				<div class="tabs__content">
+					<div class="cabinet-wrap">
+						<div class="cabinet-block">
+							<h3 class="cabinet-block__title">
+								Последние устройства
+							</h3>
+							<ul class="cabinet-devices">
+								<li class="cabinet-devices__item">
+									<div class="cabinet-devices__icon">
+										<i class="fas fa-laptop"></i>
+									</div>
+									<div class="cabinet-devices__word">
+										<div class="cabinet-devices__name">
+											<div class="cabinet-devices__word-version">
+												Windows 10
+											</div>
+											<div class="cabinet-devices__word-brayser">
+												Chrome
+											</div>
+										</div>
+										<div class="cabinet-devices__adress">
+											Moscow, 11 мая 2021 г. в 10:37вечера
+										</div>
+										<a href="#" class="cabinet-devices__link">
+											Выйти на устройстве
+										</a>
+									</div>
+								</li>
+								<li class="cabinet-devices__item">
+									<div class="cabinet-devices__icon">
+										<i class="fas fa-laptop"></i>
+									</div>
+									<div class="cabinet-devices__word">
+										<div class="cabinet-devices__name">
+											<div class="cabinet-devices__word-version">
+												Windows 10
+											</div>
+											<div class="cabinet-devices__word-brayser">
+												Chrome
+											</div>
+										</div>
+										<div class="cabinet-devices__adress">
+											Moscow, 11 мая 2021 г. в 10:37вечера
+										</div>
+										<a href="#" class="cabinet-devices__link">
+											Выйти на устройстве
+										</a>
+									</div>
+								</li>
+								<li class="cabinet-devices__item">
+									<div class="cabinet-devices__icon">
+										<i class="fas fa-laptop"></i>
+									</div>
+									<div class="cabinet-devices__word">
+										<div class="cabinet-devices__name">
+											<div class="cabinet-devices__word-version">
+												Windows 10
+											</div>
+											<div class="cabinet-devices__word-brayser">
+												Chrome
+											</div>
+										</div>
+										<div class="cabinet-devices__adress">
+											Moscow, 11 мая 2021 г. в 10:37вечера
+										</div>
+										<a href="#" class="cabinet-devices__link">
+											Выйти на устройстве
+										</a>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="cabinet-block">
+							<h3 class="cabinet-block__title">
+								Вход
+							</h3>
+							<div class="cabinet-password">
+								<div class="cabinet-password__numb">
+									Пароль
+								</div>
+								<a href="#" class="cabinet-password__change">
+									Изменить
+								</a>
+							</div>
+						</div>
+						<div class="cabinet-block">
+							<h3 class="cabinet-block__title">
+								Аккаунты в социальных сетях
+							</h3>
+							<div class="cabinet-social">
+								<div class="cabinet-social__name">
+									Facebook
+								</div>
+								<div class="cabinet-social__wrap">
+									<div class="cabinet-social__text">
+										Не подключено
+									</div>
+									<button type="button" class="cabinet-social__btn">
+										Подключиться
+									</button>
+								</div>
+							</div>
+							<div class="cabinet-social">
+								<div class="cabinet-social__name">
+									Google
+								</div>
+								<div class="cabinet-social__wrap">
+									<div class="cabinet-social__text">
+										Не подключено
+									</div>
+									<button type="button" class="cabinet-social__btn">
+										Подключиться
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="tabs__content">
+					<div class="payments">
+						<ul class="payments-tab">
+							<li class="payments-tab__btn active">
+								Платежи
+							</li>
+							<li class="payments-tab__btn">
+								Выплаты
+							</li>
+							<li class="payments-tab__btn">
+								Налоги
+							</li>
+						</ul>
+						<div class="payments-block">
+							<div class="payments-block__title">
+								Бонус от Airbnb
+							</div>
+							<p class="payments-block__text">
+								Использовать подарочную карту и найти баланс бонусов.
+							</p>
+							<div class="payments-block__wrpa payments-block__wrpa_df">
+								<div class="payments-block__sum">
+									$0,00
+								</div>
+								<button type="button" class="payments-block__btn">
+									Добавить подарочную карту
+								</button>
+							</div>
+						</div>
+						<div class="payments-block">
+							<div class="payments-block__title">
+								Купоны
+							</div>
+							<p class="payments-block__text">
+								Добавьте купон и сэкономьте на следующей поездке.
+							</p>
+							<div class="payments-block__wrpa">
+								<div class="payments-block__kupon">
+									<form action="">
+										<input type="text">
+										<button type="reset"><i class="fas fa-times"></i></button>
+									</form>
+								
+								</div>
+								<button type="button" class="payments-block__btn">
+									Добавить купон
+								</button>
+							</div>
+						</div>
+						<div class="payments-block">
+							<div class="payments-block__title">
+								Способы оплаты
+							</div>
+							<p class="payments-block__text">
+								Добавьте способ оплаты с помощью нашей безопасной Платежной системы, а затем планируйте
+								следующую поездку.
+							</p>
+							<div class="payments-block__wrpa">
+								<button type="button" class="payments-block__btn">
+									Добавить способ оплаты
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tabs__content">
+					<div class="cabinet-block">
+						<h3 class="cabinet-block__title">
+							Напоминания
+						</h3>
+						<div class="cabinet-reminders">
+							<div class="cabinet-reminders__text">
+								Электронные письма
+							</div>
+							<label class="switch">
+								<input type="checkbox">
+								<span class="sliders"></span>
+							</label>
+						</div>
+						<div class="cabinet-reminders">
+							<div class="cabinet-reminders__text">
+								SMS-сообщения
+							</div>
+							<label class="switch">
+								<input type="checkbox">
+								<span class="sliders"></span>
+							</label>
+						</div>
+						<div class="cabinet-reminders">
+							<div class="cabinet-reminders__text">
+								Уведомления в браузере
+							</div>
+							<label class="switch">
+								<input type="checkbox">
+								<span class="sliders"></span>
+							</label>
+						</div>
+					</div>
+					<div class="cabinet-block">
+						<h3 class="cabinet-block__title">
+							Сообщения
+						</h3>
+						<div class="cabinet-reminders">
+							<div class="cabinet-reminders__text">
+								Электронные письма
+							</div>
+							<label class="switch">
+								<input type="checkbox">
+								<span class="sliders"></span>
+							</label>
+						</div>
+						<div class="cabinet-reminders">
+							<div class="cabinet-reminders__text">
+								SMS-сообщения
+							</div>
+							<label class="switch">
+								<input type="checkbox">
+								<span class="sliders"></span>
+							</label>
+						</div>
+						<div class="cabinet-reminders">
+							<div class="cabinet-reminders__text">
+								Уведомления в браузере
+							</div>
+							<label class="switch">
+								<input type="checkbox">
+								<span class="sliders"></span>
+							</label>
+						</div>
+					</div>
+					<div class="cabinet-block">
+						<h3 class="cabinet-block__title">
+							Региональная политика
+						</h3>
+						<div class="cabinet-reminders">
+							<div class="cabinet-reminders__text">
+								Электронные письма
+							</div>
+							<label class="switch">
+								<input type="checkbox">
+								<span class="sliders"></span>
+							</label>
+						</div>
+						<div class="cabinet-reminders">
+							<div class="cabinet-reminders__text">
+								SMS-сообщения
+							</div>
+							<label class="switch">
+								<input type="checkbox">
+								<span class="sliders"></span>
+							</label>
+						</div>
+						<div class="cabinet-reminders">
+							<div class="cabinet-reminders__text">
+								Телефонные звонки
+							</div>
+							<label class="switch">
+								<input type="checkbox">
+								<span class="sliders"></span>
+							</label>
+						</div>
+						<div class="cabinet-reminders">
+							<div class="cabinet-reminders__text">
+								Уведомления в браузере
+							</div>
+							<label class="switch">
+								<input type="checkbox">
+								<span class="sliders"></span>
+							</label>
+						</div>
+					</div>
+					<div class="cabinet-block">
+						<h3 class="cabinet-block__title">
+							Советы и рекламные материалы
+						</h3>
+						<div class="cabinet-reminders">
+							<div class="cabinet-reminders__text">
+								Электронные письма
+							</div>
+							<label class="switch">
+								<input type="checkbox">
+								<span class="sliders"></span>
+							</label>
+						</div>
+						<div class="cabinet-reminders">
+							<div class="cabinet-reminders__text">
+								SMS-сообщения
+							</div>
+							<label class="switch">
+								<input type="checkbox">
+								<span class="sliders"></span>
+							</label>
+						</div>
+						<div class="cabinet-reminders">
+							<div class="cabinet-reminders__text">
+								Телефонные звонки
+							</div>
+							<label class="switch">
+								<input type="checkbox">
+								<span class="sliders"></span>
+							</label>
+						</div>
+						<div class="cabinet-reminders">
+							<div class="cabinet-reminders__text">
+								Уведомления в браузере
+							</div>
+							<label class="switch">
+								<input type="checkbox">
+								<span class="sliders"></span>
+							</label>
+						</div>
+					</div>
+					<div class="cabinet-block">
+						<h3 class="cabinet-block__title">
+							Поддержка аккаунта
+						</h3>
+						<p class="cabinet-block__text">
+							Получайте сообщения об аккаунте, поездках и требованиях безопасности, уведомления об изменениях
+							правил и запросы поддержки. Ради вашей безопасности отключить уведомления на электронную почту
+							нельзя. При необходимости мы можем связаться с вами по телефону или иным способом.
+						</p>
+						<div class="cabinet-reminders">
+							<div class="cabinet-reminders__text">
+								Электронные письма
+							</div>
+							<label class="switch">
+								<input type="checkbox">
+								<span class="sliders"></span>
+							</label>
+						</div>
+						<div class="cabinet-reminders">
+							<div class="cabinet-reminders__text">
+								SMS-сообщения
+							</div>
+							<label class="switch">
+								<input type="checkbox">
+								<span class="sliders"></span>
+							</label>
+						</div>
+						<div class="cabinet-reminders">
+							<div class="cabinet-reminders__text">
+								Уведомления в браузере
+
+								<p class="cabinet-block__text">
+									Получать уведомления не только в браузере на компьютере или мобильном устройстве
+								</p>
+							</div>
+							<label class="switch">
+								<input type="checkbox">
+								<span class="sliders"></span>
+							</label>
+						</div>
+						<p class="cabinet-text">
+							Управляйте настройками push-оповещений в приложении Airbnb.
+						</p>
+						<div class="cabinet-reminders">
+							<div class="cabinet-reminders__text">
+								Отмена подписки на все рекламные электронные письма
+
+								<p class="cabinet-block__text">
+									Тематика таких писем — рекомендации, идеи и удачные находки для путешествий, занятия в вашем
+									родном городе, приглашения и рефералы, опросы, результаты исследований, новости Airbnb и
+									«Airbnb для бизнеса», советы по приему гостей в жилье и на Впечатлениях, а также промоакции.
+								</p>
+							</div>
+							<label class="switch">
+								<input type="checkbox">
+								<span class="sliders"></span>
+							</label>
+						</div>
+					</div>
+
+				</div>
+				<div class="tabs__content">
+					<div class="cabinet-reminders">
+						<div class="cabinet-reminders__text">
+							Поделиться действиями на Facebook
+							<p class="cabinet-block__text">
+								Ваши действия будут публиковаться на Facebook, включая имя пользователя, фото в профиле и места,
+								в которых вы побывали.
+							</p>
+						</div>
+						<label class="switch">
+							<input type="checkbox">
+							<span class="sliders"></span>
+						</label>
+					</div>
+					<div class="cabinet-reminders">
+						<div class="cabinet-reminders__text">
+							Разрешить поисковым системам находить мой профиль и объявление
+							<p class="cabinet-block__text">
+								Поисковые системы, например Google, смогут индексировать ваш профиль и страницы объявлений.
+							</p>
+						</div>
+						<label class="switch">
+							<input type="checkbox">
+							<span class="sliders"></span>
+						</label>
+					</div>
+				</div>
+				<div class="tabs__content">
+					<div class="cabinet-preferences">
+						<div class="cabinet-preferences__block">
+							<div class="cabinet-preferences__text">
+								Язык
+							</div>
+							<span class="custom-dropdown big">
+								<select>
+									<option>Русский</option>
+									<option>The Great Gatsby</option>
+									<option>V for Vendetta</option>
+									<option>The Wolf of Wallstreet</option>
+									<option>Quantum of Solace</option>
+								</select>
+							</span>
+						</div>
+						<div class="cabinet-preferences__block">
+							<div class="cabinet-preferences__text">
+								Валюта
+							</div>
+							<span class="custom-dropdown big">
+								<select>
+									<option>доллар США</option>
+									<option>The Great Gatsby</option>
+									<option>V for Vendetta</option>
+									<option>The Wolf of Wallstreet</option>
+									<option>Quantum of Solace</option>
+								</select>
+							</span>
+						</div>
+						<div class="cabinet-preferences__block">
+							<span class="custom-dropdown big">
+								<select>
+									<option>Часовой пояс</option>
+									<option>The Great Gatsby</option>
+									<option>V for Vendetta</option>
+									<option>The Wolf of Wallstreet</option>
+									<option>Quantum of Solace</option>
+								</select>
+							</span>
+						</div>
+					</div>
+
+				</div>
+				<div class="tabs__content">
+					<div class="cabinet-subscription">
+						<div class="cabinet-subscription__title">
+							Присоединитесь к «Airbnb для бизнеса»
+						</div>
+						<p class="cabinet-subscription__text">
+							Добавьте рабочий электронный адрес, чтобы с комфортом списывать расходы на компанию и получать
+							эксклюзивные предложения по деловым поездкам.
+						</p>
+						<div class="cabinet-subscription__block">
+							<p class="cabinet-subscription__word">
+								Рабочая электронная почта
+							</p>
+							<form action="" class="cabinet-subscription__form">
+								<input type="email" class="cabinet-subscription__input">
+								<button type="submit" class="cabinet-subscription__btn">
+									Добавьте рабочий адрес электронной почты
+								</button>
+							</form>
+
+						</div>
+					</div>
+				</div>
+				<div class="tabs__content">
+
+				</div>
+				<div class="tabs__content">
+					<div class="cabinet-referral">
+						<div class="referral-track">
+							<div class="referral-track__title">
+								Отслеживайте рефералов
+							</div>
+							<div class="referral-track__block">
+								<div class="referral-track__text">
+									Выполнили все условия
+								</div>
+								<div class="referral-track__numb">
+									0
+								</div>
+							</div>
+							<div class="referral-track__block">
+								<div class="referral-track__text">
+									Зарегистрировались
+								</div>
+								<div class="referral-track__numb">
+									0
+								</div>
+							</div>
+							<a href="#" class="referral-track__more">
+								Показать еще
+							</a>
+						</div>
+						<div class="questions">
+							<div class="questions__title">
+								Часто задаваемые вопросы
+							</div>
+							<p class="questions__text">
+								Посмотрите ответы на популярные вопросы. Подробности о программе вы найдете
+							</p>
+							<ul class="question-accordion " id="question-accordion">
+								<li>
+									<div class="question-accordion__link">
+										Реферальная программа всё еще доступна?<i class="fa fa-chevron-down"></i>
+									</div>
+									<div class="question-accordion__submenu">
+										<p>
+											В основном, выделяет три стандартных направления:<br>
+											ийское, предположительно, возникло на территории от
+											Пакистана до Индонезии.
+										</p>
+									</div>
+								</li>
+								<li>
+									<div class="question-accordion__link">
+										Друг зарегистрировался по моему приглашению, а бонус не начислили<i
+											class="fa fa-chevron-down"></i>
+									</div>
+									<div class="question-accordion__submenu">
+										<p>
+											В основном, выделяет три стандартных направления:<br>
+											ийское, предположительно, возникло на территории от
+											Пакистана до Индонезии.
+										</p>
+									</div>
+								</li>
+
+							</ul>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<!-- .tabs -->
+		</div>
+	</section>
+
+
+
+
+
+
+
+	<footer class="footer" id="footer">
+		<div class="container">
+			<div class="footer-wrap jcsb">
+				<div class="footer-block">
+					<div class="footer-block__title">
+						О нас
+					</div>
+					<ul class="footer-block__list">
+						<li class="footer-block__item">
+							<a href="#">
+								Как устроена платформа Airbnb
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Пресс-центр
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Для инвесторов
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Airbnb Plus
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Airbnb Luxe
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								HotelTonight
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Airbnb для бизнеса
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								С хозяевами возможно всё
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Работа
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Письмо от основателей Airbnb
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer-block">
+					<div class="footer-block__title">
+						Сообщество
+					</div>
+					<ul class="footer-block__list">
+						<li class="footer-block__item">
+							<a href="#">
+								Личностное многообразие и принятие
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Доступность
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Жилье на время кризиса
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Гости-рефералы
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Airbnb.org
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer-block">
+					<div class="footer-block__title">
+						Принимайте гостей
+					</div>
+					<ul class="footer-block__list">
+						<li class="footer-block__item">
+							<a href="#">
+								Сдайте жилье
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Организуйте онлайн-Впечатление
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Организуйте Впечатление
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Ответственный прием гостей
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Центр ресурсов
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Центр общения
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer-block">
+					<div class="footer-block__title">
+						Поддержка
+					</div>
+					<ul class="footer-block__list">
+						<li class="footer-block__item">
+							<a href="#">
+								Действия Airbnb во время пандемии
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Центр помощи
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Варианты отмены
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Поддержка соседей
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Доверие и безопасность
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer-navigation">
+			<div class="container">
+				<div class="footer-navigation__wrap jcsb">
+					<div class="footer-navigation__menu jcsb">
+						<p class="footer-navigation__text">
+							© 2021 tafest, Inc.
+						</p>
+						<ul class="footer-navigation__list jcsb">
+							<li>
+								<a href="#">
+									Конфиденциальность
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Условия
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Карта сайта
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Реквизиты компании
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer-navigation__links jcsb">
+						<div class="footer-navigation__language">
+							<i class="fas fa-globe"></i> Русский (RU)
+						</div>
+						<ul class="footer-navigation__social jcsb">
+							<li>
+								<a href="#">
+									<i class="fab fa-facebook-f"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fab fa-vk"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fab fa-twitter"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fab fa-instagram"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</footer>
+
+
+	<div style="display: none;">
+		<div class="modal-form modal-form-second-type" id="modalbox">
+			<div class="modal-form__name">
+				Вход
+			</div>
+			<div class="modal-form__title">
+				Добро пожаловать
+			</div>
+			<form action="#" class="modal-form__wrap">
+				<input type="text" class="modal-form__input modal-form__input_border"
+					placeholder="Телефон или электронная почта">
+				<input type="password" class="modal-form__input" placeholder="Пароль">
+				<p class="modal-form__text">
+					Мы позвоним вам или отправим SMS, чтобы подтвердить номер телефона. Применяются стандартные условия
+					вашего тарифа на прием сообщений и передачу данных.
+				</p>
+				<button type="submit" class="modal-form__btn btn">
+					Продолжить
+				</button>
+			</form>
+			<div class="modal-form__word">
+				или
+			</div>
+			<ul class="modal-form__link jcsb">
+				<li class="modal-form__item">
+					<a href="#">
+						<img src="img/mail.svg" alt="icon">
+					</a>
+				</li>
+				<li class="modal-form__item">
+					<a href="#">
+						<img src="img/facebook.svg" alt="icon">
+					</a>
+				</li>
+				<li class="modal-form__item">
+					<a href="#">
+						<img src="img/google.svg" alt="icon">
+					</a>
+				</li>
+				<li class="modal-form__item">
+					<a href="#">
+						<img src="img/aple.svg" alt="icon">
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<ul class="memu">
+		<li class="memu__item">
+			<a href="#" class="modalvhod">
+				Зарегистрироваться
+			</a>
+		</li>
+		<li class="memu__item">
+			<a href="#" class="modalvhod">
+				Войти
+			</a>
+		</li>
+		<li class="memu__item">
+			<a href="#">
+				Сдайте жилье
+			</a>
+		</li>
+		<li class="memu__item">
+			<a href="#">
+				Организуйте Впечатление
+			</a>
+		</li>
+		<li class="memu__item">
+			<a href="#">
+				Помощь
+			</a>
+		</li>
+	</ul>
+
+
+
+	<ul class="memu">
+		<li class="memu__item">
+			<a href="control-panel.html">
+				Главная
+			</a>
+		</li>
+		<li class="memu__item">
+			<a href="chat.html">
+				Сообщения
+			</a>
+		</li>
+		<li class="memu__item">
+			<a href="travel.html">
+				Бронирования
+			</a>
+		</li>
+		<li class="memu__item">
+			<a href="calendar.html">
+				Календарь
+			</a>
+		</li>
+		<li class="memu__item">
+			<a href="advertisement.html">
+				Объявления
+			</a>
+		</li>
+	</ul>
+
+
+
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/lightbox.js"></script>
+	<script src="js/jquery.arcticmodal-0.3.min.js"></script>
+	<script src="js/main.js"></script>
+
+	<script>
+		lightbox.option({
+			'resizeDuration': 200,
+			'wrapAround': true
+		})
+	</script>
+</body>
+
+</html>

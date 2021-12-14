@@ -1,0 +1,112 @@
+.menu-info .container {
+  padding: 2.5em;
+}
+
+.menu-info .container .add-somethimg {
+  font-size: 3em;
+  padding: 0.5em 1em;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border: 2px solid;
+  cursor: pointer;
+  margin: 0.5em 0;
+}
+
+.menu-info .container > div:first-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 2em;
+}
+
+.menu-info .container > div:first-child input {
+  margin-right: 1em;
+}
+
+.menu-info .container > div:first-child + div {
+  margin-bottom: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu-info .container > div:first-child + div > div:first-child {
+  height: 140px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 2em;
+}
+
+.menu-info .container > div:first-child + div > div:first-child p {
+  border: 1px solid;
+  padding: 3px;
+  cursor: pointer;
+}
+
+.menu-info .container > div:first-child + div > div:last-child {
+  border: 2px solid;
+  border-radius: 5px;
+  padding: 1em;
+}
+
+.menu-info .container > div:first-child + div > div:last-child img {
+  width: 150px;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 2em;
+}
+
+.menu-info .container > div:first-child + div > div:last-child img + div > div:first-child {
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu-info .container > div:first-child + div > div:last-child img + div > div:first-child textarea {
+  height: 110px;
+}
+
+.menu-info .container > div:first-child + div > div:last-child img + div > div:last-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 1em;
+}
+
+.menu-info .container > div:first-child + div > div:last-child img + div > div:last-child input {
+  width: 80px;
+}
+
+.menu-info .container > div:first-child + div > div:last-child > div:first-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=menu.css.map */

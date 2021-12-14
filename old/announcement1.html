@@ -1,0 +1,1480 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tafest</title>
+	<!-- Roboto Google Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400&display=swap"
+		rel="stylesheet">
+	<!-- Fontawesome CSS -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+		integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	<!-- Jquery CSS -->
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<!-- Arcticmodal CSS -->
+	<link rel="stylesheet" href="css/jquery.arcticmodal-0.3.css">
+	<!-- Main CSS -->
+	<link rel="stylesheet" href="css/main.css">
+	<!-- Media CSS -->
+	<link rel="stylesheet" href="css/media.css">
+	
+</head>
+
+<body>
+
+
+	<header class="search-list">
+		<div class="container">
+			<div class="search-list__wrap jcsb">
+				<a href="http://tafest.ru/" class="search-list__logo">
+					<img src="img/logo.svg" alt="logo">
+				</a>
+				<div class="navigation-menu navigation-menu_search jcsb">
+					<button type="button" class="navigation-menu__btn btn">
+						Владельцам заведений
+					</button>
+					<div class="lk jcsb">
+						<div class="lk__img">
+							<img src="img/search-list/avka.png" alt="avka">
+						</div>
+						<div class="lk__content">
+							<div class="lk__name">
+								Иван Иванович
+							</div>
+							<div class="lk__position">
+								Менеджер
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="announcement" id="announcement">
+		<div class="container">
+			<div class="announcement__wrap block1">
+				<h2 class="create-ad__title">
+					Создать объявление
+				</h2>
+				<p class="create-ad__subtitle">
+					Какой тип заведения вы сдаете?
+				</p>
+				<div class="create-setting__block">
+					<div class="create-setting__title">
+						Выберите тип заведения
+					</div>
+					<span class="custom-dropdown big">
+						<select>
+							<option>Квартира</option>
+							<option>The Great Gatsby</option>
+							<option>V for Vendetta</option>
+							<option>The Wolf of Wallstreet</option>
+							<option>Quantum of Solace</option>
+						</select>
+					</span>
+
+					<p class="create-setting__text create-setting__text_mt">
+						Квартира
+					</p>
+				</div>
+				<div class="create-setting__block">
+					<div class="create-setting__title">
+						В какой промежуток времени в заведении проводить мероприятие?
+					</div>
+					<span class="custom-dropdown big">
+						<select>
+							<option selected disabled>С</option>
+							<option value="">1</option>
+							<option value="">2</option>
+							<option value="">3</option>
+							<option value="">4</option>
+							<option value="">5</option>
+							<option value="">6</option>
+							<option value="">7</option>
+							<option value="">8</option>
+							<option value="">9</option>
+							<option value="">10</option>
+							<option value="">11</option>
+							<option value="">12</option>
+							<option value="">13</option>
+							<option value="">14</option>
+							<option value="">15</option>
+							<option value="">16</option>
+							<option value="">17</option>
+							<option value="">18</option>
+							<option value="">19</option>
+							<option value="">20</option>
+							<option value="">21</option>
+							<option value="">22</option>
+							<option value="">23</option>
+							<option value="">24</option>
+						</select>
+					</span>
+					<span class="custom-dropdown big">
+						<select>
+							<option selected disabled>По</option>
+							<option value="">1</option>
+							<option value="">2</option>
+							<option value="">3</option>
+							<option value="">4</option>
+							<option value="">5</option>
+							<option value="">6</option>
+							<option value="">7</option>
+							<option value="">8</option>
+							<option value="">9</option>
+							<option value="">10</option>
+							<option value="">11</option>
+							<option value="">12</option>
+							<option value="">13</option>
+							<option value="">14</option>
+							<option value="">15</option>
+							<option value="">16</option>
+							<option value="">17</option>
+							<option value="">18</option>
+							<option value="">19</option>
+							<option value="">20</option>
+							<option value="">21</option>
+							<option value="">22</option>
+							<option value="">23</option>
+							<option value="">24</option>
+						</select>
+					</span>
+				</div>
+			
+				<div class="create-arrow">
+	
+					<button type="button" class="create-arrow__next n2 btn">
+						Далее
+					</button>
+				</div>
+			</div>
+
+
+			<div class="announcement__wrap block2">
+				<h2 class="create-ad__title">
+					Создать объявление
+				</h2>
+				<p class="create-ad__subtitle">
+					Укажите максимальную вместимость гостей
+				</p>
+				<p class="create-ad__text">
+					У каждого гостя должно быть свое комфортное место.
+				</p>
+				<div class="announcement-numb">
+					<div class="announcement-numb__block">
+						<div class="announcement-numb__text">
+							Гости
+						</div>
+						<div class="dish-price__numb ">
+							<div class="number number_announcement">
+								<button class="number-minus" type="button"
+									onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">-</button>
+								<input type="number" min="0" value="1" readonly>
+								<button class="number-plus" type="button"
+									onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">+</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="create-setting__block">
+					<div class="create-setting__title">
+						Сколькими кроватями могут пользоваться гости?
+					</div>
+					<div class="announcement-numb__block">
+						<div class="announcement-numb__text">
+							Количество кроватей
+						</div>
+						<div class="dish-price__numb ">
+							<div class="number number_announcement">
+								<button class="number-minus" type="button"
+									onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">-</button>
+								<input type="number" min="0" value="1" readonly>
+								<button class="number-plus" type="button"
+									onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">+</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="announcement-sleeping">
+					<div class="announcement-sleeping__title">
+						Спальные места
+					</div>
+					<p class="announcement-sleeping__text">
+						Расскажите гостям подробнее о том, какие кровати есть у вас в каждой комнате.
+					</p>
+
+
+					<ul class="question-accordion " id="question-accordion">
+						<li>
+							<div class="question-accordion__link question-accordion__link_announcement">
+								<div class="question-accordion__blocks">
+									<div class="question-accordion__name">
+										Спальня 1
+									</div>
+									<div class="question-accordion__numb">
+										1 кровать
+									</div>
+								</div>
+								<input type='button' value="Добавить кровати" onclick="dawn(this)" id="btnAddProfile">
+							</div>
+							<div class="question-accordion__submenu">
+								<div class="announcement-numb__block">
+									<div class="announcement-numb__text">
+										Двуспальная кровать
+									</div>
+									<div class="dish-price__numb ">
+										<div class="number number_announcement">
+											<button class="number-minus" type="button"
+												onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">-</button>
+											<input type="number" min="0" value="1" readonly>
+											<button class="number-plus" type="button"
+												onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">+</button>
+										</div>
+									</div>
+								</div>
+								<div class="announcement-numb__block">
+									<div class="announcement-numb__text">
+										Кровать Queen Size
+									</div>
+									<div class="dish-price__numb ">
+										<div class="number number_announcement">
+											<button class="number-minus" type="button"
+												onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">-</button>
+											<input type="number" min="0" value="1" readonly>
+											<button class="number-plus" type="button"
+												onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">+</button>
+										</div>
+									</div>
+								</div>
+								<div class="announcement-numb__block">
+									<div class="announcement-numb__text">
+										Односпальная кровать
+									</div>
+									<div class="dish-price__numb ">
+										<div class="number number_announcement">
+											<button class="number-minus" type="button"
+												onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">-</button>
+											<input type="number" min="0" value="1" readonly>
+											<button class="number-plus" type="button"
+												onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">+</button>
+										</div>
+									</div>
+								</div>
+								<div class="announcement-numb__block">
+									<div class="announcement-numb__text">
+										Диван-кровать
+									</div>
+									<div class="dish-price__numb ">
+										<div class="number number_announcement">
+											<button class="number-minus" type="button"
+												onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">-</button>
+											<input type="number" min="0" value="1" readonly>
+											<button class="number-plus" type="button"
+												onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">+</button>
+										</div>
+									</div>
+								</div>
+								<div class="announcement-numb__block">
+									<div class="announcement-numb__text">
+										Кровать King Size
+									</div>
+									<div class="dish-price__numb ">
+										<div class="number number_announcement">
+											<button class="number-minus" type="button"
+												onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">-</button>
+											<input type="number" min="0" value="1" readonly>
+											<button class="number-plus" type="button"
+												onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">+</button>
+										</div>
+									</div>
+								</div>
+								<span class="custom-dropdown custom-dropdown_announcement big">
+									<select>
+										<option>Добавить еще</option>
+										<option>The Great Gatsby</option>
+										<option>V for Vendetta</option>
+										<option>The Wolf of Wallstreet</option>
+										<option>Quantum of Solace</option>
+									</select>
+								</span>
+							</div>
+						</li>
+						<li>
+							<div class="question-accordion__link question-accordion__link_announcement">
+								<div class="question-accordion__blocks">
+									<div class="question-accordion__name">
+										Спальня 2
+									</div>
+									<div class="question-accordion__numb">
+										0 кровать
+									</div>
+								</div>
+								<input type='button' value="Добавить кровати" onclick="dawn(this)" id="btnAddProfile">
+							</div>
+							<div class="question-accordion__submenu">
+								<div class="announcement-numb__block">
+									<div class="announcement-numb__text">
+										Двуспальная кровать
+									</div>
+									<div class="dish-price__numb ">
+										<div class="number number_announcement">
+											<button class="number-minus" type="button"
+												onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">-</button>
+											<input type="number" min="0" value="1" readonly>
+											<button class="number-plus" type="button"
+												onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">+</button>
+										</div>
+									</div>
+								</div>
+								<div class="announcement-numb__block">
+									<div class="announcement-numb__text">
+										Кровать Queen Size
+									</div>
+									<div class="dish-price__numb ">
+										<div class="number number_announcement">
+											<button class="number-minus" type="button"
+												onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">-</button>
+											<input type="number" min="0" value="1" readonly>
+											<button class="number-plus" type="button"
+												onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">+</button>
+										</div>
+									</div>
+								</div>
+								<div class="announcement-numb__block">
+									<div class="announcement-numb__text">
+										Односпальная кровать
+									</div>
+									<div class="dish-price__numb ">
+										<div class="number number_announcement">
+											<button class="number-minus" type="button"
+												onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">-</button>
+											<input type="number" min="0" value="1" readonly>
+											<button class="number-plus" type="button"
+												onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">+</button>
+										</div>
+									</div>
+								</div>
+								<div class="announcement-numb__block">
+									<div class="announcement-numb__text">
+										Диван-кровать
+									</div>
+									<div class="dish-price__numb ">
+										<div class="number number_announcement">
+											<button class="number-minus" type="button"
+												onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">-</button>
+											<input type="number" min="0" value="1" readonly>
+											<button class="number-plus" type="button"
+												onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">+</button>
+										</div>
+									</div>
+								</div>
+								<div class="announcement-numb__block">
+									<div class="announcement-numb__text">
+										Кровать King Size
+									</div>
+									<div class="dish-price__numb ">
+										<div class="number number_announcement">
+											<button class="number-minus" type="button"
+												onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">-</button>
+											<input type="number" min="0" value="1" readonly>
+											<button class="number-plus" type="button"
+												onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">+</button>
+										</div>
+									</div>
+								</div>
+								<span class="custom-dropdown  custom-dropdown_announcement big">
+									<select>
+										<option>Добавить еще</option>
+										<option>The Great Gatsby</option>
+										<option>V for Vendetta</option>
+										<option>The Wolf of Wallstreet</option>
+										<option>Quantum of Solace</option>
+									</select>
+								</span>
+							</div>
+						</li>
+						<li>
+							<div class="question-accordion__link question-accordion__link_announcement">
+								<div class="question-accordion__blocks">
+									<div class="question-accordion__name">
+										Спальня 3
+									</div>
+									<div class="question-accordion__numb">
+										1 кровать
+									</div>
+								</div>
+								<input type='button' value="Добавить кровати" onclick="dawn(this)" id="btnAddProfile">
+							</div>
+							<div class="question-accordion__submenu">
+								<div class="announcement-numb__block">
+									<div class="announcement-numb__text">
+										Двуспальная кровать
+									</div>
+									<div class="dish-price__numb ">
+										<div class="number number_announcement">
+											<button class="number-minus" type="button"
+												onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">-</button>
+											<input type="number" min="0" value="1" readonly>
+											<button class="number-plus" type="button"
+												onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">+</button>
+										</div>
+									</div>
+								</div>
+								<div class="announcement-numb__block">
+									<div class="announcement-numb__text">
+										Кровать Queen Size
+									</div>
+									<div class="dish-price__numb ">
+										<div class="number number_announcement">
+											<button class="number-minus" type="button"
+												onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">-</button>
+											<input type="number" min="0" value="1" readonly>
+											<button class="number-plus" type="button"
+												onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">+</button>
+										</div>
+									</div>
+								</div>
+								<div class="announcement-numb__block">
+									<div class="announcement-numb__text">
+										Односпальная кровать
+									</div>
+									<div class="dish-price__numb ">
+										<div class="number number_announcement">
+											<button class="number-minus" type="button"
+												onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">-</button>
+											<input type="number" min="0" value="1" readonly>
+											<button class="number-plus" type="button"
+												onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">+</button>
+										</div>
+									</div>
+								</div>
+								<div class="announcement-numb__block">
+									<div class="announcement-numb__text">
+										Диван-кровать
+									</div>
+									<div class="dish-price__numb ">
+										<div class="number number_announcement">
+											<button class="number-minus" type="button"
+												onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">-</button>
+											<input type="number" min="0" value="1" readonly>
+											<button class="number-plus" type="button"
+												onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">+</button>
+										</div>
+									</div>
+								</div>
+								<div class="announcement-numb__block">
+									<div class="announcement-numb__text">
+										Кровать King Size
+									</div>
+									<div class="dish-price__numb ">
+										<div class="number number_announcement">
+											<button class="number-minus" type="button"
+												onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">-</button>
+											<input type="number" min="0" value="1" readonly>
+											<button class="number-plus" type="button"
+												onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">+</button>
+										</div>
+									</div>
+								</div>
+								<span class="custom-dropdown custom-dropdown_announcement big">
+									<select>
+										<option>Добавить еще</option>
+										<option>The Great Gatsby</option>
+										<option>V for Vendetta</option>
+										<option>The Wolf of Wallstreet</option>
+										<option>Quantum of Solace</option>
+									</select>
+								</span>
+							</div>
+						</li>
+						<li>
+							<div class="question-accordion__link question-accordion__link_announcement">
+								<div class="question-accordion__blocks">
+									<div class="question-accordion__name">
+										Общие помещения
+									</div>
+									<div class="question-accordion__numb">
+										1 кровать
+									</div>
+								</div>
+								<input type='button' value="Добавить кровати" onclick="dawn(this)" id="btnAddProfile">
+							</div>
+							<div class="question-accordion__submenu">
+								<div class="announcement-numb__block">
+									<div class="announcement-numb__text">
+										Двуспальная кровать
+									</div>
+									<div class="dish-price__numb ">
+										<div class="number number_announcement">
+											<button class="number-minus" type="button"
+												onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">-</button>
+											<input type="number" min="0" value="1" readonly>
+											<button class="number-plus" type="button"
+												onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">+</button>
+										</div>
+									</div>
+								</div>
+								<div class="announcement-numb__block">
+									<div class="announcement-numb__text">
+										Кровать Queen Size
+									</div>
+									<div class="dish-price__numb ">
+										<div class="number number_announcement">
+											<button class="number-minus" type="button"
+												onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">-</button>
+											<input type="number" min="0" value="1" readonly>
+											<button class="number-plus" type="button"
+												onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">+</button>
+										</div>
+									</div>
+								</div>
+								<div class="announcement-numb__block">
+									<div class="announcement-numb__text">
+										Односпальная кровать
+									</div>
+									<div class="dish-price__numb ">
+										<div class="number number_announcement">
+											<button class="number-minus" type="button"
+												onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">-</button>
+											<input type="number" min="0" value="1" readonly>
+											<button class="number-plus" type="button"
+												onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">+</button>
+										</div>
+									</div>
+								</div>
+								<div class="announcement-numb__block">
+									<div class="announcement-numb__text">
+										Диван-кровать
+									</div>
+									<div class="dish-price__numb ">
+										<div class="number number_announcement">
+											<button class="number-minus" type="button"
+												onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">-</button>
+											<input type="number" min="0" value="1" readonly>
+											<button class="number-plus" type="button"
+												onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">+</button>
+										</div>
+									</div>
+								</div>
+								<div class="announcement-numb__block">
+									<div class="announcement-numb__text">
+										Кровать King Size
+									</div>
+									<div class="dish-price__numb ">
+										<div class="number number_announcement">
+											<button class="number-minus" type="button"
+												onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">-</button>
+											<input type="number" min="0" value="1" readonly>
+											<button class="number-plus" type="button"
+												onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">+</button>
+										</div>
+									</div>
+								</div>
+								<span class="custom-dropdown custom-dropdown_announcement big">
+									<select>
+										<option>Добавить еще</option>
+										<option>The Great Gatsby</option>
+										<option>V for Vendetta</option>
+										<option>The Wolf of Wallstreet</option>
+										<option>Quantum of Solace</option>
+									</select>
+								</span>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="create-arrow">
+					<button type="button" class="create-arrow__prev p1">
+						<i class="fas fa-chevron-left"></i> Назад
+					</button>
+					<button type="button" class="create-arrow__next n3 btn">
+						Далее
+					</button>
+				</div>
+			</div>
+
+			<div class="announcement__wrap block3">
+				<h2 class="create-ad__title">
+					Создать объявление
+				</h2>
+				<p class="create-ad__subtitle">
+					Где находится ваше жилье?
+				</p>
+				<p class="create-ad__text">
+					Гости увидят точный адрес жилья только после оформления бронирования.
+				</p>
+				<div class="announcement-location">
+					<a href="#" class="announcement-location__link">
+						<i class="fas fa-map-marker-alt"></i> Использовать текущее местоположение
+					</a>
+					<div class="announcement-location__block">
+						<div class="announcement-location__block-text">
+							Страна/регион
+						</div>
+						<span class="custom-dropdown custom-dropdown_announcement big">
+							<select>
+								<option></option>
+								<option>The Great Gatsby</option>
+								<option>V for Vendetta</option>
+								<option>The Wolf of Wallstreet</option>
+								<option>Quantum of Solace</option>
+							</select>
+						</span>
+					</div>
+					<div class="announcement-location__block">
+						<div class="announcement-location__block-text">
+							Улица
+						</div>
+						<input type="text" name="">
+						<div class="announcement-location__block-word">
+							например, ул. Ленина, д. 12
+						</div>
+					</div>
+					<div class="announcement-location__block">
+						<div class="announcement-location__block-text">
+							Квартира, корпус (необязательно)
+						</div>
+						<input type="text" name="">
+						<div class="announcement-location__block-word">
+							например, ул. Ленина, д. 12
+						</div>
+					</div>
+					<div class="announcement-location__wraps">
+						<div class="announcement-location__block">
+							<div class="announcement-location__block-text">
+								Город
+							</div>
+							<input type="text" name="">
+						</div>
+						<div class="announcement-location__block">
+							<div class="announcement-location__block-text">
+								Регион
+							</div>
+							<input type="text" name="">
+						</div>
+						<div class="announcement-location__block">
+							<div class="announcement-location__block-text">
+								Почтовый индекс
+							</div>
+							<input type="text" name="">
+						</div>
+					</div>
+				</div>
+				<div class="announcement-map">
+					<div class="announcement-map__title">
+						Булавка в нужном месте?
+					</div>
+					<p class="announcement-map__text">
+						При необходимости можно настроить карту так, чтобы булавка находилась в нужном месте. Только
+						подтвержденные гости увидят это и узнают, как добраться до вашего жилья.
+					</p>
+					<div class="announcement-map__word">
+						ул. Ленина, 12, Санкт-Петербург, Россия, 197101
+					</div>
+					<div class="announcement-map__block">
+						<a href="#" class="announcement-map__btn">Корректировать</a>
+						<iframe
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1997.2892289051574!2d30.3059814157704!3d59.96052566729529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469631446aea26a9%3A0xc89f3b9544878e01!2z0YPQuy4g0JvQtdC90LjQvdCwLCAxMiwg0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LMsINCg0L7RgdGB0LjRjywgMTk3MTAx!5e0!3m2!1sru!2sua!4v1629456065804!5m2!1sru!2sua"
+							width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+					</div>
+				</div>
+
+				<div class="create-arrow">
+					<button type="button" class="create-arrow__prev p2">
+						<i class="fas fa-chevron-left"></i> Назад
+					</button>
+					<button type="button" class="create-arrow__next n4 btn">
+						Далее
+					</button>
+				</div>
+			</div>
+
+			<div class="announcement__wrap block4">
+				<h2 class="create-ad__title">
+					Создать объявление
+				</h2>
+				<p class="create-ad__subtitle">
+					Какие удобства вы предлагаете?
+				</p>
+				<p class="create-ad__text">
+					Гости обычно рассчитывают на эти удобства, но после публикации можно добавить другие.
+				</p>
+				<div class="announcement-chekbox">
+					<div class="announcement-chekbox__block">
+						<ul class="create-choicelist">
+							<li class="create-choicelist__item">
+								<div class="checkbox">
+									<input class="custom-checkbox" type="checkbox" id="color-137" name="color-137" value="greesn">
+									<label for="color-137"></label>
+								</div>
+								<div class="create-choice__text">
+									Предметы первой необходимости
+									<p class="create-choice__word create-choice__word_width">
+										Полотенца, простыни, мыло, туалетная бумага и подушки
+									</p>
+								</div>
+							</li>
+							<li class="create-choicelist__item">
+								<div class="checkbox">
+									<input class="custom-checkbox" type="checkbox" id="color-235" name="color-235" value="greesn">
+									<label for="color-235"></label>
+								</div>
+								<div class="create-choice__text">
+									Всё необходимое для приготовления еды
+									<p class="create-choice__word">
+										Кастрюли, сковородки, масло, соль и перец
+									</p>
+								</div>
+							</li>
+							<li class="create-choicelist__item">
+								<div class="checkbox">
+									<input class="custom-checkbox" type="checkbox" id="color-211" name="color-211" value="greesn">
+									<label for="color-211"></label>
+								</div>
+								<div class="create-choice__text">
+									Стол/рабочее место
+								</div>
+							</li>
+							<li class="create-choicelist__item">
+								<div class="checkbox">
+									<input class="custom-checkbox" type="checkbox" id="color-212" name="color-212" value="greesn">
+									<label for="color-212"></label>
+								</div>
+								<div class="create-choice__text">
+									Утюг
+								</div>
+							</li>
+							<li class="create-choicelist__item">
+								<div class="checkbox">
+									<input class="custom-checkbox" type="checkbox" id="color-3611" name="color-3611" value="greesn">
+									<label for="color-3611"></label>
+								</div>
+								<div class="create-choice__text">
+									Фен
+								</div>
+							</li>
+							<li class="create-choicelist__item">
+								<div class="checkbox">
+									<input class="custom-checkbox" type="checkbox" id="color-412" name="color-412" value="greesn">
+									<label for="color-412"></label>
+								</div>
+								<div class="create-choice__text">
+									Шампунь
+								</div>
+							</li>
+							<li class="create-choicelist__item">
+								<div class="checkbox">
+									<input class="custom-checkbox" type="checkbox" id="color-511" name="color-511" value="greesn">
+									<label for="color-511"></label>
+								</div>
+								<div class="create-choice__text">
+									Плечики
+								</div>
+							</li>
+							<li class="create-choicelist__item">
+								<div class="checkbox">
+									<input class="custom-checkbox" type="checkbox" id="color-612" name="color-612" value="greesn">
+									<label for="color-612"></label>
+								</div>
+								<div class="create-choice__text">
+									Телевизор
+								</div>
+							</li>
+							<li class="create-choicelist__item">
+								<div class="checkbox">
+									<input class="custom-checkbox" type="checkbox" id="color-711" name="color-711" value="greesn">
+									<label for="color-711"></label>
+								</div>
+								<div class="create-choice__text">
+									Отопление
+								</div>
+							</li>
+							<li class="create-choicelist__item">
+								<div class="checkbox">
+									<input class="custom-checkbox" type="checkbox" id="color-812" name="color-812" value="greesn">
+									<label for="color-812"></label>
+								</div>
+								<div class="create-choice__text">
+									Складная/дорожная кроватка
+								</div>
+							</li>
+							<li class="create-choicelist__item">
+								<div class="checkbox">
+									<input class="custom-checkbox" type="checkbox" id="color-911" name="color-911" value="greesn">
+									<label for="color-911"></label>
+								</div>
+								<div class="create-choice__text">
+									Wifi
+								</div>
+							</li>
+							<li class="create-choicelist__item">
+								<div class="checkbox">
+									<input class="custom-checkbox" type="checkbox" id="color-1112" name="color-1112" value="greesn">
+									<label for="color-1112"></label>
+								</div>
+								<div class="create-choice__text">
+									Завтрак, кофе, чай
+								</div>
+							</li>
+							<li class="create-choicelist__item">
+								<div class="checkbox">
+									<input class="custom-checkbox" type="checkbox" id="color-2111" name="color-2111" value="greesn">
+									<label for="color-2111"></label>
+								</div>
+								<div class="create-choice__text">
+									Кондиционер
+								</div>
+							</li>
+							<li class="create-choicelist__item">
+								<div class="checkbox">
+									<input class="custom-checkbox" type="checkbox" id="color-22212" name="color-22212" value="greesn">
+									<label for="color-22212"></label>
+								</div>
+								<div class="create-choice__text">
+									Камин
+								</div>
+							</li>
+							<li class="create-choicelist__item">
+								<div class="checkbox">
+									<input class="custom-checkbox" type="checkbox" id="color-72311" name="color-72311" value="greesn">
+									<label for="color-72311"></label>
+								</div>
+								<div class="create-choice__text">
+									Отдельный вход
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="announcement-chekbox__block">
+						<div class="announcement-chekbox__title">
+							Оборудование для безопасности
+						</div>
+						<ul class="create-choicelist">
+							<li class="create-choicelist__item create-choicelist__item_mb">
+								<div class="checkbox">
+									<input class="custom-checkbox" type="checkbox" id="color-2435" name="color-2435" value="greesn">
+									<label for="color-2435"></label>
+								</div>
+								<div class="create-choice__text">
+									Детектор дыма
+									<p class="create-choice__word">
+										Узнайте требования местных законов: возможно, в каждой комнате должен быть работающий
+										детектор дыма
+									</p>
+								</div>
+							</li>
+							<li class="create-choicelist__item create-choicelist__item_mb">
+								<div class="checkbox">
+									<input class="custom-checkbox" type="checkbox" id="color-2535" name="color-2535" value="greesn">
+									<label for="color-2535"></label>
+								</div>
+								<div class="create-choice__text">
+									Детектор угарного газа
+									<p class="create-choice__word">
+										Узнайте требования местных законов: возможно, в каждой комнате должен быть работающий
+										детектор угарного газа
+									</p>
+								</div>
+							</li>
+							<li class="create-choicelist__item">
+								<div class="checkbox">
+									<input class="custom-checkbox" type="checkbox" id="color-26611" name="color-26611" value="greesn">
+									<label for="color-26611"></label>
+								</div>
+								<div class="create-choice__text">
+									Аптечка первой помощи
+								</div>
+							</li>
+							<li class="create-choicelist__item">
+								<div class="checkbox">
+									<input class="custom-checkbox" type="checkbox" id="color-2911" name="color-2911" value="greesn">
+									<label for="color-2911"></label>
+								</div>
+								<div class="create-choice__text">
+									Огнетушитель
+								</div>
+							</li>
+							<li class="create-choicelist__item">
+								<div class="checkbox">
+									<input class="custom-checkbox" type="checkbox" id="color-39235" name="color-39235" value="greesn">
+									<label for="color-39235"></label>
+								</div>
+								<div class="create-choice__text">
+									Дверь спальни запирается
+									<p class="create-choice__word">
+										Отдельная комната может быть заперта в целях безопасности и защиты личного пространства
+									</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+
+					<div class="create-arrow">
+						<button type="button" class="create-arrow__prev p3">
+							<i class="fas fa-chevron-left"></i> Назад
+						</button>
+						<button type="button" class="create-arrow__next n5 btn">
+							Далее
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="announcement__wrap block5">
+				<h2 class="create-ad__title">
+					Создать объявление
+				</h2>
+				<p class="create-ad__subtitle">
+					Какими помещениями гости могут пользоваться?
+				</p>
+				<p class="create-ad__text">
+					Укажите общие зоны, но не добавляйте места, которые вам не принадлежат.
+				</p>
+				<div class="announcement-chekbox">
+					<div class="announcement-chekbox__block">
+						<ul class="create-choicelist">
+							<li class="create-choicelist__item">
+								<div class="checkbox">
+									<input class="custom-checkbox" type="checkbox" id="color-6411" name="color-6411" value="greesn">
+									<label for="color-6411"></label>
+								</div>
+								<div class="create-choice__text">
+									Сушильная машина/комната
+								</div>
+							</li>
+							<li class="create-choicelist__item">
+								<div class="checkbox">
+									<input class="custom-checkbox" type="checkbox" id="color-7512" name="color-7512" value="greesn">
+									<label for="color-7512"></label>
+								</div>
+								<div class="create-choice__text">
+									Джакузи
+								</div>
+							</li>
+							<li class="create-choicelist__item">
+								<div class="checkbox">
+									<input class="custom-checkbox" type="checkbox" id="color-7611" name="color-7611" value="greesn">
+									<label for="color-7611"></label>
+								</div>
+								<div class="create-choice__text">
+									Кухня
+								</div>
+							</li>
+							<li class="create-choicelist__item">
+								<div class="checkbox">
+									<input class="custom-checkbox" type="checkbox" id="color-2712" name="color-2712" value="greesn">
+									<label for="color-2712"></label>
+								</div>
+								<div class="create-choice__text">
+									Бассейн
+								</div>
+							</li>
+							<li class="create-choicelist__item">
+								<div class="checkbox">
+									<input class="custom-checkbox" type="checkbox" id="color-13161" name="color-13161" value="greesn">
+									<label for="color-13161"></label>
+								</div>
+								<div class="create-choice__text">
+									Стиральная машина
+								</div>
+							</li>
+							<li class="create-choicelist__item">
+								<div class="checkbox">
+									<input class="custom-checkbox" type="checkbox" id="color-45142" name="color-45142" value="greesn">
+									<label for="color-45142"></label>
+								</div>
+								<div class="create-choice__text">
+									Лифт
+								</div>
+							</li>
+							<li class="create-choicelist__item">
+								<div class="checkbox">
+									<input class="custom-checkbox" type="checkbox" id="color-475611" name="color-475611" value="greesn">
+									<label for="color-475611"></label>
+								</div>
+								<div class="create-choice__text">
+									Парковка
+								</div>
+							</li>
+							<li class="create-choicelist__item">
+								<div class="checkbox">
+									<input class="custom-checkbox" type="checkbox" id="color-22112" name="color-22112" value="greesn">
+									<label for="color-22112"></label>
+								</div>
+								<div class="create-choice__text">
+									Тренажерный зал
+								</div>
+							</li>
+						</ul>
+					</div>
+					<p class="create-ad__subtitle">
+						Жилье оснащено удобствами для людей с особыми потребностями?
+					</p>
+					<p class="create-ad__text">
+						Каждый месяц тысячи гостей ищут жилье <a href="#">с удобствами для людей с особыми
+							потребностями</a>. Добавьте их, чтобы привлечь внимание к
+						объявлению и сделать путешествия более доступными для всех.
+					</p>
+					<p class="create-ad__text">
+						Опубликуйте объявление. Удобства для людей с особыми потребностями добавите позже. Мы напомним об
+						этом и подскажем, как их сфотографировать.
+					</p>
+					<div class="cabinet-reminders">
+						<p class="create-ad__text create-ad__text_width">
+							Напомнить об удобствах для людей с особыми потребностями
+						</p>
+						<label class="switch">
+							<input type="checkbox">
+							<span class="sliders"></span>
+						</label>
+					</div>
+
+
+					<div class="create-arrow">
+						<button type="button" class="create-arrow__prev p4">
+							<i class="fas fa-chevron-left"></i> Назад
+						</button>
+						<button type="button" class="create-arrow__next n6 btn">
+							Далее
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="announcement__wrap block6">
+				<h2 class="create-ad__title">
+					Создать объявление
+				</h2>
+				<div class="announcement-decor">
+					<p class="create-ad__subtitle">
+						Создать название объявления
+					</p>
+					<p class="create-ad__text">
+						Гостей привлечет название, отражающее уникальность жилья
+					</p>
+					<textarea name="text" class="announcement-decor__text announcement-decor__text_one"></textarea>
+				</div>
+				<div class="announcement-decor">
+					<p class="create-ad__subtitle">
+						Расскажите гостям о жилье
+					</p>
+					<p class="create-ad__text">
+						Расскажите, чем интересен ваш район, и укажите особенности жилья, например быстрый Wi-Fi или парковку.
+					</p>
+					<textarea name="text" class="announcement-decor__text announcement-decor__text_two"></textarea>
+					<a href="#" class="announcement-decor__dop"> Добавить подробности (по желанию)</a>
+				</div>
+				<div class="announcement-decor">
+					<p class="create-ad__subtitle">
+						Оживите объявление с помощью фото
+					</p>
+					<div class="announcement-gallery">
+						<div class="announcement-gallery__img">
+							<img src="img/announcement-img.jpg" alt="img">
+							<div class="announcement-tool">
+								<button type="button" class="announcement-tool__btn announcement-tool__btn_trash">
+									<i class="far fa-trash-alt"></i>
+								</button>
+								<button type="button" class="announcement-tool__btn announcement-tool__btn_change">
+									<i class="fas fa-pen"></i>
+								</button>
+							</div>
+						</div>
+						<div class="announcement-gallery__img">
+							<img src="img/announcement-img.jpg" alt="img">
+							<div class="announcement-tool">
+								<button type="button" class="announcement-tool__btn announcement-tool__btn_trash">
+									<i class="far fa-trash-alt"></i>
+								</button>
+								<button type="button" class="announcement-tool__btn announcement-tool__btn_change">
+									<i class="fas fa-pen"></i>
+								</button>
+							</div>
+						</div>
+						<div class="ksagamin-gindugun">
+							<div class="kedsaainu-menestab">
+								<label class="daainumplemen">
+									<i class="fas fa-plus"></i>
+									<span class="nesakopab">Добавить файл</span>
+									<input type="file">
+								</label>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="create-arrow">
+					<button type="button" class="create-arrow__prev p5">
+						<i class="fas fa-chevron-left"></i> Назад
+					</button>
+					<button type="button" class="create-arrow__next n7 btn">
+						Далее
+					</button>
+				</div>
+			</div>
+
+			<div class="announcement__wrap block7">
+				<h2 class="create-ad__title">
+					Создать объявление
+				</h2>
+				<p class="create-ad__subtitle">
+					Добавьте номер мобильного телефона
+				</p>
+				<div class="announcement-phone">
+					<p class="announcement-phone__text">
+						Мы будем отправлять вам запросы на бронирование, напоминания и другие уведомления. У вас должна быть
+						возможность принимать SMS или звонки на этот номер.
+					</p>
+					<input type="tel" placeholder="+7" class="announcement-phone__input">
+					<div class="announcement-phone__title">
+						Введите код безопасности
+					</div>
+					<p class="announcement-phone__text">
+						Мы отправили код на номер +700 00 000 00 00. Вы должны получить его за несколько минут.
+					</p>
+					<input id="pin" type="password" placeholder="-   -   -   -  " inputmode="numeric" minlength="4"
+						maxlength="4">
+					<div class="announcement-phone__rebot">
+						Не получили код?
+						<a href="#">Попробовать еще раз</a>
+					</div>
+					<a href="#" class="announcement-phone__call">
+						Позвоните мне
+					</a>
+				</div>
+
+				<div class="create-arrow">
+					<button type="button" class="create-arrow__prev p6">
+						<i class="fas fa-chevron-left"></i> Назад
+					</button>
+					<a href="advertisement.html"  class="create-arrow__next  btn">
+						Далее
+					</a>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+
+	<footer class="footer" id="footer">
+		<div class="container">
+			<div class="footer-wrap jcsb">
+				<div class="footer-block">
+					<div class="footer-block__title">
+						О нас
+					</div>
+					<ul class="footer-block__list">
+						<li class="footer-block__item">
+							<a href="#">
+								Как устроена платформа Airbnb
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Пресс-центр
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Для инвесторов
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Airbnb Plus
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Airbnb Luxe
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								HotelTonight
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Airbnb для бизнеса
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								С хозяевами возможно всё
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Работа
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Письмо от основателей Airbnb
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer-block">
+					<div class="footer-block__title">
+						Сообщество
+					</div>
+					<ul class="footer-block__list">
+						<li class="footer-block__item">
+							<a href="#">
+								Личностное многообразие и принятие
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Доступность
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Жилье на время кризиса
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Гости-рефералы
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Airbnb.org
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer-block">
+					<div class="footer-block__title">
+						Принимайте гостей
+					</div>
+					<ul class="footer-block__list">
+						<li class="footer-block__item">
+							<a href="#">
+								Сдайте жилье
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Организуйте онлайн-Впечатление
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Организуйте Впечатление
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Ответственный прием гостей
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Центр ресурсов
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Центр общения
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer-block">
+					<div class="footer-block__title">
+						Поддержка
+					</div>
+					<ul class="footer-block__list">
+						<li class="footer-block__item">
+							<a href="#">
+								Действия Airbnb во время пандемии
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Центр помощи
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Варианты отмены
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Поддержка соседей
+							</a>
+						</li>
+						<li class="footer-block__item">
+							<a href="#">
+								Доверие и безопасность
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer-navigation">
+			<div class="container">
+				<div class="footer-navigation__wrap jcsb">
+					<div class="footer-navigation__menu jcsb">
+						<p class="footer-navigation__text">
+							© 2021 tafest, Inc.
+						</p>
+						<ul class="footer-navigation__list jcsb">
+							<li>
+								<a href="#">
+									Конфиденциальность
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Условия
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Карта сайта
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Реквизиты компании
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer-navigation__links jcsb">
+						<div class="footer-navigation__language">
+							<i class="fas fa-globe"></i> Русский (RU)
+						</div>
+						<ul class="footer-navigation__social jcsb">
+							<li>
+								<a href="#">
+									<i class="fab fa-facebook-f"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fab fa-vk"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fab fa-twitter"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fab fa-instagram"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</footer>
+
+	<div style="display: none;">
+		<div class="modal-form modal-form-second-type" id="modalbox">
+			<div class="modal-form__name">
+				Вход
+			</div>
+			<div class="modal-form__title">
+				Добро пожаловать
+			</div>
+			<form action="#" class="modal-form__wrap">
+				<input type="text" class="modal-form__input modal-form__input_border"
+					placeholder="Телефон или электронная почта">
+				<input type="password" class="modal-form__input" placeholder="Пароль">
+				<p class="modal-form__text">
+					Мы позвоним вам или отправим SMS, чтобы подтвердить номер телефона. Применяются стандартные условия
+					вашего тарифа на прием сообщений и передачу данных.
+				</p>
+				<button type="submit" class="modal-form__btn btn">
+					Продолжить
+				</button>
+			</form>
+			<div class="modal-form__word">
+				или
+			</div>
+			<ul class="modal-form__link jcsb">
+				<li class="modal-form__item">
+					<a href="#">
+						<img src="img/mail.svg" alt="icon">
+					</a>
+				</li>
+				<li class="modal-form__item">
+					<a href="#">
+						<img src="img/facebook.svg" alt="icon">
+					</a>
+				</li>
+				<li class="modal-form__item">
+					<a href="#">
+						<img src="img/google.svg" alt="icon">
+					</a>
+				</li>
+				<li class="modal-form__item">
+					<a href="#">
+						<img src="img/aple.svg" alt="icon">
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<ul class="memu">
+		<li class="memu__item">
+			<a href="#" class="modalvhod">
+				Зарегистрироваться
+			</a>
+		</li>
+		<li class="memu__item">
+			<a href="#" class="modalvhod">
+				Войти
+			</a>
+		</li>
+		<li class="memu__item">
+			<a href="#">
+				Сдайте жилье
+			</a>
+		</li>
+		<li class="memu__item">
+			<a href="#">
+				Организуйте Впечатление
+			</a>
+		</li>
+		<li class="memu__item">
+			<a href="#">
+				Помощь
+			</a>
+		</li>
+	</ul>
+
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/jquery.arcticmodal-0.3.min.js"></script>
+	<script src="js/main.js"></script>
+	<script>
+		function dawn(input) {
+
+			input.value = input.value != 'Готово' ? 'Готово' : 'Добавить кровати'
+
+		}
+
+	</script>
+</body>
+
+</html>
